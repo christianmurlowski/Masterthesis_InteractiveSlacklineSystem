@@ -1,0 +1,53 @@
+\input{Main/Header}
+
+\begin{document}
+\lstset{language=Java, basicstyle=\footnotesize}
+
+\renewcommand{\thepage}{\roman{page}}
+\newcommand{\monthword}[1]{\ifcase#1\or January\or February\or March\or April\or
+                                        May\or June\or July\or August\or
+                                        September\or October\or November\or December\fi} 
+
+\input{Main/Title}
+\input{Helper/BlankPage}
+
+\input{Main/Advisors}
+\input{Main/Formalities}
+\newpage
+\input{Main/Acknowledgements}
+\newpage
+\input{Main/Abstract}
+
+\clearpage
+
+\begingroup
+  \pagestyle{plain}
+
+\setcounter{tocdepth}{2}
+  \addtocontents{toc}{\protect\thispagestyle{plain}}
+  \addtocontents{toc}{\protect\vspace{-.45cm}}
+  \tableofcontents
+  \clearpage
+\endgroup 
+
+\pagestyle{fancy}
+\setcounter{page}{1}
+\renewcommand{\thepage}{\arabic{page}}
+
+\input{Main/GenderClarification}
+\newpage
+\input{Chapter/1_Introduction/0_Main}
+\input{Chapter/2_RelatedWork/0_Main}
+\input{Chapter/3_FeasibilityStudy/0_Main}
+
+\clearpage
+\begingroup
+  \pagestyle{plain}
+  \bibliographystyle{acm_fkerber}
+   \phantomsection
+	\addcontentsline{toc}{section}{Bibliography}
+	\bibliography{references}\emph{}	
+	\vfill
+  \clearpage
+\endgroup 
+\end{document}

@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: MainDocument.aux
+The style file: acm_fkerber.bst
+Database file #1: references.bib
+Warning--I'm ignoring Garrido2013-zs's extra "publisher" field
+--line 254 of file references.bib
+Warning--empty school in Nusman2006-rf
+You've used 39 entries,
+            2276 wiz_defined-function locations,
+            802 strings with 12980 characters,
+and the built_in function-call counts, 17289 in all, are:
+= -- 1741
+> -- 783
+< -- 0
++ -- 324
+- -- 282
+* -- 1274
+:= -- 2569
+add.period$ -- 116
+call.type$ -- 39
+change.case$ -- 219
+chr.to.int$ -- 0
+cite$ -- 40
+duplicate$ -- 711
+empty$ -- 1305
+format.name$ -- 282
+if$ -- 3837
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 35
+newline$ -- 197
+num.names$ -- 78
+pop$ -- 258
+preamble$ -- 1
+purify$ -- 219
+quote$ -- 0
+skip$ -- 657
+stack$ -- 0
+substring$ -- 1169
+swap$ -- 338
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 154
+warning$ -- 1
+while$ -- 164
+width$ -- 41
+write$ -- 416
+(There were 2 warnings)

@@ -1,0 +1,16 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.toc
+*.dvi
+*.out
+
+# PDF output
+#*.pdf
+
+# BibTeX
+*.bbl
+*.blg
+
+# SyncTeX
+*.synctex.gz
