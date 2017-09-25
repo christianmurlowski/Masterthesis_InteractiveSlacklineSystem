@@ -12,8 +12,7 @@ The slackline stays diagonal in 45 Degrees to the camera view. Because of this t
 But this problem is not entirely solved. It occurs with occluding joints of the slacker at the end of the line due to the angle the arms and the body \textbf{\textit{occlude/interfere}} with each other. Also the whole leg occludes the other one while stepping forwards \textbf{(Figure X)}. This results in a not entirely perfect joint tracking and can lead to detection problems, depending on the executed exercise.
 
 \subsubsection{Frontal}
-In the last positioning the slackline stays frontal in line with the user facing towards to the Kinect camera. The distance takes almost the whole range from the Kinect’s depth field up to the edge of it \textbf{(Table X)}. The advantage is the user tracking ability which is here the best out of the three positioning. The camera can see the full body and have nearly no problems with occlusions.
-\\
+In the last positioning the slackline stays frontal in line with the user facing towards to the Kinect camera. The distance takes almost the whole range from the Kinect’s depth field up to the edge of it \textbf{(Table X)}. The advantage is the user tracking ability which is here the best out of the three positioning. The camera can see the full body and have nearly no problems with occlusions.\\
 One problem could occur with overlaying feets if the slacker stay with both feet on the line, which is in this case independent to the Kinect height \textbf{(Figure X)}. But testings regarding this problem have not shown any critical detection problems. The Kinect can calculate the location of an occluded joint with a certain tolerance due to its own algorithms \textbf{[CITE]}.
 
 \subsection{Kinect height}
@@ -27,8 +26,11 @@ A step lower with a height of 1.60 meters the entire body is fully visible in al
 Problems can occur at the very end of the slackline depending on the slacker’s height. It could be the case that his head or more will be cropped. Therefore the slackline has to be slightly further away from the Kinect camera than on other heights. But for beginner training purposes this is not relevant.
 \\
 A height of 0.8 m results in an even more flat ground perspective. The Kinect is now a little above the level as the slackline. Like in the last one the whole body is in the entire line good visible, but here also at the very start of the line. Problems can occur here with the tracking ability at the starting point. This is because the full tracking range is used \textbf{(Figure X)}. Therefore at the very end  
-\\\\
+
 Overall a range of 0.80 m up to 1.60 m seems like the best height for the Kinect for tracking a slacker. The tracking and view is more homogeneous and the angle is flatter with which the full depth range can be used.
+
+
+
 
 \section{Best positioning for beginner learning purposes}
 The frontal positioning has the only big problem with the depth range at the starting position of the slackline. Since only beginners are the main focus of this study, the starting position of the slackline plays an important role. Therefore for tracking purposes it is better to move the slackline closer to the camera. With this the last quarter of the slackline is cropped out of the view but the slacker can be tracked with a higher confidence \textbf{(Figure X)}. The Kinect height should be between 0.8 and 1.8 meters. With a higher attachment the angle will be too steep and the available space is cropped, or occlusion of body parts can occur.

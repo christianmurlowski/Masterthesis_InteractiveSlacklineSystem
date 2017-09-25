@@ -3,6 +3,8 @@
 \begin{document}
 \lstset{language=Java, basicstyle=\footnotesize}
 
+\newcommand\todo[1]{\textcolor{red}{#1}}
+
 \renewcommand{\thepage}{\roman{page}}
 \newcommand{\monthword}[1]{\ifcase#1\or January\or February\or March\or April\or
                                         May\or June\or July\or August\or
@@ -38,7 +40,8 @@
 \newpage
 \input{Chapter/1_Introduction/0_Main}
 \input{Chapter/2_RelatedWork/0_Main}
-\input{Chapter/3_FeasibilityStudy/0_Main}
+\input{Chapter/3_Concept/0_Main}
+\input{Chapter/4_FeasibilityStudy/0_Main}
 
 \clearpage
 \begingroup
@@ -46,7 +49,7 @@
   \bibliographystyle{acm_fkerber}
    \phantomsection
 	\addcontentsline{toc}{section}{Bibliography}
-	\bibliography{references}\emph{}	
+	\bibliography{references}\emph{}
 	\vfill
   \clearpage
 \endgroup 
