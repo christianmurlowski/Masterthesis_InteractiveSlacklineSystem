@@ -39,13 +39,21 @@
 \contentsline {subsubsection}{Kinect height}{28}{subsubsection*.21}
 \contentsline {subsection}{\numberline {3.3.4}Best positioning for beginner learning purposes}{29}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4} Concept}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Requirement anaylsis}{31}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Key elements of a kinect application}{31}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Interaction}{31}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}General}{32}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Stages}{32}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Exercises}{32}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Feedback system}{33}{subsection.4.1.6}
-\contentsline {subsection}{\numberline {4.1.7}Scenario}{34}{subsection.4.1.7}
-\contentsline {chapter}{\numberline {5} Feasibility study}{35}{chapter.5}
-\contentsline {section}{Bibliography}{36}{section*.23}
+\contentsline {section}{\numberline {4.1}Key elements of a kinect application}{31}{section.4.1}
+\contentsline {subsubsection}{Context-awareness}{31}{subsubsection*.22}
+\contentsline {subsubsection}{Visual and audio feedback}{32}{subsubsection*.23}
+\contentsline {subsubsection}{Clarification}{32}{subsubsection*.24}
+\contentsline {subsubsection}{User viewer}{32}{subsubsection*.25}
+\contentsline {subsubsection}{Learning interaction methods}{32}{subsubsection*.26}
+\contentsline {subsubsection}{Teaching complex gestures / exercises}{32}{subsubsection*.27}
+\contentsline {subsubsection}{Element sizing}{32}{subsubsection*.28}
+\contentsline {subsubsection}{Physical interaction zone}{33}{subsubsection*.29}
+\contentsline {section}{\numberline {4.2}General}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}Interaction}{33}{section.4.3}
+\contentsline {section}{\numberline {4.4}Stages}{34}{section.4.4}
+\contentsline {section}{\numberline {4.5}Exercises}{34}{section.4.5}
+\contentsline {section}{\numberline {4.6}Feedback system}{34}{section.4.6}
+\contentsline {section}{\numberline {4.7}Scenario}{35}{section.4.7}
+\contentsline {chapter}{\numberline {5} System integration}{37}{chapter.5}
+\contentsline {subsubsection}{Cursor}{37}{subsubsection*.31}
+\contentsline {section}{Bibliography}{38}{section*.32}
