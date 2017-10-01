@@ -44,16 +44,16 @@
 \contentsline {subsubsection}{Visual and audio feedback}{32}{subsubsection*.23}
 \contentsline {subsubsection}{Clarification}{32}{subsubsection*.24}
 \contentsline {subsubsection}{User viewer}{32}{subsubsection*.25}
-\contentsline {subsubsection}{Learning interaction methods}{32}{subsubsection*.26}
-\contentsline {subsubsection}{Teaching complex gestures / exercises}{32}{subsubsection*.27}
-\contentsline {subsubsection}{Element sizing}{32}{subsubsection*.28}
-\contentsline {subsubsection}{Physical interaction zone}{33}{subsubsection*.29}
+\contentsline {subsubsection}{Learning interaction methods}{32}{subsubsection*.27}
+\contentsline {subsubsection}{Teaching complex gestures / exercises}{33}{subsubsection*.28}
+\contentsline {subsubsection}{Element sizing}{33}{subsubsection*.29}
+\contentsline {subsubsection}{Physical interaction zone}{33}{subsubsection*.30}
 \contentsline {section}{\numberline {4.2}General}{33}{section.4.2}
-\contentsline {section}{\numberline {4.3}Interaction}{33}{section.4.3}
+\contentsline {section}{\numberline {4.3}Interaction}{34}{section.4.3}
 \contentsline {section}{\numberline {4.4}Stages}{34}{section.4.4}
-\contentsline {section}{\numberline {4.5}Exercises}{34}{section.4.5}
-\contentsline {section}{\numberline {4.6}Feedback system}{34}{section.4.6}
-\contentsline {section}{\numberline {4.7}Scenario}{35}{section.4.7}
-\contentsline {chapter}{\numberline {5} System integration}{37}{chapter.5}
-\contentsline {subsubsection}{Cursor}{37}{subsubsection*.31}
-\contentsline {section}{Bibliography}{38}{section*.32}
+\contentsline {section}{\numberline {4.5}Exercises}{35}{section.4.5}
+\contentsline {section}{\numberline {4.6}Feedback system}{35}{section.4.6}
+\contentsline {section}{\numberline {4.7}Scenario}{36}{section.4.7}
+\contentsline {chapter}{\numberline {5} System integration}{39}{chapter.5}
+\contentsline {subsubsection}{Cursor}{39}{subsubsection*.34}
+\contentsline {section}{Bibliography}{40}{section*.35}

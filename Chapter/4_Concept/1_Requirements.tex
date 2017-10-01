@@ -11,7 +11,16 @@ Giving the user constant feedback helps people to know what is happening. Regard
 The user may interpret interactions with the system differently from others. Therefore the system should explain clearly what the user has to do, e.g. \textit{"Raise one hand above your head"} instead of just \textit{"Raise your hand"}. The cognitive load of the user should be kept low and not exceed a number of six gestures, such that she easily remembers the actions. The system has a set of three basic interaction techniques, which fits in this range.
 
 \subsubsection{User viewer}
-A small scene viewer shows the range in which the user can move and is recognized by the Kinect. It displays a mirror like view in which the user can see a silhouette of herself and the constraints of the Kinect device, like in figure \todo{insert figure below}.
+A small scene viewer shows the range in which the user can move and is recognized by the Kinect. It displays a mirror like view in which the user can see a silhouette of herself and the constraints of the Kinect device, like in figure \ref{fig:higUserViewer}.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.79\linewidth]{Pictures/higUserViewer}
+		\caption{User Viewer on top~\cite{MicrosoftHIG2014-mh}}
+		\label{fig:higUserViewer}
+	\end{minipage}
+\end{figure}
 
 \subsubsection{Learning interaction methods}
 The system teach the user how to proper interact with it right from the beginning with an introduction tutorial. It provides also support to interact with both hands for left- and right-handed people. More about interaction methods can be seen in \textbf{\nameref{4_3_interaction}}.
@@ -23,7 +32,16 @@ For more complex gestures (exercises) the system provides a tutorial on how to a
 The system will rely on the guidelines and match the button sizing regarding the screen resolution to keep reliability on interaction. This is a size of 208 by 208px in a resolution of 1920x1080 pixel. As recommended a tile button style will be used which are a good baseline where the user can hit them accurately and read the button text.
 
 \subsubsection{Physical interaction zone}
-This zone ensures that the user is able to reach anything in a comfortable range. In the application it is constrained by the joints of the shoulders to the hips of the opposite site of the interaction hand. It is designed like seen in figure \todo{insert figure below} to have a better understanding.
+This zone ensures that the user is able to reach anything in a comfortable range. In the application it is constrained by the joints of the shoulders to the hips of the opposite site of the interaction hand. It is designed like seen in figure \ref{fig:higPHIZ} to have a better understanding.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.5\linewidth]{Pictures/higPHIZ}
+		\caption{Physical interaction zone~\cite{MicrosoftHIG2014-mh}}
+		\label{fig:higPHIZ}
+	\end{minipage}
+\end{figure}
 
 \begin{comment}
 - System should provide a user view, such that the user knows the constraints of the kinect tracking area --> should be small if interacting in menu and big if needed in execution for example
@@ -76,7 +94,17 @@ The system contains predefined gestures, which are subdivided in stages, which c
 \end{comment}
 
 \section{Exercises}\label{4_5_exercises}
-Each exercise is part of one stage. An exercise itself is divided into two body sides, which are further divided into several repetitions \todo{picture}. Each exercise is locked except the first one to provide a starting point. The next exercise can be unlocked by accomplishing both sides of the current exercise. Similarly a side is completed if all repetitions have been finished \todo{picture}. Like for the stage, each exercise should be instructed for the user, such that she can successfully perform it. She should stand in a starting position to start the exercise. This is to ensure that no exercise is starting to track if the user would make a random gesture which could lead to confusion of the user. During the execution she should get real time feedback about her current performance, which is further discussed in \textbf{\nameref{4_6_feedbackSystem}}. After the execution a summary should show the performance of the execution with several parameters like execution time, amount of attempts needed, and the confidence regarding the given gesture.
+Each exercise is part of one stage. An exercise itself is divided into two body sides, which are further divided into several repetitions, see figure \ref{fig:exerciseStructure}. Each exercise is locked except the first one to provide a starting point. The next exercise can be unlocked by accomplishing both sides of the current exercise. Similarly a side is completed if all repetitions have been finished. Like for the stage, each exercise should be instructed for the user, such that she can successfully perform it. She should stand in a starting position to start the exercise. This is to ensure that no exercise is starting to track if the user would make a random gesture which could lead to confusion of the user. During the execution she should get real time feedback about her current performance, which is further discussed in \textbf{\nameref{4_6_feedbackSystem}}. After the execution a summary should show the performance of the execution with several parameters like execution time, amount of attempts needed, and the confidence regarding the given gesture.
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/exerciseStructureTopDown2}
+		\caption{Exercise structure~\cite{MicrosoftHIG2014-mh}}
+		\label{fig:exerciseStructure}
+	\end{minipage}
+\end{figure}
 \begin{comment}
 \\\textbf{Exercises}
 \\- System should provide predefined exercises that user can execute and her performance is tracked
