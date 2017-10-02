@@ -35,7 +35,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Introduction}{26}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}General setup of the study}{26}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Testing scenario}{27}{subsection.3.3.3}
-\contentsline {subsubsection}{Slackline positioning}{27}{subsubsection*.20}
+\contentsline {subsubsection}{Slackline positioning}{28}{subsubsection*.20}
 \contentsline {subsubsection}{Kinect height}{28}{subsubsection*.21}
 \contentsline {subsection}{\numberline {3.3.4}Best positioning for beginner learning purposes}{29}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4} Concept}{31}{chapter.4}
@@ -52,8 +52,8 @@
 \contentsline {section}{\numberline {4.3}Interaction}{34}{section.4.3}
 \contentsline {section}{\numberline {4.4}Stages}{34}{section.4.4}
 \contentsline {section}{\numberline {4.5}Exercises}{35}{section.4.5}
-\contentsline {section}{\numberline {4.6}Feedback system}{35}{section.4.6}
+\contentsline {section}{\numberline {4.6}Feedback system}{36}{section.4.6}
 \contentsline {section}{\numberline {4.7}Scenario}{36}{section.4.7}
 \contentsline {chapter}{\numberline {5} System integration}{39}{chapter.5}
-\contentsline {subsubsection}{Cursor}{39}{subsubsection*.34}
-\contentsline {section}{Bibliography}{40}{section*.35}
+\contentsline {subsubsection}{Cursor}{39}{subsubsection*.35}
+\contentsline {section}{Bibliography}{40}{section*.36}
