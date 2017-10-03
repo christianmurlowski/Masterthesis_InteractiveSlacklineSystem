@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Balcom2005-wl}
+{\sc Balcom, Sott}.
+\newblock {\em Walk the Line: The Art of Balance and the Craft of Slackline}.
+\newblock Slack Daddy Press, 2005.
+
 \bibitem{Bogdanovych2015-ci}
 {\sc Bogdanovych, Anton and Stanton, Christopher}.
 \newblock A Novel Approach to Sports Oriented Video Games with Real-time Motion
@@ -141,6 +146,11 @@
   during balance training.
 \newblock {\em Clinical Interventions in Aging 10\/} (2015), pp.~1077--1083.
 
+\bibitem{MillerMauser2013-sl}
+{\sc Miller, Fritz;~Mauser, Daniel}.
+\newblock {\em Slackline - Tipps Tricks Technik}.
+\newblock Panico Alpinverlag, 2012.
+
 \bibitem{Nusman2006-rf}
 {\sc {Nusman}, Daan}.
 \newblock Real-time full-body motion capture in virtual worlds.
@@ -228,6 +238,11 @@
 \newblock Methodik im Slacklinesport - Wie geht guter Slacklineunterricht?,
   2013.
 
+\bibitem{Thomann2017-ab}
+{\sc Thomann, Andreas}.
+\newblock {\em Die Entwicklung der Trendsportart Slackline im urbanen Raum}.
+\newblock PhD thesis, 2017.
+
 \bibitem{Ustinova2014-ml}
 {\sc Ustinova, K.~I.; Perkins, J.; Leonard, W.~A. and Hausbeck, C.~J.}
 \newblock Virtual reality game-based therapy for treatment of postural and
@@ -259,5 +274,10 @@
 \newblock Defining Accuracy in the Use of Kinect V2 for Exercise Monitoring.
 \newblock In {\em Proceedings of the 2nd International Workshop on Movement and
   Computing\/} (2015), MOCO '15, ACM, pp.~112--119.
+
+\bibitem{Zak2011-sl}
+{\sc Zak, Heinz}.
+\newblock {\em Slackline: das Praxisbuch}.
+\newblock blv, 2011.
 
 \end{thebibliography}
