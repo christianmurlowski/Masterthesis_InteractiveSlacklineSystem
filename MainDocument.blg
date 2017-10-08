@@ -4,48 +4,48 @@ The top-level auxiliary file: MainDocument.aux
 The style file: acm_fkerber.bst
 Database file #1: references.bib
 Warning--I'm ignoring Garrido2013-zs's extra "publisher" field
---line 284 of file references.bib
+--line 338 of file references.bib
 Warning--empty school in Nusman2006-rf
 Warning--empty school in Thomann2017-ab
-You've used 43 entries,
+You've used 51 entries,
             2276 wiz_defined-function locations,
-            823 strings with 13406 characters,
-and the built_in function-call counts, 18156 in all, are:
-= -- 1818
-> -- 811
+            846 strings with 14025 characters,
+and the built_in function-call counts, 19808 in all, are:
+= -- 1961
+> -- 867
 < -- 0
-+ -- 336
-- -- 290
-* -- 1317
-:= -- 2722
-add.period$ -- 128
-call.type$ -- 43
-change.case$ -- 231
++ -- 360
+- -- 306
+* -- 1372
+:= -- 2985
+add.period$ -- 152
+call.type$ -- 51
+change.case$ -- 255
 chr.to.int$ -- 0
-cite$ -- 45
-duplicate$ -- 760
-empty$ -- 1389
-format.name$ -- 290
-if$ -- 4016
+cite$ -- 53
+duplicate$ -- 824
+empty$ -- 1573
+format.name$ -- 306
+if$ -- 4375
 int.to.chr$ -- 0
-int.to.str$ -- 43
+int.to.str$ -- 51
 missing$ -- 41
-newline$ -- 217
-num.names$ -- 86
-pop$ -- 286
+newline$ -- 257
+num.names$ -- 102
+pop$ -- 376
 preamble$ -- 1
-purify$ -- 231
+purify$ -- 255
 quote$ -- 0
-skip$ -- 681
+skip$ -- 728
 stack$ -- 0
-substring$ -- 1189
-swap$ -- 346
+substring$ -- 1229
+swap$ -- 362
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 164
+type$ -- 196
 warning$ -- 2
-while$ -- 172
-width$ -- 45
-write$ -- 456
+while$ -- 188
+width$ -- 53
+write$ -- 527
 (There were 3 warnings)

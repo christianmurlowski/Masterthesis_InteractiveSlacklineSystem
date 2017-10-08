@@ -151,10 +151,20 @@
 \newblock {\em Slackline - Tipps Tricks Technik}.
 \newblock Panico Alpinverlag, 2012.
 
+\bibitem{XsensMvn}
+{\sc MVN, XSENS}.
+\newblock - Motion capture suit.
+\newblock [Online; accessed 07-October-2017].
+
 \bibitem{Nusman2006-rf}
 {\sc {Nusman}, Daan}.
 \newblock Real-time full-body motion capture in virtual worlds.
 \newblock Master's thesis, June 2006.
+
+\bibitem{OptiTrack}
+{\sc OptiTrack}.
+\newblock - Optical motion capture system.
+\newblock [Online; accessed 07-October-2017].
 
 \bibitem{Paas2003-xt}
 {\sc Paas, Fred; Renkl, Alexander and Sweller, John}.
@@ -258,8 +268,37 @@
 
 \bibitem{Wiki2017-ATOL}
 {\sc Wikipedia}.
-\newblock Anatomical terms of location --- Wikipedia{,} The Free Encyclopedia,
-  2017.
+\newblock Anatomical terms of location --- Wikipedia{,} The Free Encyclopedia.
+\newblock [Online; accessed 05-October-2017].
+
+\bibitem{WikiSlacklining2017-longline}
+{\sc Wikipedia}.
+\newblock https://commons.wikimedia.org/wiki/File:Slackline2.jpg.
+\newblock [Online; accessed 12-March-2017].
+
+\bibitem{WikiSlacklining2017-lowline}
+{\sc Wikipedia}.
+\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock [Online; accessed 12-March-2017].
+
+\bibitem{WikiSlacklining2017-trickline}
+{\sc Wikipedia}.
+\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock [Online; accessed 12-March-2017].
+
+\bibitem{WikiSlacklining2017-rodeoline}
+{\sc Wikipedia}.
+\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock [Online; accessed 12-March-2017].
+
+\bibitem{WikiSlacklining2017-waterline}
+{\sc Wikipedia}.
+\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock [Online; accessed 12-March-2017].
+
+\bibitem{WikiSlacklining2017-urbanline}
+{\sc Wikipedia}.
+\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
 \newblock [Online; accessed 12-March-2017].
 
 \bibitem{Winstein1990-to}

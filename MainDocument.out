@@ -4,38 +4,38 @@
 \BOOKMARK [2][-]{subsection.1.2.1}{Hypothesis}{section.1.2}% 4
 \BOOKMARK [1][-]{section.1.3}{Outline}{chapter.1}% 5
 \BOOKMARK [0][-]{chapter.2}{ Related Work}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{Slackline specific training and effects to the human body}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.1}{Exercises during slackline training}{section.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.2}{Slackline specific training effects and application scenarios}{section.2.2}% 10
-\BOOKMARK [1][-]{section.2.3}{Interactive technology}{chapter.2}% 11
-\BOOKMARK [2][-]{subsection.2.3.1}{Comparison of tracking technologies}{section.2.3}% 12
-\BOOKMARK [2][-]{subsection.2.3.2}{Accuracy of the Microsoft Kinect}{section.2.3}% 13
-\BOOKMARK [2][-]{subsection.2.3.3}{Implementation in balance training scenarios}{section.2.3}% 14
-\BOOKMARK [1][-]{section.2.4}{Feedback and interaction methods}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.4.1}{Restricting cognitive load}{section.2.4}% 16
-\BOOKMARK [2][-]{subsection.2.4.2}{Motivating factors for skill acquisition}{section.2.4}% 17
-\BOOKMARK [2][-]{subsection.2.4.3}{Approaches and techniques for providing feedback}{section.2.4}% 18
-\BOOKMARK [2][-]{subsection.2.4.4}{User interface}{section.2.4}% 19
-\BOOKMARK [1][-]{section.2.5}{Conclusion}{chapter.2}% 20
-\BOOKMARK [0][-]{chapter.3}{ Slacklining and learning techniques}{}% 21
-\BOOKMARK [1][-]{section.3.1}{Introduction into slacklining}{chapter.3}% 22
-\BOOKMARK [2][-]{subsection.3.1.1}{What is slacklining?}{section.3.1}% 23
-\BOOKMARK [1][-]{section.3.2}{Learning techniques}{chapter.3}% 24
-\BOOKMARK [2][-]{subsection.3.2.1}{Methods for learning slacklining}{section.3.2}% 25
-\BOOKMARK [2][-]{subsection.3.2.2}{Stages and exercise of learning slacklining}{section.3.2}% 26
-\BOOKMARK [1][-]{section.3.3}{Proof Of Concept}{chapter.3}% 27
-\BOOKMARK [2][-]{subsection.3.3.1}{Introduction}{section.3.3}% 28
-\BOOKMARK [2][-]{subsection.3.3.2}{General setup of the study}{section.3.3}% 29
-\BOOKMARK [2][-]{subsection.3.3.3}{Testing scenario}{section.3.3}% 30
-\BOOKMARK [2][-]{subsection.3.3.4}{Best positioning for beginner learning purposes}{section.3.3}% 31
-\BOOKMARK [0][-]{chapter.4}{ Concept}{}% 32
-\BOOKMARK [1][-]{section.4.1}{Key elements of a kinect application}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.2}{General}{chapter.4}% 34
-\BOOKMARK [1][-]{section.4.3}{Interaction}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.4}{Stages}{chapter.4}% 36
-\BOOKMARK [1][-]{section.4.5}{Exercises}{chapter.4}% 37
-\BOOKMARK [1][-]{section.4.6}{Feedback system}{chapter.4}% 38
-\BOOKMARK [1][-]{section.4.7}{Scenario}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{ System integration}{}% 40
-\BOOKMARK [1][-]{section*.37}{Bibliography}{chapter.5}% 41
+\BOOKMARK [1][-]{section.2.1}{Slackline specific training and effects to the human body}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Exercises during slackline training}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{Slackline specific training effects and application scenarios}{section.2.1}% 9
+\BOOKMARK [1][-]{section.2.2}{Interactive technology}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Comparison of tracking technologies}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Accuracy of the Microsoft Kinect}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.3}{Implementation in balance training scenarios}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Feedback and interaction methods}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{Restricting cognitive load}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{Motivating factors for skill acquisition}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.3}{Approaches and techniques for providing feedback}{section.2.3}% 17
+\BOOKMARK [1][-]{section.2.4}{User interface design}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.4.1}{User interface design for appropriate feedback}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.2}{Kinect for Windows - Human Interface Guidelines}{section.2.4}% 20
+\BOOKMARK [1][-]{section.2.5}{Conclusion}{chapter.2}% 21
+\BOOKMARK [0][-]{chapter.3}{ What is slacklining and how to learn it?}{}% 22
+\BOOKMARK [1][-]{section.3.1}{Introduction into slacklining}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.2}{Slacklining variations and categorization}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.3}{Slackline learning techniques}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{Methods for learning slacklining}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{Stages and exercise of learning slacklining}{section.3.3}% 27
+\BOOKMARK [0][-]{chapter.4}{ Concept}{}% 28
+\BOOKMARK [1][-]{section.4.1}{General}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{Interaction}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{Stages}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.4}{Exercises}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.5}{Feedback system}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.6}{Scenario}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{ System integration}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Proof Of Concept}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.1.1}{Introduction}{section.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.1.2}{General setup of the study}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.3}{Testing scenario}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.4}{Best positioning for beginner learning purposes}{section.5.1}% 40
+\BOOKMARK [1][-]{section*.41}{Bibliography}{chapter.5}% 41
