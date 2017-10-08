@@ -42,20 +42,33 @@
 \contentsline {subsubsection}{Static exercises}{28}{subsubsection*.32}
 \contentsline {subsubsection}{Dynamic exercises}{28}{subsubsection*.33}
 \contentsline {chapter}{\numberline {4} Concept}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}General}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Interaction}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}Stages}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}Exercises}{31}{section.4.4}
-\contentsline {section}{\numberline {4.5}Feedback system}{31}{section.4.5}
-\contentsline {section}{\numberline {4.6}Scenario}{32}{section.4.6}
-\contentsline {chapter}{\numberline {5} System integration}{35}{chapter.5}
-\contentsline {subsubsection}{Cursor}{35}{subsubsection*.37}
-\contentsline {subsubsection}{Hardware}{35}{subsubsection*.38}
-\contentsline {section}{\numberline {5.1}Proof Of Concept}{35}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Introduction}{35}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}General setup of the study}{36}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Testing scenario}{36}{subsection.5.1.3}
-\contentsline {subsubsection}{Slackline positioning}{37}{subsubsection*.39}
-\contentsline {subsubsection}{Kinect height}{38}{subsubsection*.40}
-\contentsline {subsection}{\numberline {5.1.4}Best positioning for beginner learning purposes}{38}{subsection.5.1.4}
-\contentsline {section}{Bibliography}{40}{section*.41}
+\contentsline {section}{\numberline {4.1}General Information}{29}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Ten heuristic principles for interaction design}{30}{subsection.4.1.1}
+\contentsline {subsubsection}{Visibility of system status}{30}{subsubsection*.34}
+\contentsline {subsubsection}{Match beween system and the real world}{30}{subsubsection*.35}
+\contentsline {subsubsection}{User control and freedom}{30}{subsubsection*.36}
+\contentsline {subsubsection}{Consistency and standards}{30}{subsubsection*.37}
+\contentsline {subsubsection}{Error prevention}{30}{subsubsection*.38}
+\contentsline {subsubsection}{Recognition rather than recall}{31}{subsubsection*.39}
+\contentsline {subsubsection}{Flexibility and efficiency of use}{31}{subsubsection*.40}
+\contentsline {subsubsection}{Aesthetic and minimalistic design}{31}{subsubsection*.41}
+\contentsline {subsubsection}{Help users recognize, diagnose, and recover from errors}{31}{subsubsection*.42}
+\contentsline {subsubsection}{Help and documentation}{31}{subsubsection*.43}
+\contentsline {subsection}{\numberline {4.1.2}System specific basics}{31}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Interaction}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}Stages}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Exercises}{33}{section.4.4}
+\contentsline {section}{\numberline {4.5}Feedback system}{33}{section.4.5}
+\contentsline {section}{\numberline {4.6}Scenario}{34}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusion}{35}{section.4.7}
+\contentsline {chapter}{\numberline {5} System integration}{37}{chapter.5}
+\contentsline {subsubsection}{Cursor}{37}{subsubsection*.47}
+\contentsline {subsubsection}{Hardware}{37}{subsubsection*.48}
+\contentsline {section}{\numberline {5.1}Proof Of Concept}{37}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Introduction}{37}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}General setup of the study}{38}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Testing scenario}{38}{subsection.5.1.3}
+\contentsline {subsubsection}{Slackline positioning}{39}{subsubsection*.49}
+\contentsline {subsubsection}{Kinect height}{40}{subsubsection*.50}
+\contentsline {subsection}{\numberline {5.1.4}Best positioning for beginner learning purposes}{40}{subsection.5.1.4}
+\contentsline {section}{Bibliography}{42}{section*.51}

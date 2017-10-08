@@ -57,8 +57,7 @@
   Ara{\'{u}}jo, Cristiano}.
 \newblock {Development and Evaluation of a Kinect Based Motor Rehabilitation
   Game}.
-\newblock In {\em Proceedings of SBGames 2012\/} (2012), vol.~2012,
-  pp.~144--153.
+\newblock In {\em Proceedings of SBGames 2012\/} (2012), pp.~144--153.
 
 \bibitem{Garrido2013-zs}
 {\sc Garrido, Juan~Enrique; Marset, Irma; Penichet, V\'{\i}ctor M.~R. and
@@ -155,6 +154,12 @@
 {\sc MVN, XSENS}.
 \newblock - Motion capture suit.
 \newblock [Online; accessed 07-October-2017].
+
+\bibitem{Nielsen_1994-he}
+{\sc Nielsen, Jakob}.
+\newblock Enhancing the Explanatory Power of Usability Heuristics.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems\/} (1994), CHI '94, ACM, pp.~152--158.
 
 \bibitem{Nusman2006-rf}
 {\sc {Nusman}, Daan}.

@@ -1,0 +1,32 @@
+\section{Feedback system}\label{4_5_feedbackSystem}
+%The user should get feedback about her performance during exercise execution. 
+Feedback is the main and most powerful component of the interactive learning system. Since the user should interact on her own with the system one has to assume that no other person interfere with her and the system. With this in mind the feedback of the system should designed in a way, that the user knows at anytime what she has to do or has done. In general audio and visual feedback is provided to the user. Regarding the \textbf{\nameref{4_3_interaction}} with the system, e.g. clicking a button, the system should respond with an audio signal and change the elements visual state accordingly.
+
+For the accomplishment of the exercise execution the system provides essential responses like seen in other applications \textbf{\todo{[cite, maybe Related Work]}}. In the slackline system the following feedback indicators are integrated for the exercise execution:
+\begin{itemize}
+\item Staying in the right position before starting an exercise
+\item When an exercise is currently correctly performed
+\item How good the exercise is currently performed, namely the confidence
+\item The elapsed time the user is performing the exercise
+\item When the repetition is successfully accomplished, i.e. the minimum time has been reached
+\item When an repetition attempt was not successful
+\item How many repetitions in general, finished and left
+\item Checklist about key elements in an execution (like hands up, foot stretched, etc.)
+\item A summary that shows the user parameters about the performance (execution time, overall attempts, confidence) for each repetition and an average value of these
+\item A similar summary can also be found for the entire stage, where the same parameters for each exercise are listed in average
+\end{itemize}
+With this a baseline is built for appropriate real time feedback to the user.
+
+\begin{comment}
+- in general audio and visual feedback
+- if the user has clicked a button
+- stays in the right position
+- Indicator about if exercise is correctly executed
+- Indicator about how good the exercise is performed
+- real time feedback (Time, confidence, checklist, repetitions)
+- system should inform how many repetitions are left
+- system should inform when the repetition is successfully accomplished (audio, visual -> timer green, repetition counter)
+- system should inform the user if repetition was not successful (audio, visual -> reset timer, checklist)
+- After successful execution, a summary is shown about the performance of the user for each rep (time, attempts, confidence)
+- tier summary (avg. time, attempts, confidence)
+\end{comment}
