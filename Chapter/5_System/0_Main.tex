@@ -1,9 +1,74 @@
-\chapter{System integration}
+\chapter{System integration}\label{5_systemIntegration}
 
-\subsubsection{Cursor}
+\section{Hardware}
+- Kinect
+
+- Beamer
+
+- Screen
+
+- Slackline --> Alpidex High Performance
+
+\section{Software}
+- KinectStudio
+
+- VGB
+
+- Unity3D
+
+- Kinect SDK for unity
+
+- Kinect MS-SDK
+
+\section{User Interface}
+Besides this she is instructed on how to stay in the right starting position. This is required by some actions like just before starting the exercise execution to ensure the user is ready.
+
+The user should be introduced to the stage. In here the purpose, goal, and helpful techniques should be given, such that the user becomes an overview about the exercises. At last a summary scene shows several performance parameter for the exercises in this stage.
+
+She should stand in a starting position to start the exercise. This is to ensure that no exercise is starting to track if the user would make a random gesture which could lead to confusion of the user.
+\subsection{Cursor}
 Specifically for the cursor, with which the user can interact with elements on the system by pushing the hand towards the kinect, the state will be clarified by a circle like seen in figure \todo{insert figure below}.
 
-\subsubsection{Hardware}
-- slackline --> Alpidex High Performance
+The state of the current interaction is visualized properly by providing a circle around the hand cursor that represents the progress like seen in figure \ref{fig:handcursorProgress}.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.6\linewidth]{Pictures/handcursorProgress}
+		\caption{Progress of handcursor (Left: Default, Middle: In progress, Right: Finished)}
+		\label{fig:handcursorProgress}
+	\end{minipage}
+\end{figure}
 
- \input{Chapter/5_System/1_ProofOfConcept}
+
+
+The user starts with an engagement gesture like raising her hand over the head to convey that the system initially recognises and responds to a user action. After that a tutorial about the interaction with the system will be given that covers clicking and scrolling techniques. Now she's confident with the system interaction and can select a profile in the user select to train. This loads the profile which leads to the stage selection menu. In here she can select a stage, whereas initially the first one is can be selected and the others have to be unlocked by successfully accomplishing all exercises in the preview stage. Selecting a stage leads to the exercise menu. In here she has to read initially the stage introduction to become a basic understanding about the exercises in here. After reading this, it unlocks the first exercise. Selecting an exercise leads to the side selection, where the user has to choose the side she wants to train for this exercise. This is followed by an introduction of the exercise, in which is explained how to perform it correctly. If the user is ready, she should stay in a starting position to be able to start the exercise execution. In here she find all relevant elements to perform the exercise, like indicators for the time, repetitions, confidence and a checklist, which helps her to correctly execute the exercise. After successfully executing the exercise, a summary is shown which summarizes the user performance. Then she can return to the main menu or directly approach the next exercise. A stage summary gives an overview about all exercises with average performance parameters.
+
+\todo{replace figure with directional flow}
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.8\linewidth]{Pictures/conceptScenarioFlow2}
+		\caption{Scenario workflow}
+		\label{fig:scenarioWorkflow}
+	\end{minipage}
+\end{figure}
+
+\section{Real time feedback}
+
+ In the slackline system the following feedback indicators are integrated for the exercise execution:
+\begin{itemize}
+\item Staying in the right position before starting an exercise
+\item When an exercise is currently correctly performed
+\item How good the exercise is currently performed, namely the confidence
+\item The elapsed time the user is performing the exercise
+\item When the repetition is successfully accomplished, i.e. the minimum time has been reached
+\item When an repetition attempt was not successful
+\item How many repetitions in general, finished and left
+\item Checklist about key elements in an execution (like hands up, foot stretched, etc.)
+\item A summary that shows the user parameters about the performance (execution time, overall attempts, confidence) for each repetition and an average value of these
+\item A similar summary can also be found for the entire stage, where the same parameters for each exercise are listed in average
+\end{itemize}
+
+\input{Chapter/5_System/1_ProofOfConcept}

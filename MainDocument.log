@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  8 OCT 2017 23:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  15 OCT 2017 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,7 +931,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-<uds.jpg, id=180, 222.8325pt x 218.8175pt>
+<uds.jpg, id=209, 222.8325pt x 218.8175pt>
 File: uds.jpg Graphic file (type jpg)
  <use uds.jpg>
 Package pdftex.def Info: uds.jpg used on input line 19.
@@ -1135,7 +1135,7 @@ LaTeX Warning: Reference `bibliographyRef' on page 4 undefined on input line 7.
 
 
 ]
-<Pictures/slacklineHelpSticks.jpg, id=299, 117.1946pt x 153.54927pt>
+<Pictures/slacklineHelpSticks.jpg, id=335, 117.1946pt x 153.54927pt>
 File: Pictures/slacklineHelpSticks.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineHelpSticks.jpg>
@@ -1143,14 +1143,14 @@ Package pdftex.def Info: Pictures/slacklineHelpSticks.jpg used on input line 16
 .
 (pdftex.def)             Requested size: 88.34416pt x 115.75443pt.
 
-<Pictures/slacklineHelpBar.jpg, id=300, 206.85443pt x 167.51816pt>
+<Pictures/slacklineHelpBar.jpg, id=336, 206.85443pt x 167.51816pt>
 File: Pictures/slacklineHelpBar.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineHelpBar.jpg>
 Package pdftex.def Info: Pictures/slacklineHelpBar.jpg used on input line 23.
 (pdftex.def)             Requested size: 142.11963pt x 115.09688pt.
 
-<Pictures/slacklineHelpHuman.jpg, id=301, 147.99318pt x 147.98143pt>
+<Pictures/slacklineHelpHuman.jpg, id=337, 147.99318pt x 147.98143pt>
 File: Pictures/slacklineHelpHuman.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineHelpHuman.jpg>
@@ -1158,7 +1158,7 @@ Package pdftex.def Info: Pictures/slacklineHelpHuman.jpg used on input line 30.
 
 (pdftex.def)             Requested size: 115.23482pt x 115.22406pt.
 
-<Pictures/slacklineBasicStart.jpg, id=305, 124.96254pt x 136.20917pt>
+<Pictures/slacklineBasicStart.jpg, id=341, 124.96254pt x 136.20917pt>
 File: Pictures/slacklineBasicStart.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineBasicStart.jpg>
@@ -1166,7 +1166,7 @@ Package pdftex.def Info: Pictures/slacklineBasicStart.jpg used on input line 45
 .
 (pdftex.def)             Requested size: 115.23482pt x 125.60698pt.
 
-<Pictures/slacklineBasicOneFeet.jpg, id=306, 143.39285pt x 235.73785pt>
+<Pictures/slacklineBasicOneFeet.jpg, id=342, 143.39285pt x 235.73785pt>
 File: Pictures/slacklineBasicOneFeet.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineBasicOneFeet.jpg>
@@ -1174,7 +1174,7 @@ Package pdftex.def Info: Pictures/slacklineBasicOneFeet.jpg used on input line
 52.
 (pdftex.def)             Requested size: 76.82126pt x 126.29295pt.
 
-<Pictures/slacklineBasicBothFeet.jpg, id=307, 187.71428pt x 188.09135pt>
+<Pictures/slacklineBasicBothFeet.jpg, id=343, 187.71428pt x 188.09135pt>
 File: Pictures/slacklineBasicBothFeet.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineBasicBothFeet.jpg>
@@ -1183,7 +1183,7 @@ Package pdftex.def Info: Pictures/slacklineBasicBothFeet.jpg used on input line
 (pdftex.def)             Requested size: 126.75772pt x 127.01357pt.
  [6 <./Pictures/slacklineHelpSticks.jpg> <./Pictures/slacklineHelpBar.jpg> <./P
 ictures/slacklineHelpHuman.jpg>]
-<Pictures/slacklineAdvancedCrossoverStart.jpg, id=329, 100.90846pt x 117.37587p
+<Pictures/slacklineAdvancedCrossoverStart.jpg, id=365, 100.90846pt x 117.37587p
 t>
 File: Pictures/slacklineAdvancedCrossoverStart.jpg Graphic file (type jpg)
  <use Pictures/slacklineAdvancedCrossoverStart.jpg>
@@ -1191,7 +1191,7 @@ Package pdftex.def Info: Pictures/slacklineAdvancedCrossoverStart.jpg used on i
 nput line 73.
 (pdftex.def)             Requested size: 107.55093pt x 125.10376pt.
 
-<Pictures/slacklineAdvancedHandsBehindBack.jpg, id=330, 88.49388pt x 105.01274p
+<Pictures/slacklineAdvancedHandsBehindBack.jpg, id=366, 88.49388pt x 105.01274p
 t>
 File: Pictures/slacklineAdvancedHandsBehindBack.jpg Graphic file (type jpg)
  <use Pictures/slacklineAdvancedHandsBehindBack.jpg>
@@ -1199,16 +1199,13 @@ Package pdftex.def Info: Pictures/slacklineAdvancedHandsBehindBack.jpg used on
 input line 80.
 (pdftex.def)             Requested size: 103.71063pt x 123.07109pt.
 
-<Pictures/slacklineAdvancedDropknee.jpg, id=331, 124.96254pt x 94.05574pt>
+<Pictures/slacklineAdvancedDropknee.jpg, id=367, 124.96254pt x 94.05574pt>
 File: Pictures/slacklineAdvancedDropknee.jpg Graphic file (type jpg)
 
 <use Pictures/slacklineAdvancedDropknee.jpg>
 Package pdftex.def Info: Pictures/slacklineAdvancedDropknee.jpg used on input l
 ine 87.
 (pdftex.def)             Requested size: 145.96451pt x 109.8711pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [7 <./Pictures/slacklineBasicStart.jpg> <./Pictures/slacklineBasicOneFeet.jpg>
  <./Pictures/slacklineBasicBothFeet.jpg> <./Pictures/slacklineAdvancedCrossover
 Start.jpg> <./Pictures/slacklineAdvancedHandsBehindBack.jpg> <./Pictures/slackl
@@ -1220,14 +1217,14 @@ Underfull \vbox (badness 4531) has occurred while \output is active []
 Underfull \vbox (badness 4531) has occurred while \output is active []
 
  [10]
-<Pictures/bodyPlanes.jpg, id=397, 301.125pt x 362.35374pt>
+<Pictures/bodyPlanes.jpg, id=432, 301.125pt x 362.35374pt>
 File: Pictures/bodyPlanes.jpg Graphic file (type jpg)
 
 <use Pictures/bodyPlanes.jpg>
 Package pdftex.def Info: Pictures/bodyPlanes.jpg used on input line 30.
 (pdftex.def)             Requested size: 145.96451pt x 175.64735pt.
 
-<Pictures/bodyDirectionalReferences.jpg, id=398, 1455.4375pt x 1135.24126pt>
+<Pictures/bodyDirectionalReferences.jpg, id=433, 1455.4375pt x 1135.24126pt>
 File: Pictures/bodyDirectionalReferences.jpg Graphic file (type jpg)
 
 <use Pictures/bodyDirectionalReferences.jpg>
@@ -1238,7 +1235,7 @@ ine 37.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./Pictures/bodyPlanes.jpg> <./Pictures/bodyDirectionalReferences.jpg>]
-<Pictures/systemInaccurateImprecise.jpg, id=412, 243.43579pt x 118.60579pt>
+<Pictures/systemInaccurateImprecise.jpg, id=447, 243.43579pt x 118.60579pt>
 File: Pictures/systemInaccurateImprecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemInaccurateImprecise.jpg>
@@ -1250,7 +1247,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--54
 []\T1/ppl/m/n/8 (a) |In-ac-cu-rate and im-pre-cise sys-tem gen-er-ates
  []
 
-<Pictures/systemInaccuratePrecise.jpg, id=413, 233.31pt x 113.52pt>
+<Pictures/systemInaccuratePrecise.jpg, id=448, 233.31pt x 113.52pt>
 File: Pictures/systemInaccuratePrecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemInaccuratePrecise.jpg>
@@ -1258,7 +1255,7 @@ Package pdftex.def Info: Pictures/systemInaccuratePrecise.jpg used on input lin
 e 60.
 (pdftex.def)             Requested size: 188.21709pt x 91.58347pt.
 
-<Pictures/systemAccuratePrecise.jpg, id=414, 243.309pt x 118.38515pt>
+<Pictures/systemAccuratePrecise.jpg, id=449, 243.309pt x 118.38515pt>
 File: Pictures/systemAccuratePrecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemAccuratePrecise.jpg>
@@ -1266,7 +1263,7 @@ Package pdftex.def Info: Pictures/systemAccuratePrecise.jpg used on input line
 67.
 (pdftex.def)             Requested size: 188.21709pt x 91.58315pt.
 
-<Pictures/systemAccurateImprecise.jpg, id=415, 233.31pt x 113.52pt>
+<Pictures/systemAccurateImprecise.jpg, id=450, 233.31pt x 113.52pt>
 File: Pictures/systemAccurateImprecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemAccurateImprecise.jpg>
@@ -1277,7 +1274,7 @@ e 74.
 cise.jpg> <./Pictures/systemAccuratePrecise.jpg> <./Pictures/systemAccurateImpr
 ecise.jpg>])
 (./Chapter/2_RelatedWork/3_Methods.tex [13]
-<Pictures/mentalModelConstruction.jpg, id=448, 1036.87375pt x 685.56125pt>
+<Pictures/mentalModelConstruction.jpg, id=484, 1036.87375pt x 685.56125pt>
 File: Pictures/mentalModelConstruction.jpg Graphic file (type jpg)
 
 <use Pictures/mentalModelConstruction.jpg>
@@ -1289,14 +1286,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17])
 (./Chapter/2_RelatedWork/4_UIDesign.tex
-<Pictures/informationUISurroundingObjects.jpg, id=502, 252.945pt x 221.81331pt>
+<Pictures/informationUISurroundingObjects.jpg, id=537, 252.945pt x 221.81331pt>
 File: Pictures/informationUISurroundingObjects.jpg Graphic file (type jpg)
 <use Pictures/informationUISurroundingObjects.jpg>
 Package pdftex.def Info: Pictures/informationUISurroundingObjects.jpg used on i
 nput line 11.
 (pdftex.def)             Requested size: 188.21709pt x 165.05312pt.
 
-<Pictures/informationUIFeedbackSummary.jpg, id=503, 254.05684pt x 221.81331pt>
+<Pictures/informationUIFeedbackSummary.jpg, id=538, 254.05684pt x 221.81331pt>
 File: Pictures/informationUIFeedbackSummary.jpg Graphic file (type jpg)
 
 <use Pictures/informationUIFeedbackSummary.jpg>
@@ -1305,28 +1302,28 @@ t line 18.
 (pdftex.def)             Requested size: 188.21709pt x 164.33557pt.
  [18 <./Pictures/informationUISurroundingObjects.jpg> <./Pictures/informationUI
 FeedbackSummary.jpg>]
-<Pictures/avatar3DModel.jpg, id=516, 387.16072pt x 183.25607pt>
+<Pictures/avatar3DModel.jpg, id=551, 387.16072pt x 183.25607pt>
 File: Pictures/avatar3DModel.jpg Graphic file (type jpg)
 
 <use Pictures/avatar3DModel.jpg>
 Package pdftex.def Info: Pictures/avatar3DModel.jpg used on input line 32.
 (pdftex.def)             Requested size: 188.21709pt x 89.08879pt.
 
-<Pictures/avatarUser.jpg, id=519, 241.78288pt x 101.9726pt>
+<Pictures/avatarUser.jpg, id=554, 241.78288pt x 101.9726pt>
 File: Pictures/avatarUser.jpg Graphic file (type jpg)
 
 <use Pictures/avatarUser.jpg>
 Package pdftex.def Info: Pictures/avatarUser.jpg used on input line 39.
 (pdftex.def)             Requested size: 188.21709pt x 79.38113pt.
 
-<Pictures/gameInstruction.jpg, id=524, 154.05849pt x 79.3364pt>
+<Pictures/gameInstruction.jpg, id=559, 154.05849pt x 79.3364pt>
 File: Pictures/gameInstruction.jpg Graphic file (type jpg)
 
 <use Pictures/gameInstruction.jpg>
 Package pdftex.def Info: Pictures/gameInstruction.jpg used on input line 50.
 (pdftex.def)             Requested size: 188.21709pt x 96.93307pt.
 
-<Pictures/gameHighlighting.jpg, id=525, 154.67131pt x 79.36795pt>
+<Pictures/gameHighlighting.jpg, id=560, 154.67131pt x 79.36795pt>
 File: Pictures/gameHighlighting.jpg Graphic file (type jpg)
 
 <use Pictures/gameHighlighting.jpg>
@@ -1334,7 +1331,7 @@ Package pdftex.def Info: Pictures/gameHighlighting.jpg used on input line 57.
 (pdftex.def)             Requested size: 188.21709pt x 96.59015pt.
  [19 <./Pictures/avatar3DModel.jpg> <./Pictures/avatarUser.jpg> <./Pictures/gam
 eInstruction.jpg> <./Pictures/gameHighlighting.jpg>]
-<Pictures/hciGuidelinesFeedbackCursor.png, id=537, 443.40656pt x 369.63094pt>
+<Pictures/hciGuidelinesFeedbackCursor.png, id=572, 443.40656pt x 369.63094pt>
 File: Pictures/hciGuidelinesFeedbackCursor.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesFeedbackCursor.png>
@@ -1342,7 +1339,7 @@ Package pdftex.def Info: Pictures/hciGuidelinesFeedbackCursor.png used on input
  line 96.
 (pdftex.def)             Requested size: 86.42465pt x 72.04108pt.
 
-<Pictures/hciGuidelinesFeedbackControl.png, id=539, 223.58531pt x 93.34875pt>
+<Pictures/hciGuidelinesFeedbackControl.png, id=574, 223.58531pt x 93.34875pt>
 File: Pictures/hciGuidelinesFeedbackControl.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesFeedbackControl.png>
@@ -1350,7 +1347,7 @@ Package pdftex.def Info: Pictures/hciGuidelinesFeedbackControl.png used on inpu
 t line 103.
 (pdftex.def)             Requested size: 86.42465pt x 36.08394pt.
 
-<Pictures/2_4_visualFeedbackIndicator.png, id=544, 501.875pt x 501.875pt>
+<Pictures/2_4_visualFeedbackIndicator.png, id=579, 501.875pt x 501.875pt>
 File: Pictures/2_4_visualFeedbackIndicator.png Graphic file (type png)
 
 <use Pictures/2_4_visualFeedbackIndicator.png>
@@ -1358,7 +1355,7 @@ Package pdftex.def Info: Pictures/2_4_visualFeedbackIndicator.png used on input
  line 116.
 (pdftex.def)             Requested size: 169.39423pt x 169.39464pt.
 
-<Pictures/2_4_visualFeedbackAvatar.png, id=545, 501.875pt x 501.875pt>
+<Pictures/2_4_visualFeedbackAvatar.png, id=580, 501.875pt x 501.875pt>
 File: Pictures/2_4_visualFeedbackAvatar.png Graphic file (type png)
 
 <use Pictures/2_4_visualFeedbackAvatar.png>
@@ -1367,14 +1364,14 @@ ne 123.
 (pdftex.def)             Requested size: 169.39423pt x 169.39464pt.
  [20 <./Pictures/hciGuidelinesFeedbackCursor.png> <./Pictures/hciGuidelinesFeed
 backControl.png>]
-<Pictures/higUserViewer.png, id=560, 926.46124pt x 494.84875pt>
+<Pictures/higUserViewer.png, id=595, 926.46124pt x 494.84875pt>
 File: Pictures/higUserViewer.png Graphic file (type png)
 
 <use Pictures/higUserViewer.png>
 Package pdftex.def Info: Pictures/higUserViewer.png used on input line 140.
 (pdftex.def)             Requested size: 230.46965pt x 123.10027pt.
 
-<Pictures/hciGuidelinesDynamicGesture.png, id=564, 735.49782pt x 239.39438pt>
+<Pictures/hciGuidelinesDynamicGesture.png, id=599, 735.49782pt x 239.39438pt>
 File: Pictures/hciGuidelinesDynamicGesture.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesDynamicGesture.png>
@@ -1383,7 +1380,7 @@ Package pdftex.def Info: Pictures/hciGuidelinesDynamicGesture.png used on input
 (pdftex.def)             Requested size: 230.46965pt x 75.0151pt.
  [21 <./Pictures/2_4_visualFeedbackIndicator.png> <./Pictures/2_4_visualFeedbac
 kAvatar.png> <./Pictures/higUserViewer.png>]
-<Pictures/hciGuidelinesTeachingMethods.png, id=578, 424.58624pt x 285.31593pt>
+<Pictures/hciGuidelinesTeachingMethods.png, id=613, 424.58624pt x 285.31593pt>
 File: Pictures/hciGuidelinesTeachingMethods.png Graphic file (type png)
 
 <use Pictures/hciGuidelinesTeachingMethods.png>
@@ -1391,7 +1388,7 @@ Package pdftex.def Info: Pictures/hciGuidelinesTeachingMethods.png used on inpu
 t line 164.
 (pdftex.def)             Requested size: 153.64253pt x 103.24478pt.
 
-<Pictures/higPHIZ.png, id=582, 819.06pt x 744.7825pt>
+<Pictures/higPHIZ.png, id=617, 819.06pt x 744.7825pt>
 File: Pictures/higPHIZ.png Graphic file (type png)
 
 <use Pictures/higPHIZ.png>
@@ -1403,48 +1400,45 @@ hingMethods.png>])
 [24]) (./Chapter/3_Slackline/0_Main.tex
 (./Chapter/3_Slackline/1_IntroductionSlacklining.tex)
 (./Chapter/3_Slackline/2_SlacklineVariations.tex
-<Pictures/3_1_lowline.jpg, id=621, 427.5975pt x 472.76625pt>
+<Pictures/3_1_lowline.jpg, id=657, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_lowline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_lowline.jpg>
 Package pdftex.def Info: Pictures/3_1_lowline.jpg used on input line 7.
 (pdftex.def)             Requested size: 158.87009pt x 175.64937pt.
 
-<Pictures/3_1_highline2.jpeg, id=622, 427.5975pt x 472.76625pt>
+<Pictures/3_1_highline2.jpeg, id=658, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_highline2.jpeg Graphic file (type jpg)
 
 <use Pictures/3_1_highline2.jpeg>
 Package pdftex.def Info: Pictures/3_1_highline2.jpeg used on input line 14.
 (pdftex.def)             Requested size: 158.87009pt x 175.64937pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [25
 
 
 ]
-<Pictures/3_1_trickline.jpg, id=639, 427.5975pt x 472.76625pt>
+<Pictures/3_1_trickline.jpg, id=675, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_trickline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_trickline.jpg>
 Package pdftex.def Info: Pictures/3_1_trickline.jpg used on input line 29.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_jumpline.png, id=642, 427.5975pt x 472.76625pt>
+<Pictures/3_1_jumpline.png, id=678, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_jumpline.png Graphic file (type png)
 
 <use Pictures/3_1_jumpline.png>
 Package pdftex.def Info: Pictures/3_1_jumpline.png used on input line 36.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_rodeoline.jpg, id=645, 427.5975pt x 472.76625pt>
+<Pictures/3_1_rodeoline.jpg, id=681, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_rodeoline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_rodeoline.jpg>
 Package pdftex.def Info: Pictures/3_1_rodeoline.jpg used on input line 43.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_longline1.jpg, id=648, 427.5975pt x 472.76625pt>
+<Pictures/3_1_longline1.jpg, id=684, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_longline1.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_longline1.jpg>
@@ -1453,50 +1447,62 @@ Package pdftex.def Info: Pictures/3_1_longline1.jpg used on input line 50.
  [26 <./Pictures/3_1_lowline.jpg> <./Pictures/3_1_highline2.jpeg>] [27 <./Pictu
 res/3_1_trickline.jpg> <./Pictures/3_1_jumpline.png> <./Pictures/3_1_rodeoline.
 jpg> <./Pictures/3_1_longline1.jpg>]
-<Pictures/3_1_waterline.jpg, id=668, 427.5975pt x 472.76625pt>
+<Pictures/3_1_waterline.jpg, id=704, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_waterline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_waterline.jpg>
 Package pdftex.def Info: Pictures/3_1_waterline.jpg used on input line 62.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_urbanline.jpg, id=671, 427.5975pt x 472.76625pt>
+<Pictures/3_1_urbanline.jpg, id=707, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_urbanline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_urbanline.jpg>
 Package pdftex.def Info: Pictures/3_1_urbanline.jpg used on input line 69.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 )
-(./Chapter/3_Slackline/3_LearningTechniques.tex))
-(./Chapter/4_Concept/0_Main.tex [28
+(./Chapter/3_Slackline/3_LearningTechniques.tex [28
 
- <./Pictures/3_1_waterline.jpg> <./Pictures/3_1_urbanline.jpg>] (./Chapter/4_Co
-ncept/1_General.tex
-Underfull \vbox (badness 7273) has occurred while \output is active []
+ <./Pictures/3_1_waterline.jpg> <./Pictures/3_1_urbanline.jpg>]
+<Pictures/3_3_1_methodicalRoutine.png, id=727, 1202.4925pt x 747.79375pt>
+File: Pictures/3_3_1_methodicalRoutine.png Graphic file (type png)
 
- [29
+<use Pictures/3_3_1_methodicalRoutine.png>
+Package pdftex.def Info: Pictures/3_3_1_methodicalRoutine.png used on input lin
+e 14.
+(pdftex.def)             Requested size: 384.1122pt x 238.86528pt.
+ [29 <./Pictures/3_3_1_methodicalRoutine.png>]
+<Pictures/3_3_1_comparisonMethods.png, id=741, 356.33125pt x 567.11874pt>
+File: Pictures/3_3_1_comparisonMethods.png Graphic file (type png)
 
+<use Pictures/3_3_1_comparisonMethods.png>
+Package pdftex.def Info: Pictures/3_3_1_comparisonMethods.png used on input lin
+e 27.
+(pdftex.def)             Requested size: 153.64253pt x 244.52263pt.
 
-]
-[30]) (./Chapter/4_Concept/2_Interaction.tex [31]
-<Pictures/handcursorProgress.png, id=730, 327.92513pt x 133.6995pt>
-File: Pictures/handcursorProgress.png Graphic file (type png)
+<Pictures/3_3_1_dynamicDynamicSlackline2.png, id=747, 1021.8175pt x 722.7pt>
+File: Pictures/3_3_1_dynamicDynamicSlackline2.png Graphic file (type png)
 
-<use Pictures/handcursorProgress.png>
-Package pdftex.def Info: Pictures/handcursorProgress.png used on input line 9.
-(pdftex.def)             Requested size: 230.46965pt x 93.96437pt.
+<use Pictures/3_3_1_dynamicDynamicSlackline2.png>
+Package pdftex.def Info: Pictures/3_3_1_dynamicDynamicSlackline2.png used on in
+put line 40.
+(pdftex.def)             Requested size: 384.1122pt x 271.66245pt.
+ [30 <./Pictures/3_3_1_comparisonMethods.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [31 <./Pictures/3_3_1_dynamicDynamicSlackline2.png>])) (./Chapter/4_Concept/0_
+Main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `4_6_feedbackSystem' on page 32 undefined on input lin
-e 15.
+ [32]
+[33] [34
 
-) (./Chapter/4_Concept/3_Stages.tex) (./Chapter/4_Concept/4_Exercises.tex
+] (./Chapter/4_Concept/1_General.tex [35
 
-LaTeX Warning: Reference `4_6_feedbackSystem' on page 32 undefined on input lin
-e 3.
-
-[32 <./Pictures/handcursorProgress.png>]
-<Pictures/exerciseStructureTopDown2.png, id=739, 518.93875pt x 287.0725pt>
+] [36] [37])
+(./Chapter/4_Concept/2_Interaction.tex) (./Chapter/4_Concept/3_Stages.tex)
+(./Chapter/4_Concept/4_Exercises.tex [38]
+<Pictures/exerciseStructureTopDown2.png, id=843, 518.93875pt x 287.0725pt>
 File: Pictures/exerciseStructureTopDown2.png Graphic file (type png)
 
 <use Pictures/exerciseStructureTopDown2.png>
@@ -1504,64 +1510,75 @@ Package pdftex.def Info: Pictures/exerciseStructureTopDown2.png used on input l
 ine 9.
 (pdftex.def)             Requested size: 384.1122pt x 212.49602pt.
 )
-(./Chapter/4_Concept/5_FeedbackSystem.tex
+(./Chapter/4_Concept/5_FeedbackSystem.tex [39 <./Pictures/exerciseStructureTopD
+own2.png>]) (./Chapter/4_Concept/6_Scenario.tex)
+(./Chapter/4_Concept/7_Conclusion.tex)) (./Chapter/5_System/0_Main.tex [40]
+[41
 
-LaTeX Warning: Reference `4_3_interaction' on page 33 undefined on input line 3
-.
 
-[33 <./Pictures/exerciseStructureTopDown2.png>])
-(./Chapter/4_Concept/6_Scenario.tex [34]
-<Pictures/conceptScenarioFlow2.png, id=752, 486.81876pt x 301.125pt>
+] <Pictures/handcursorProgress.png, id=864, 327.92513pt x 133.6995pt>
+File: Pictures/handcursorProgress.png Graphic file (type png)
+
+<use Pictures/handcursorProgress.png>
+Package pdftex.def Info: Pictures/handcursorProgress.png used on input line 37.
+
+(pdftex.def)             Requested size: 230.46965pt x 93.96437pt.
+ [42 <./Pictures/handcursorProgress.png>]
+<Pictures/conceptScenarioFlow2.png, id=871, 486.81876pt x 301.125pt>
 File: Pictures/conceptScenarioFlow2.png Graphic file (type png)
 
 <use Pictures/conceptScenarioFlow2.png>
-Package pdftex.def Info: Pictures/conceptScenarioFlow2.png used on input line 1
-5.
-(pdftex.def)             Requested size: 384.1122pt x 237.59666pt.
-) (./Chapter/4_Concept/7_Conclusion.tex)) (./Chapter/5_System/0_Main.tex [35 <.
-/Pictures/conceptScenarioFlow2.png>]
-[36
-
-] (./Chapter/5_System/1_ProofOfConcept.tex [37
-
-]
+Package pdftex.def Info: Pictures/conceptScenarioFlow2.png used on input line 5
+2.
+(pdftex.def)             Requested size: 307.29092pt x 190.07733pt.
+ [43 <./Pictures/conceptScenarioFlow2.png>] (./Chapter/5_System/1_ProofOfConcep
+t.tex [44]
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/ppl/b/it' tried instead on input line 21.
- [38] [39]
-Underfull \vbox (badness 1005) has occurred while \output is active []
+ [45]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]))
-[41] (./MainDocument.bbl [42
+ [46]))
+(./Chapter/6_Study/0_Main.tex [47] [48
+
+]) (./Chapter/7_Conclusion/0_Main.tex
+[49
+
+] [50
+
+]) [51
+
+] (./MainDocument.bbl [52
 
 
-] [43]
-Underfull \hbox (badness 2799) in paragraph at lines 129--133
+] [53] [54]
+Underfull \hbox (badness 2799) in paragraph at lines 146--150
 []\T1/ppl/m/sc/10.95 (+20) Kroiÿ, An-dreas\T1/ppl/m/n/10.95 (+20) .  Der Trend-
 sport Slack-line und seine An-wen-
  []
 
-[44] [45] [46]) [47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+[55] [56]) [57]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./MainDocument.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `MainDocument.out' has not changed.
-(rerunfilecheck)             Checksum: 91FAF5AD26F87B9990A3183AAF8AE439;3278.
+(rerunfilecheck)             Checksum: 7268924E7CD3C46CD84392FFDEE87EDF;3689.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 12757 strings out of 493014
- 196401 string characters out of 6133352
- 318361 words of memory out of 5000000
- 15471 multiletter control sequences out of 15000+600000
- 62236 words of font info for 248 fonts, out of 8000000 for 9000
+ 12827 strings out of 493014
+ 197822 string characters out of 6133352
+ 319051 words of memory out of 5000000
+ 15499 multiletter control sequences out of 15000+600000
+ 62885 words of font info for 256 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,49p,1722b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,48p,1684b,530s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2
@@ -1571,10 +1588,10 @@ mf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist
 /type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
 urw/palatino/uplri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/ti
 mes/utmr8a.pfb>
-Output written on MainDocument.pdf (55 pages, 3286233 bytes).
+Output written on MainDocument.pdf (65 pages, 4043680 bytes).
 PDF statistics:
- 893 PDF objects out of 1000 (max. 8388607)
- 744 compressed objects within 8 object streams
- 203 named destinations out of 1000 (max. 500000)
- 26675 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 1025 PDF objects out of 1200 (max. 8388607)
+ 856 compressed objects within 9 object streams
+ 225 named destinations out of 1000 (max. 500000)
+ 26746 words of extra memory for PDF output out of 29859 (max. 10000000)
 

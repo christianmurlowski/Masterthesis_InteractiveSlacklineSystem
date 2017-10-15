@@ -1,21 +1,19 @@
 \section{Feedback system}\label{4_5_feedbackSystem}
 %The user should get feedback about her performance during exercise execution. 
-Feedback is the main and most powerful component of the interactive learning system. Since the user should interact on her own with the system one has to assume that no other person interfere with her and the system. With this in mind the feedback of the system should designed in a way, that the user knows at anytime what she has to do or has done. In general audio and visual feedback is provided to the user. Regarding the \textbf{\nameref{4_3_interaction}} with the system, e.g. clicking a button, the system should respond with an audio signal and change the elements visual state accordingly.
+%Another big role of this plays in the exercise execution. Here the user interacts with the system to match a predefined gesture for accomplishing the exercise. Therefore real time feedback is provided which gives her hints about the right interaction and how good it is performed. More information about the feedback methods can be found in feedback system
 
-For the accomplishment of the exercise execution the system provides essential responses like seen in other applications \textbf{\todo{[cite, maybe Related Work]}}. In the slackline system the following feedback indicators are integrated for the exercise execution:
-\begin{itemize}
-\item Staying in the right position before starting an exercise
-\item When an exercise is currently correctly performed
-\item How good the exercise is currently performed, namely the confidence
-\item The elapsed time the user is performing the exercise
-\item When the repetition is successfully accomplished, i.e. the minimum time has been reached
-\item When an repetition attempt was not successful
-\item How many repetitions in general, finished and left
-\item Checklist about key elements in an execution (like hands up, foot stretched, etc.)
-\item A summary that shows the user parameters about the performance (execution time, overall attempts, confidence) for each repetition and an average value of these
-\item A similar summary can also be found for the entire stage, where the same parameters for each exercise are listed in average
-\end{itemize}
-With this a baseline is built for appropriate real time feedback to the user.
+% - https://www.researchgate.net/profile/Eduardo_Velloso/publication/262162999_MotionMA_Motion_modelling_and_analysis_by_demonstration/links/577a4aaa08aece6c20fbc5bf.pdf
+% - https://www.ncbi.nlm.nih.gov/pubmed/27555917
+% - http://online.liebertpub.com/doi/abs/10.1089/g4h.2012.0041?url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org&rfr_dat=cr_pub%3Dpubmed&
+% - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4835340/
+% - http://ieeexplore.ieee.org/document/7399879/
+
+% - https://www.akqa.com/work/nike/kinect/
+% - https://www.ea.com/de-de/news/ea-sports-active-2-bringt-fitnessfans-in-die-form-ihres-lebens
+
+Feedback is the main and most powerful component of the interactive learning system. Since the user should interact on her own with the system one has to assume that no other person interfere with her and the system. With this in mind the feedback of the system should designed in a way, that the user knows at any time what she has to do or has done. In general audio and visual feedback will be provided to the user. Regarding the \textbf{\nameref{4_2_interaction}} with the system, e.g. clicking a button, the system should respond with an audio signal and change the elements visual state accordingly.
+
+For the accomplishment of the exercise execution it is essential to provide real-time feedback. This supports her during the performance and enhances the learning effect more than with post feedback methods, like discussed in \textbf{\nameref{2_3_3_feedbackApproachesTechniques}}. Hence the overall exercise execution can be improved by providing appropriate real-time feedback. The system should therefore response to the user like seen in other applications \textbf{\todo{[cite, maybe Related Work --> Nike + / EA SPORTS Active 2]}}. These responses should mainly contain an indicator if the execution is currently performed right or not, visualize the the performance of the user regarding the predefined gestures, and the progress of the the current execution. The user should also see herself mirrored in an appropriate environment to know how the executes the exercises and if she is in detection range of the kinect sensor. With this a baseline is built for appropriate real time feedback to the user.
 
 \begin{comment}
 - in general audio and visual feedback

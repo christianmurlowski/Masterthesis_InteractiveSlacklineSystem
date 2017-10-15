@@ -29,46 +29,51 @@
 \contentsline {subsubsection}{Element sizing}{22}{subsubsection*.22}
 \contentsline {subsubsection}{Physical interaction zone}{22}{subsubsection*.23}
 \contentsline {section}{\numberline {2.5}Conclusion}{23}{section.2.5}
-\contentsline {chapter}{\numberline {3} What is slacklining and how to learn it?}{25}{chapter.3}
+\contentsline {chapter}{\numberline {3} Slacklining and slacklining learning techniques}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction into slacklining}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}Slacklining variations and categorization}{26}{section.3.2}
 \contentsline {section}{\numberline {3.3}Slackline learning techniques}{28}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Methods for learning slacklining}{28}{subsection.3.3.1}
-\contentsline {subsubsection}{Static}{28}{subsubsection*.28}
-\contentsline {subsubsection}{Methodical / Dynamic}{28}{subsubsection*.29}
-\contentsline {subsection}{\numberline {3.3.2}Stages and exercise of learning slacklining}{28}{subsection.3.3.2}
-\contentsline {subsubsection}{Preliminary}{28}{subsubsection*.30}
-\contentsline {subsubsection}{First contact}{28}{subsubsection*.31}
-\contentsline {subsubsection}{Static exercises}{28}{subsubsection*.32}
-\contentsline {subsubsection}{Dynamic exercises}{28}{subsubsection*.33}
-\contentsline {chapter}{\numberline {4} Concept}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}General Information}{29}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Ten heuristic principles for interaction design}{30}{subsection.4.1.1}
-\contentsline {subsubsection}{Visibility of system status}{30}{subsubsection*.34}
-\contentsline {subsubsection}{Match beween system and the real world}{30}{subsubsection*.35}
-\contentsline {subsubsection}{User control and freedom}{30}{subsubsection*.36}
-\contentsline {subsubsection}{Consistency and standards}{30}{subsubsection*.37}
-\contentsline {subsubsection}{Error prevention}{30}{subsubsection*.38}
-\contentsline {subsubsection}{Recognition rather than recall}{31}{subsubsection*.39}
-\contentsline {subsubsection}{Flexibility and efficiency of use}{31}{subsubsection*.40}
-\contentsline {subsubsection}{Aesthetic and minimalistic design}{31}{subsubsection*.41}
-\contentsline {subsubsection}{Help users recognize, diagnose, and recover from errors}{31}{subsubsection*.42}
-\contentsline {subsubsection}{Help and documentation}{31}{subsubsection*.43}
-\contentsline {subsection}{\numberline {4.1.2}System specific basics}{31}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Interaction}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}Stages}{32}{section.4.3}
-\contentsline {section}{\numberline {4.4}Exercises}{33}{section.4.4}
-\contentsline {section}{\numberline {4.5}Feedback system}{33}{section.4.5}
-\contentsline {section}{\numberline {4.6}Scenario}{34}{section.4.6}
-\contentsline {section}{\numberline {4.7}Conclusion}{35}{section.4.7}
-\contentsline {chapter}{\numberline {5} System integration}{37}{chapter.5}
-\contentsline {subsubsection}{Cursor}{37}{subsubsection*.47}
-\contentsline {subsubsection}{Hardware}{37}{subsubsection*.48}
-\contentsline {section}{\numberline {5.1}Proof Of Concept}{37}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Introduction}{37}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}General setup of the study}{38}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Testing scenario}{38}{subsection.5.1.3}
-\contentsline {subsubsection}{Slackline positioning}{39}{subsubsection*.49}
-\contentsline {subsubsection}{Kinect height}{40}{subsubsection*.50}
-\contentsline {subsection}{\numberline {5.1.4}Best positioning for beginner learning purposes}{40}{subsection.5.1.4}
-\contentsline {section}{Bibliography}{42}{section*.51}
+\contentsline {subsection}{\numberline {3.3.1}Methods for slackline skill acquisition}{28}{subsection.3.3.1}
+\contentsline {subsubsection}{Methodical routine}{28}{subsubsection*.28}
+\contentsline {subsubsection}{Differential methodic}{29}{subsubsection*.30}
+\contentsline {subsection}{\numberline {3.3.2}Stages and exercise of learning slacklining}{31}{subsection.3.3.2}
+\contentsline {subsubsection}{Tier I - Preliminary exercises}{32}{subsubsection*.33}
+\contentsline {subsubsection}{Tier II - First contact with the line}{32}{subsubsection*.34}
+\contentsline {subsubsection}{Tier III - Static exercises}{32}{subsubsection*.35}
+\contentsline {subsubsection}{Tier VI - Dynamic exercises}{33}{subsubsection*.36}
+\contentsline {chapter}{\numberline {4} Concept}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}General Information}{35}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Ten heuristic principles for interaction design}{36}{subsection.4.1.1}
+\contentsline {subsubsection}{Visibility of system status}{36}{subsubsection*.37}
+\contentsline {subsubsection}{Match between system and the real world}{36}{subsubsection*.38}
+\contentsline {subsubsection}{User control and freedom}{36}{subsubsection*.39}
+\contentsline {subsubsection}{Consistency and standards}{36}{subsubsection*.40}
+\contentsline {subsubsection}{Error prevention}{36}{subsubsection*.41}
+\contentsline {subsubsection}{Recognition rather than recall}{37}{subsubsection*.42}
+\contentsline {subsubsection}{Flexibility and efficiency of use}{37}{subsubsection*.43}
+\contentsline {subsubsection}{Aesthetic and minimalistic design}{37}{subsubsection*.44}
+\contentsline {subsubsection}{Help users recognize, diagnose, and recover from errors}{37}{subsubsection*.45}
+\contentsline {subsubsection}{Help and documentation}{37}{subsubsection*.46}
+\contentsline {subsection}{\numberline {4.1.2}System specific basics}{37}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Interaction}{38}{section.4.2}
+\contentsline {section}{\numberline {4.3}Stages}{38}{section.4.3}
+\contentsline {section}{\numberline {4.4}Exercises}{38}{section.4.4}
+\contentsline {section}{\numberline {4.5}Feedback system}{39}{section.4.5}
+\contentsline {section}{\numberline {4.6}Scenario}{40}{section.4.6}
+\contentsline {section}{\numberline {4.7}Conclusion}{40}{section.4.7}
+\contentsline {chapter}{\numberline {5} System integration}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Hardware}{41}{section.5.1}
+\contentsline {section}{\numberline {5.2}Software}{41}{section.5.2}
+\contentsline {section}{\numberline {5.3}User Interface}{41}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Cursor}{42}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Real time feedback}{43}{section.5.4}
+\contentsline {section}{\numberline {5.5}Proof Of Concept}{44}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Introduction}{44}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}General setup of the study}{44}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Testing scenario}{45}{subsection.5.5.3}
+\contentsline {subsubsection}{Slackline positioning}{45}{subsubsection*.50}
+\contentsline {subsubsection}{Kinect height}{46}{subsubsection*.51}
+\contentsline {subsection}{\numberline {5.5.4}Best positioning for beginner learning purposes}{47}{subsection.5.5.4}
+\contentsline {chapter}{\numberline {6} Study}{49}{chapter.6}
+\contentsline {chapter}{\numberline {7} Conclusion and Outlook}{51}{chapter.7}
+\contentsline {section}{Bibliography}{52}{section*.52}
