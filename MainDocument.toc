@@ -53,18 +53,21 @@
 \contentsline {section}{\numberline {4.7}Conclusion}{40}{section.4.7}
 \contentsline {chapter}{\numberline {5} System integration}{41}{chapter.5}
 \contentsline {section}{\numberline {5.1}Gesture Construction}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}System architecture}{42}{section.5.2}
-\contentsline {section}{\numberline {5.3}Hardware}{42}{section.5.3}
-\contentsline {section}{\numberline {5.4}Software}{43}{section.5.4}
-\contentsline {section}{\numberline {5.5}User Interface}{43}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Cursor}{43}{subsection.5.5.1}
-\contentsline {section}{\numberline {5.6}Real time feedback}{45}{section.5.6}
-\contentsline {section}{\numberline {5.7}Technical feasibility}{45}{section.5.7}
-\contentsline {subsection}{\numberline {5.7.1}General setup of the study}{46}{subsection.5.7.1}
-\contentsline {subsection}{\numberline {5.7.2}Testing scenario}{46}{subsection.5.7.2}
-\contentsline {subsubsection}{Slackline positioning}{47}{subsubsection*.40}
-\contentsline {subsubsection}{Kinect height}{47}{subsubsection*.41}
-\contentsline {subsection}{\numberline {5.7.3}Best positioning for beginner learning purposes}{48}{subsection.5.7.3}
-\contentsline {chapter}{\numberline {6} Study}{49}{chapter.6}
-\contentsline {chapter}{\numberline {7} Conclusion and Outlook}{51}{chapter.7}
-\contentsline {section}{Bibliography}{52}{section*.42}
+\contentsline {subsection}{\numberline {5.1.1}Visual gesture builder}{42}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Building gestures workflow}{42}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}System architecture}{43}{section.5.2}
+\contentsline {subsubsection}{Hardware and software components}{43}{subsubsection*.38}
+\contentsline {subsection}{\numberline {5.2.1}Software implementation}{43}{subsection.5.2.1}
+\contentsline {subsubsection}{Example \& Engagement gesture}{43}{subsubsection*.39}
+\contentsline {subsubsection}{Hand cursor as interaction device}{44}{subsubsection*.40}
+\contentsline {section}{\numberline {5.3}User Interface}{45}{section.5.3}
+\contentsline {section}{\numberline {5.4}Real time feedback}{45}{section.5.4}
+\contentsline {section}{\numberline {5.5}Technical feasibility}{46}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}General setup of the study}{47}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Testing scenario}{47}{subsection.5.5.2}
+\contentsline {subsubsection}{Slackline positioning}{48}{subsubsection*.43}
+\contentsline {subsubsection}{Kinect height}{49}{subsubsection*.44}
+\contentsline {subsection}{\numberline {5.5.3}Best positioning for beginner learning purposes}{49}{subsection.5.5.3}
+\contentsline {chapter}{\numberline {6} Study}{51}{chapter.6}
+\contentsline {chapter}{\numberline {7} Conclusion and Outlook}{53}{chapter.7}
+\contentsline {section}{Bibliography}{54}{section*.45}

@@ -1,2 +1,54 @@
 \section{System architecture}\label{5_2_systemArchitecture}
 %- System architecture of system --> Unity3D, Kinect SDK, Kinectstudio, VGB --> kinect sdk free to use since version X
+In the following several components of the general system architecture will be described that that are necessary for the functionality of the interactive learning system with real-time feedback and for the study afterwards. An overview can be seen in figure \todo{systemarchitecture}.
+
+\subsubsection{Hardware and software components}
+% Kinect, Beamer, Screen, Slackline --> Alpidex High Performance
+
+As slackline the mobile \textit{alpidex POWER-WAVE 2.0} is used. It is attached in front of the \textit{Microsoft Kinect v2}, which is used as tracking device. The Kinect itself is attached on a \todo{modell} tripod with a height of about \todo{height, hüfthöhe?}. A \textit{Steambox PC} \todo{footnote specs} was sufficient to fulfil the recommended specs of the Kinect: \todo{kinect specs}. To give the user a more immersive feeling a projector \todo{modell} with a resolution of 1920x1080 that is attached on a traverse system with a projection screen of size \todo{2x3m} is used.
+
+% KinectStudio, VGB, Unity3D, Kinect SDK for unity, Kinect MS-SDK
+For software realization the cross-platform game engine \textit{Unity3D} by \textit{Unity Technologies} is used. Applications developed with this can be deployed for several platforms like e.g. the most known Windows, Linux, macOS, Android, iOS, etc. For accessing the data stream of the Kinect the \textit{Microsoft Kinect SDK v2.0}
+\footnote{\label{fn:kinectTools}\url{https://developer.microsoft.com/de-de/windows/kinect/tools}}has to be installed on the PC. Microsoft offers also a \textit{Kinect for Windows Unity package}\cref{fn:kinectTools}, which delivers all required scripts to manage the data stream in Unity for creating a Kinect based unity application. Since \textit{Unity 5} it can be used with the free personal edition, whereas before it could be only used with the pro version. Also the \textit{Kinect v2 Examples with MS-SDK} \footnote{\url{https://www.assetstore.unity3d.com/en/\#!/content/18708}} by Rumen Filkov were used for making data access and interaction implementation easer as well as getting an idea on how to handle incoming data from the Kinect.
+
+\subsection{Software implementation}
+The software development process consists of the interplay of two system components. First Unity itself, which is used to display and manage actions by the user on the interface. Second the Kinect SDK plugin for accessing the users action recognized by the Kinect device. In the following the interaction integration of the system are further described.
+
+%This application a 3D project has been generated, since the Kinect uses 3D space to track the user, she should be able to interact within that, and a 3-Dimensional environment design is considered. Further some examples of the interaction implementation is described.
+\subsubsection{Example \& Engagement gesture}
+An example on how to manage a raising hand script can be seen in listing~\ref{lst:codeEngagement}. The \textit{KinectManager} exists as a Game Object in the scene and has to be referenced in the script. One has to assure that the Kinect is initialized, a user has been detected, and the relating joints are detected. In line~\ref{lst:codeEngagement15} the condition checks if the current vertical position of the right hand is greater than the current position of the head joint. If this is the case, the next scene is loaded. This is actually part of the script for the first scene in the application, in which the user has to engage with the Kinect by doing the described movement.
+
+\begin{lstlisting}[caption=C$^\sharp$ example code for tracking a raising hand, label=lst:codeEngagement]
+if (_kinectManager && 
+	  _kinectManager.IsInitialized() && 
+	  _kinectManager.IsUserDetected())
+{
+	long uId = _kinectManager.GetPrimaryUserID();
+
+	if ((_kinectManager.IsJointTracked(uId, (int) _jointHandRight) && 
+		   _kinectManager.IsJointTracked(uId, (int) _jointHead))
+	{
+		Vector3 jointPosHandRight = 
+		 _kinectManager.GetJointKinectPosition(uId, (int) _jointHandRight);
+		Vector3 jointPosHead = 
+		 _kinectManager.GetJointKinectPosition(uId, (int) _jointHead);			
+
+		if (jointPosHandRight.y > jointPosHead.y)(*@ \label{lst:codeEngagement15} @*)
+			SceneManager.LoadScene("Tutorial");
+	}
+}
+\end{lstlisting}
+
+\subsubsection{Hand cursor as interaction device}
+Specifically for the cursor, with which the user can interact with elements on the system by pushing the hand towards the kinect, the state will be clarified by a circle like seen in figure \todo{insert figure below}.
+
+The state of the current interaction is visualized properly by providing a circle around the hand cursor that represents the progress like seen in figure \ref{fig:handcursorProgress}.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.6\linewidth]{Pictures/handcursorProgress}
+		\caption{Progress of handcursor (Left: Default, Middle: In progress, Right: Finished)}
+		\label{fig:handcursorProgress}
+	\end{minipage}
+\end{figure}
