@@ -40,20 +40,10 @@
 \contentsline {subsubsection}{Tier I - Preliminary exercises}{32}{subsubsection*.33}
 \contentsline {subsubsection}{Tier II - First contact with the line}{32}{subsubsection*.34}
 \contentsline {subsubsection}{Tier III - Static exercises}{32}{subsubsection*.35}
-\contentsline {subsubsection}{Tier VI - Dynamic exercises}{33}{subsubsection*.36}
+\contentsline {subsubsection}{Tier IV - Dynamic exercises}{33}{subsubsection*.36}
 \contentsline {chapter}{\numberline {4} Concept}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}General Information}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Ten heuristic principles for interaction design}{36}{subsection.4.1.1}
-\contentsline {subsubsection}{Visibility of system status}{36}{subsubsection*.37}
-\contentsline {subsubsection}{Match between system and the real world}{36}{subsubsection*.38}
-\contentsline {subsubsection}{User control and freedom}{36}{subsubsection*.39}
-\contentsline {subsubsection}{Consistency and standards}{36}{subsubsection*.40}
-\contentsline {subsubsection}{Error prevention}{36}{subsubsection*.41}
-\contentsline {subsubsection}{Recognition rather than recall}{37}{subsubsection*.42}
-\contentsline {subsubsection}{Flexibility and efficiency of use}{37}{subsubsection*.43}
-\contentsline {subsubsection}{Aesthetic and minimalistic design}{37}{subsubsection*.44}
-\contentsline {subsubsection}{Help users recognize, diagnose, and recover from errors}{37}{subsubsection*.45}
-\contentsline {subsubsection}{Help and documentation}{37}{subsubsection*.46}
 \contentsline {subsection}{\numberline {4.1.2}System specific basics}{37}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}Interaction}{38}{section.4.2}
 \contentsline {section}{\numberline {4.3}Stages}{38}{section.4.3}
@@ -62,18 +52,19 @@
 \contentsline {section}{\numberline {4.6}Scenario}{40}{section.4.6}
 \contentsline {section}{\numberline {4.7}Conclusion}{40}{section.4.7}
 \contentsline {chapter}{\numberline {5} System integration}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}Hardware}{41}{section.5.1}
-\contentsline {section}{\numberline {5.2}Software}{41}{section.5.2}
-\contentsline {section}{\numberline {5.3}User Interface}{41}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Cursor}{42}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Real time feedback}{43}{section.5.4}
-\contentsline {section}{\numberline {5.5}Proof Of Concept}{44}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Introduction}{44}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}General setup of the study}{44}{subsection.5.5.2}
-\contentsline {subsection}{\numberline {5.5.3}Testing scenario}{45}{subsection.5.5.3}
-\contentsline {subsubsection}{Slackline positioning}{45}{subsubsection*.50}
-\contentsline {subsubsection}{Kinect height}{46}{subsubsection*.51}
-\contentsline {subsection}{\numberline {5.5.4}Best positioning for beginner learning purposes}{47}{subsection.5.5.4}
+\contentsline {section}{\numberline {5.1}Gesture Construction}{41}{section.5.1}
+\contentsline {section}{\numberline {5.2}System architecture}{42}{section.5.2}
+\contentsline {section}{\numberline {5.3}Hardware}{42}{section.5.3}
+\contentsline {section}{\numberline {5.4}Software}{43}{section.5.4}
+\contentsline {section}{\numberline {5.5}User Interface}{43}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Cursor}{43}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}Real time feedback}{45}{section.5.6}
+\contentsline {section}{\numberline {5.7}Technical feasibility}{45}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}General setup of the study}{46}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}Testing scenario}{46}{subsection.5.7.2}
+\contentsline {subsubsection}{Slackline positioning}{47}{subsubsection*.40}
+\contentsline {subsubsection}{Kinect height}{47}{subsubsection*.41}
+\contentsline {subsection}{\numberline {5.7.3}Best positioning for beginner learning purposes}{48}{subsection.5.7.3}
 \contentsline {chapter}{\numberline {6} Study}{49}{chapter.6}
 \contentsline {chapter}{\numberline {7} Conclusion and Outlook}{51}{chapter.7}
-\contentsline {section}{Bibliography}{52}{section*.52}
+\contentsline {section}{Bibliography}{52}{section*.42}

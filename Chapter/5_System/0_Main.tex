@@ -1,5 +1,35 @@
 \chapter{System integration}\label{5_systemIntegration}
+This chapter shows the implementation of the interactive learning system with real-time feedback regarding the conceptual elaboration. Like seen in subsection ~\textit{\nameref{trackingTechnologie}} the Microsoft Kinect v2 will be used as tracking technology. Hence before going into the implementation detail section~\textit{\nameref{5_3_technicalFeasibility}} clarifies the feasibility and the performance of tracking persons on a slackline with the Kinect. Further section \textit{\nameref{5_2_gestureConstruction}} describes the recording and training of predefined gestures for the exercises in the system. After this section \todo{System architecture} describes the general system architecture which involves the interplay of the Kinect SDK with Unity3D as game engine. Section \todo{component description} describes more specific how the data management, engagement, interaction components, gesture integration, and real-time feedback is implemented. Finally section \todo{User Interface Design} covers the design process of the application inlcuding scribbles, mockups and the integration.
 
+\input{Chapter/5_System/2_GestureConstruction}
+\input{Chapter/5_System/3_SystemArchitecture}
+
+\begin{comment}
+- Kinect used for tracking --> how Kinect tracks user - skeleton, infrared, own algorithm -> RW
+
+- Technical feasibility in here?
+
+- Recording of gestures --> Kinectstudio --> Making/Train gestures --> Visual gestures builder
+
+- System architecture of system --> Unity3D, Kinect SDK, Kinectstudio, VGB --> kinect sdk free to use since version X
+
+- Data management --> json file, default exercise json and each user has its own json file 
+
+- Engagement with Kinect
+
+- Interaction components (track hand joints, PHIZ, Constraints) --> different interactions tested (closing hand, V-sign, hover, pushing) --> not all good because of distance to Kinect --> In unity addon written for managing data --> create new users, load exercise in user, adjust jsons
+
+- tier and exercises as level design --> locked and unlocking by successfully accomplishing exercise
+
+- Integration VGB databases in Unity and how to track gestures in it --> gesturedetector, eventlistener
+
+- Providing feedback properly --> confidence/progress of gestures in event listener, checklist (joint detection), 
+--> user viewer --> how it works (making cloudy map regarding user position, drawing lines for skeletons)
+
+- Summary screen --> feedback about prior or entire tier performance with time, confidence and attempts
+
+- User interface design --> sketches, mock ups, development --> workflow figure
+\end{comment}
 \section{Hardware}
 - Kinect
 
@@ -71,4 +101,4 @@ The user starts with an engagement gesture like raising her hand over the head t
 \item A similar summary can also be found for the entire stage, where the same parameters for each exercise are listed in average
 \end{itemize}
 
-\input{Chapter/5_System/1_ProofOfConcept}
+\input{Chapter/5_System/1_TechnicalFeasibility}
