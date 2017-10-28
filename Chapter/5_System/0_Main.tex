@@ -1,6 +1,7 @@
 \chapter{System integration}\label{5_systemIntegration}
-This chapter shows the implementation of the interactive learning system with real-time feedback regarding the conceptual elaboration. Like seen in subsection ~\textit{\nameref{trackingTechnologie}} the Microsoft Kinect v2 will be used as tracking technology. Hence before going into the implementation detail section~\textit{\nameref{5_3_technicalFeasibility}} clarifies the feasibility and the performance of tracking persons on a slackline with the Kinect. Further section \textit{\nameref{5_2_gestureConstruction}} describes the recording and training of predefined gestures for the exercises in the system. After this section \todo{System architecture} describes the general system architecture which involves the interplay of the Kinect SDK with Unity3D as game engine. Section \todo{component description} describes more specific how the data management, engagement, interaction components, gesture integration, and real-time feedback is implemented. Finally section \todo{User Interface Design} covers the design process of the application inlcuding scribbles, mockups and the integration.
+This chapter shows the implementation of the interactive learning system with real-time feedback regarding the conceptual elaboration. Like seen in subsection ~\textit{\nameref{trackingTechnologie}} the Microsoft Kinect v2 will be used as tracking technology. Hence before going into the implementation detail section~\textit{\nameref{5_3_technicalFeasibility}} clarifies the feasibility and the performance of tracking persons on a slackline with the Kinect. Further section \textit{\nameref{5_2_gestureConstruction}} describes the recording and training of predefined gestures for the exercises in the system. After this section \textit{\nameref{5_3_systemArchitecture}} describes the general system architecture which involves the interplay of the Kinect SDK with Unity3D as game engine. Further it involves more specific how the data management, engagement, interaction components, gesture integration, and real-time feedback are implemented. Finally section \textit{\nameref{5_4_userInterface}} covers the design process of the application inlcuding scribbles, mockups and the final integration.
 
+\input{Chapter/5_System/1_TechnicalFeasibility}
 \input{Chapter/5_System/2_GestureConstruction}
 \input{Chapter/5_System/3_SystemArchitecture}
 
@@ -31,15 +32,8 @@ This chapter shows the implementation of the interactive learning system with re
 - User interface design --> sketches, mock ups, development --> workflow figure
 \end{comment}
 
-\section{User Interface}
-Besides this she is instructed on how to stay in the right starting position. This is required by some actions like just before starting the exercise execution to ensure the user is ready.
-
+\section{User Interface}\label{5_4_userInterface}
 The user should be introduced to the stage. In here the purpose, goal, and helpful techniques should be given, such that the user becomes an overview about the exercises. At last a summary scene shows several performance parameter for the exercises in this stage.
-
-She should stand in a starting position to start the exercise. This is to ensure that no exercise is starting to track if the user would make a random gesture which could lead to confusion of the user.
-
-
-
 
 The user starts with an engagement gesture like raising her hand over the head to convey that the system initially recognises and responds to a user action. After that a tutorial about the interaction with the system will be given that covers clicking and scrolling techniques. Now she's confident with the system interaction and can select a profile in the user select to train. This loads the profile which leads to the stage selection menu. In here she can select a stage, whereas initially the first one is can be selected and the others have to be unlocked by successfully accomplishing all exercises in the preview stage. Selecting a stage leads to the exercise menu. In here she has to read initially the stage introduction to become a basic understanding about the exercises in here. After reading this, it unlocks the first exercise. Selecting an exercise leads to the side selection, where the user has to choose the side she wants to train for this exercise. This is followed by an introduction of the exercise, in which is explained how to perform it correctly. If the user is ready, she should stay in a starting position to be able to start the exercise execution. In here she find all relevant elements to perform the exercise, like indicators for the time, repetitions, confidence and a checklist, which helps her to correctly execute the exercise. After successfully executing the exercise, a summary is shown which summarizes the user performance. Then she can return to the main menu or directly approach the next exercise. A stage summary gives an overview about all exercises with average performance parameters.
 
@@ -53,21 +47,3 @@ The user starts with an engagement gesture like raising her hand over the head t
 		\label{fig:scenarioWorkflow}
 	\end{minipage}
 \end{figure}
-
-\section{Real time feedback}
-
- In the slackline system the following feedback indicators are integrated for the exercise execution:
-\begin{itemize}
-\item Staying in the right position before starting an exercise
-\item When an exercise is currently correctly performed
-\item How good the exercise is currently performed, namely the confidence
-\item The elapsed time the user is performing the exercise
-\item When the repetition is successfully accomplished, i.e. the minimum time has been reached
-\item When an repetition attempt was not successful
-\item How many repetitions in general, finished and left
-\item Checklist about key elements in an execution (like hands up, foot stretched, etc.)
-\item A summary that shows the user parameters about the performance (execution time, overall attempts, confidence) for each repetition and an average value of these
-\item A similar summary can also be found for the entire stage, where the same parameters for each exercise are listed in average
-\end{itemize}
-
-\input{Chapter/5_System/1_TechnicalFeasibility}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  21 OCT 2017 21:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  28 OCT 2017 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -866,6 +866,12 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/courier.sty
+Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
 ))
 (./MainDocument.aux)
 \openout1 = `MainDocument.aux'.
@@ -1432,46 +1438,46 @@ hingMethods.png>])
 (./Chapter/2_RelatedWork/5_Conclusion.tex [23 <./Pictures/higPHIZ.png>])
 [24]) (./Chapter/3_Slackline/0_Main.tex
 (./Chapter/3_Slackline/1_IntroductionSlacklining.tex)
-(./Chapter/3_Slackline/2_SlacklineVariations.tex
-<Pictures/3_1_lowline.jpg, id=662, 427.5975pt x 472.76625pt>
+(./Chapter/3_Slackline/2_SlacklineVariations.tex [25
+
+
+]
+<Pictures/3_1_lowline.jpg, id=668, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_lowline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_lowline.jpg>
 Package pdftex.def Info: Pictures/3_1_lowline.jpg used on input line 7.
 (pdftex.def)             Requested size: 158.87009pt x 175.64937pt.
 
-<Pictures/3_1_highline2.jpeg, id=663, 427.5975pt x 472.76625pt>
+<Pictures/3_1_highline2.jpeg, id=669, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_highline2.jpeg Graphic file (type jpg)
 
 <use Pictures/3_1_highline2.jpeg>
 Package pdftex.def Info: Pictures/3_1_highline2.jpeg used on input line 14.
 (pdftex.def)             Requested size: 158.87009pt x 175.64937pt.
- [25
 
-
-]
-<Pictures/3_1_trickline.jpg, id=680, 427.5975pt x 472.76625pt>
+<Pictures/3_1_trickline.jpg, id=678, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_trickline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_trickline.jpg>
 Package pdftex.def Info: Pictures/3_1_trickline.jpg used on input line 29.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_jumpline.png, id=683, 427.5975pt x 472.76625pt>
+<Pictures/3_1_jumpline.png, id=681, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_jumpline.png Graphic file (type png)
 
 <use Pictures/3_1_jumpline.png>
 Package pdftex.def Info: Pictures/3_1_jumpline.png used on input line 36.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_rodeoline.jpg, id=686, 427.5975pt x 472.76625pt>
+<Pictures/3_1_rodeoline.jpg, id=684, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_rodeoline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_rodeoline.jpg>
 Package pdftex.def Info: Pictures/3_1_rodeoline.jpg used on input line 43.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_longline1.jpg, id=689, 427.5975pt x 472.76625pt>
+<Pictures/3_1_longline1.jpg, id=687, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_longline1.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_longline1.jpg>
@@ -1480,14 +1486,14 @@ Package pdftex.def Info: Pictures/3_1_longline1.jpg used on input line 50.
  [26 <./Pictures/3_1_lowline.jpg> <./Pictures/3_1_highline2.jpeg>] [27 <./Pictu
 res/3_1_trickline.jpg> <./Pictures/3_1_jumpline.png> <./Pictures/3_1_rodeoline.
 jpg> <./Pictures/3_1_longline1.jpg>]
-<Pictures/3_1_waterline.jpg, id=709, 427.5975pt x 472.76625pt>
+<Pictures/3_1_waterline.jpg, id=707, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_waterline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_waterline.jpg>
 Package pdftex.def Info: Pictures/3_1_waterline.jpg used on input line 62.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 
-<Pictures/3_1_urbanline.jpg, id=712, 427.5975pt x 472.76625pt>
+<Pictures/3_1_urbanline.jpg, id=710, 427.5975pt x 472.76625pt>
 File: Pictures/3_1_urbanline.jpg Graphic file (type jpg)
 
 <use Pictures/3_1_urbanline.jpg>
@@ -1497,7 +1503,7 @@ Package pdftex.def Info: Pictures/3_1_urbanline.jpg used on input line 69.
 (./Chapter/3_Slackline/3_LearningTechniques.tex [28
 
  <./Pictures/3_1_waterline.jpg> <./Pictures/3_1_urbanline.jpg>]
-<Pictures/3_3_1_methodicalRoutine3.jpg, id=731, 1106.1325pt x 586.19pt>
+<Pictures/3_3_1_methodicalRoutine3.jpg, id=729, 1106.1325pt x 586.19pt>
 File: Pictures/3_3_1_methodicalRoutine3.jpg Graphic file (type jpg)
 
 <use Pictures/3_3_1_methodicalRoutine3.jpg>
@@ -1505,7 +1511,7 @@ Package pdftex.def Info: Pictures/3_3_1_methodicalRoutine3.jpg used on input li
 ne 14.
 (pdftex.def)             Requested size: 384.1122pt x 203.55061pt.
  [29 <./Pictures/3_3_1_methodicalRoutine3.jpg>]
-<Pictures/3_3_1_comparisonMethod2.jpg, id=747, 1401.235pt x 770.88pt>
+<Pictures/3_3_1_comparisonMethod2.jpg, id=745, 1401.235pt x 770.88pt>
 File: Pictures/3_3_1_comparisonMethod2.jpg Graphic file (type jpg)
 
 <use Pictures/3_3_1_comparisonMethod2.jpg>
@@ -1513,7 +1519,7 @@ Package pdftex.def Info: Pictures/3_3_1_comparisonMethod2.jpg used on input lin
 e 27.
 (pdftex.def)             Requested size: 384.1122pt x 211.3163pt.
 
-<Pictures/3_3_1_dynamicMethod3.jpg, id=753, 1581.91pt x 1312.905pt>
+<Pictures/3_3_1_dynamicMethod3.jpg, id=751, 1581.91pt x 1312.905pt>
 File: Pictures/3_3_1_dynamicMethod3.jpg Graphic file (type jpg)
 
 <use Pictures/3_3_1_dynamicMethod3.jpg>
@@ -1591,7 +1597,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [37])
 (./Chapter/4_Concept/3_Stages.tex) (./Chapter/4_Concept/4_Exercises.tex
 [38]
-<Pictures/exerciseStructureTopDown2.png, id=832, 518.93875pt x 287.0725pt>
+<Pictures/exerciseStructureTopDown2.png, id=830, 518.93875pt x 287.0725pt>
 File: Pictures/exerciseStructureTopDown2.png Graphic file (type png)
 
 <use Pictures/exerciseStructureTopDown2.png>
@@ -1602,12 +1608,19 @@ ine 9.
 (./Chapter/4_Concept/5_FeedbackSystem.tex) (./Chapter/4_Concept/6_Scenario.tex
 [39 <./Pictures/exerciseStructureTopDown2.png>])
 (./Chapter/4_Concept/7_Conclusion.tex)) (./Chapter/5_System/0_Main.tex [40]
-(./Chapter/5_System/2_GestureConstruction.tex [41
+(./Chapter/5_System/1_TechnicalFeasibility.tex [41
 
 
-])
-(./Chapter/5_System/3_SystemArchitecture.tex [42]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 12.
+]
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 16.
+ [42]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43])
+(./Chapter/5_System/2_GestureConstruction.tex [44] [45])
+(./Chapter/5_System/3_SystemArchitecture.tex
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 15.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1616,63 +1629,55 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [43]
+ [46] [47]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 21.
+nput line 40.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 22.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 41.
 
-<Pictures/handcursorProgress.png, id=877, 327.92513pt x 133.6995pt>
+[48] [49] <Pictures/handcursorProgress.png, id=949, 327.92513pt x 133.6995pt>
 File: Pictures/handcursorProgress.png Graphic file (type png)
 
 <use Pictures/handcursorProgress.png>
-Package pdftex.def Info: Pictures/handcursorProgress.png used on input line 50.
+Package pdftex.def Info: Pictures/handcursorProgress.png used on input line 97.
 
 (pdftex.def)             Requested size: 230.46965pt x 93.96437pt.
-)
-Underfull \vbox (badness 5147) has occurred while \output is active []
-
- [44 <./Pictures/handcursorProgress.png>]
-<Pictures/conceptScenarioFlow2.png, id=905, 486.81876pt x 301.125pt>
+ [50 <./Pictures/handcursorProgress.png>]) <Pictures/conceptScenarioFlow2.png, 
+id=959, 486.81876pt x 301.125pt>
 File: Pictures/conceptScenarioFlow2.png Graphic file (type png)
 
 <use Pictures/conceptScenarioFlow2.png>
-Package pdftex.def Info: Pictures/conceptScenarioFlow2.png used on input line 5
-1.
+Package pdftex.def Info: Pictures/conceptScenarioFlow2.png used on input line 4
+5.
 (pdftex.def)             Requested size: 307.29092pt x 190.07733pt.
- [45]
-(./Chapter/5_System/1_TechnicalFeasibility.tex [46 <./Pictures/conceptScenarioF
-low2.png>]
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 16.
- [47] [48] [49])) (./Chapter/6_Study/0_Main.tex [50])
-(./Chapter/7_Conclusion/0_Main.tex [51
+) (./Chapter/6_Study/0_Main.tex [51]
+[52 <./Pictures/conceptScenarioFlow2.png>]) (./Chapter/7_Conclusion/0_Main.tex
+[53
 
 
-] [52
+] [54
 
-]) [53
+]) [55
 
-] (./MainDocument.bbl [54
+] (./MainDocument.bbl [56
 
 
-]
-[55] [56]
+] [57] [58]
 Underfull \hbox (badness 2799) in paragraph at lines 146--150
 []\T1/ppl/m/sc/10.95 (+20) Kroiÿ, An-dreas\T1/ppl/m/n/10.95 (+20) .  Der Trend-
 sport Slack-line und seine An-wen-
  []
 
-[57] [58]) [59]
+[59] [60]) [61]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./MainDocument.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `MainDocument.out' has not changed.
-(rerunfilecheck)             Checksum: 1D8FDDD4A78D376E1B248714FAEE8379;3824.
+(rerunfilecheck)             Checksum: 9164C8DE5A6381D83BA41D1D444A97CA;3845.
 
 
 LaTeX Warning: There were undefined references.
@@ -1680,13 +1685,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 15277 strings out of 493014
- 243477 string characters out of 6133352
- 365707 words of memory out of 5000000
- 17877 multiletter control sequences out of 15000+600000
- 71462 words of font info for 288 fonts, out of 8000000 for 9000
+ 15342 strings out of 493014
+ 244602 string characters out of 6133352
+ 378607 words of memory out of 5000000
+ 17909 multiletter control sequences out of 15000+600000
+ 71772 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,49p,1684b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,49p,1684b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
@@ -1698,10 +1703,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri
 8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on MainDocument.pdf (67 pages, 3915010 bytes).
+Output written on MainDocument.pdf (69 pages, 3926201 bytes).
 PDF statistics:
- 1073 PDF objects out of 1200 (max. 8388607)
- 901 compressed objects within 10 object streams
- 242 named destinations out of 1000 (max. 500000)
+ 1108 PDF objects out of 1200 (max. 8388607)
+ 934 compressed objects within 10 object streams
+ 264 named destinations out of 1000 (max. 500000)
  33922 words of extra memory for PDF output out of 35830 (max. 10000000)
 
