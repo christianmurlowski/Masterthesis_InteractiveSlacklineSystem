@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {1} \leavevmode {\color {red}Introduction}}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Research Goals}{3}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Hypothesis}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Hypothesis}{4}{subsection.1.2.1}
 \contentsline {section}{\numberline {1.3}Outline}{4}{section.1.3}
 \contentsline {chapter}{\numberline {2} Related Work}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Slackline specific training and effects to the human body}{5}{section.2.1}
@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Methods for slackline skill acquisition}{29}{subsection.3.3.1}
 \contentsline {subsubsection}{Methodical routine}{29}{subsubsection*.29}
 \contentsline {subsubsection}{Differential methodic}{30}{subsubsection*.31}
-\contentsline {subsection}{\numberline {3.3.2}Stages and exercise of learning slacklining}{32}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.2}Stages and exercises of learning slacklining}{32}{subsection.3.3.2}
 \contentsline {subsubsection}{Tier I - Preliminary exercises}{32}{subsubsection*.34}
 \contentsline {subsubsection}{Tier II - First contact with the line}{33}{subsubsection*.35}
 \contentsline {subsubsection}{Tier III - Static exercises}{33}{subsubsection*.36}

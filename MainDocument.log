@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  1 NOV 2017 10:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  1 NOV 2017 20:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1151,6 +1151,9 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (./Chapter/1_Introduction/2_ResearchGoals.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
+
+Underfull \vbox (badness 1137) has occurred while \output is active []
+
  [3
 
 ])
@@ -1546,17 +1549,17 @@ e 28.
 (pdftex.def)             Requested size: 318.81383pt x 175.39311pt.
  [30 <./Pictures/3_3_1_methodicalRoutine3.jpg> <./Pictures/3_3_1_comparisonMeth
 od2.jpg>]
-<Pictures/3_3_1_dynamicMethod3.jpg, id=773, 1581.91pt x 1312.905pt>
-File: Pictures/3_3_1_dynamicMethod3.jpg Graphic file (type jpg)
+<Pictures/3_3_1_dynamicMethodBoth2.jpg, id=773, 1642.135pt x 1415.2875pt>
+File: Pictures/3_3_1_dynamicMethodBoth2.jpg Graphic file (type jpg)
 
-<use Pictures/3_3_1_dynamicMethod3.jpg>
-Package pdftex.def Info: Pictures/3_3_1_dynamicMethod3.jpg used on input line 4
-1.
-(pdftex.def)             Requested size: 384.1122pt x 318.78976pt.
- [31 <./Pictures/3_3_1_dynamicMethod3.jpg>]
-Underfull \vbox (badness 1803) has occurred while \output is active []
+<use Pictures/3_3_1_dynamicMethodBoth2.jpg>
+Package pdftex.def Info: Pictures/3_3_1_dynamicMethodBoth2.jpg used on input li
+ne 40.
+(pdftex.def)             Requested size: 384.1122pt x 331.03773pt.
 
- [32])
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <./Pictures/3_3_1_dynamicMethodBoth2.jpg>] [32])
 (./Chapter/3_Slackline/4_Conclusion.tex) [33]) (./Chapter/4_Concept/0_Main.tex
 [34] (./Chapter/4_Concept/1_General.tex
 Underfull \vbox (badness 7273) has occurred while \output is active []
@@ -1621,7 +1624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
 ) (./Chapter/4_Concept/2_Interaction.tex [37])
 (./Chapter/4_Concept/3_Stages.tex) (./Chapter/4_Concept/4_Exercises.tex
-<Pictures/exerciseStructureTopDown2.png, id=844, 518.93875pt x 287.0725pt>
+<Pictures/exerciseStructureTopDown2.png, id=845, 518.93875pt x 287.0725pt>
 File: Pictures/exerciseStructureTopDown2.png Graphic file (type png)
 
 <use Pictures/exerciseStructureTopDown2.png>
@@ -1656,7 +1659,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 41.
  [48]
-<Pictures/handcursorProgress.png, id=968, 327.92513pt x 133.6995pt>
+<Pictures/handcursorProgress.png, id=969, 327.92513pt x 133.6995pt>
 File: Pictures/handcursorProgress.png Graphic file (type png)
 
 <use Pictures/handcursorProgress.png>
@@ -1664,7 +1667,7 @@ Package pdftex.def Info: Pictures/handcursorProgress.png used on input line 97.
 
 (pdftex.def)             Requested size: 230.46965pt x 93.96437pt.
  [49] [50 <./Pictures/handcursorProgress.png>]) <Pictures/conceptScenarioFlow2.
-png, id=985, 486.81876pt x 301.125pt>
+png, id=986, 486.81876pt x 301.125pt>
 File: Pictures/conceptScenarioFlow2.png Graphic file (type png)
 
 <use Pictures/conceptScenarioFlow2.png>
@@ -1696,7 +1699,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `MainDocument.out' has not changed.
-(rerunfilecheck)             Checksum: 08A5398388F9366D7B813CD79DDB80D1;3889.
+(rerunfilecheck)             Checksum: ABA9DC2AB8B8291A8E5EE33BB3A67AA6;3890.
 
 
 LaTeX Warning: There were undefined references.
@@ -1704,11 +1707,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 15375 strings out of 493014
- 245226 string characters out of 6133352
- 377633 words of memory out of 5000000
- 17924 multiletter control sequences out of 15000+600000
- 73727 words of font info for 299 fonts, out of 8000000 for 9000
+ 15380 strings out of 493014
+ 245303 string characters out of 6133352
+ 378633 words of memory out of 5000000
+ 17926 multiletter control sequences out of 15000+600000
+ 73882 words of font info for 301 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,49p,1684b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1722,10 +1725,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri
 8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on MainDocument.pdf (69 pages, 4633908 bytes).
+Output written on MainDocument.pdf (69 pages, 4596143 bytes).
 PDF statistics:
- 1134 PDF objects out of 1200 (max. 8388607)
- 958 compressed objects within 10 object streams
+ 1135 PDF objects out of 1200 (max. 8388607)
+ 959 compressed objects within 10 object streams
  270 named destinations out of 1000 (max. 500000)
  34447 words of extra memory for PDF output out of 35830 (max. 10000000)
 
