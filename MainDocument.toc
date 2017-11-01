@@ -32,20 +32,21 @@
 \contentsline {chapter}{\numberline {3} Slacklining and slacklining learning techniques}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}Introduction into slacklining}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}Slacklining variations and categorization}{26}{section.3.2}
-\contentsline {section}{\numberline {3.3}Slackline learning techniques}{28}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Methods for slackline skill acquisition}{28}{subsection.3.3.1}
-\contentsline {subsubsection}{Methodical routine}{28}{subsubsection*.28}
-\contentsline {subsubsection}{Differential methodic}{29}{subsubsection*.30}
-\contentsline {subsection}{\numberline {3.3.2}Stages and exercise of learning slacklining}{31}{subsection.3.3.2}
-\contentsline {subsubsection}{Tier I - Preliminary exercises}{32}{subsubsection*.33}
-\contentsline {subsubsection}{Tier II - First contact with the line}{32}{subsubsection*.34}
-\contentsline {subsubsection}{Tier III - Static exercises}{32}{subsubsection*.35}
-\contentsline {subsubsection}{Tier IV - Dynamic exercises}{33}{subsubsection*.36}
+\contentsline {section}{\numberline {3.3}Slackline learning techniques}{29}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Methods for slackline skill acquisition}{29}{subsection.3.3.1}
+\contentsline {subsubsection}{Methodical routine}{29}{subsubsection*.29}
+\contentsline {subsubsection}{Differential methodic}{30}{subsubsection*.31}
+\contentsline {subsection}{\numberline {3.3.2}Stages and exercise of learning slacklining}{32}{subsection.3.3.2}
+\contentsline {subsubsection}{Tier I - Preliminary exercises}{32}{subsubsection*.34}
+\contentsline {subsubsection}{Tier II - First contact with the line}{33}{subsubsection*.35}
+\contentsline {subsubsection}{Tier III - Static exercises}{33}{subsubsection*.36}
+\contentsline {subsubsection}{Tier IV - Dynamic exercises}{33}{subsubsection*.37}
+\contentsline {section}{\numberline {3.4}Conclusion}{33}{section.3.4}
 \contentsline {chapter}{\numberline {4} Concept}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}General Information}{35}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Ten heuristic principles for interaction design}{36}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}System specific basics}{37}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Interaction}{38}{section.4.2}
+\contentsline {section}{\numberline {4.2}Interaction}{37}{section.4.2}
 \contentsline {section}{\numberline {4.3}Stages}{38}{section.4.3}
 \contentsline {section}{\numberline {4.4}Exercises}{38}{section.4.4}
 \contentsline {section}{\numberline {4.5}Feedback system}{39}{section.4.5}
@@ -53,25 +54,25 @@
 \contentsline {section}{\numberline {4.7}Conclusion}{40}{section.4.7}
 \contentsline {chapter}{\numberline {5} System integration}{41}{chapter.5}
 \contentsline {section}{\numberline {5.1}Technical feasibility}{41}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}General setup of the study}{42}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}General setup}{42}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Testing scenario}{42}{subsection.5.1.2}
-\contentsline {subsubsection}{Slackline positioning}{43}{subsubsection*.38}
-\contentsline {subsubsection}{Kinect height}{44}{subsubsection*.39}
+\contentsline {subsubsection}{Slackline positioning}{42}{subsubsection*.39}
+\contentsline {subsubsection}{Kinect height}{43}{subsubsection*.40}
 \contentsline {subsection}{\numberline {5.1.3}Best positioning for beginner learning purposes}{44}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}Gesture Construction}{45}{section.5.2}
+\contentsline {section}{\numberline {5.2}Gesture Construction}{44}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Visual gesture builder}{45}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Building gestures workflow}{45}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}System architecture}{46}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Hardware and software components}{46}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Software implementation}{47}{subsection.5.3.2}
-\contentsline {subsubsection}{Data management}{47}{subsubsection*.40}
-\contentsline {subsubsection}{Engagement gesture}{48}{subsubsection*.41}
-\contentsline {subsubsection}{Starting position}{49}{subsubsection*.42}
-\contentsline {subsubsection}{Hand cursor interaction}{49}{subsubsection*.43}
-\contentsline {subsubsection}{User selection}{50}{subsubsection*.45}
-\contentsline {subsubsection}{Tier \& exercise menu}{50}{subsubsection*.46}
-\contentsline {subsubsection}{Exercise execution, providing feedback}{50}{subsubsection*.47}
+\contentsline {subsection}{\numberline {5.3.2}Software implementation}{46}{subsection.5.3.2}
+\contentsline {subsubsection}{Data management}{47}{subsubsection*.41}
+\contentsline {subsubsection}{Engagement gesture}{47}{subsubsection*.42}
+\contentsline {subsubsection}{Starting position}{48}{subsubsection*.43}
+\contentsline {subsubsection}{Hand cursor interaction}{49}{subsubsection*.44}
+\contentsline {subsubsection}{User selection}{49}{subsubsection*.46}
+\contentsline {subsubsection}{Tier \& exercise menu}{50}{subsubsection*.47}
+\contentsline {subsubsection}{Exercise execution, providing feedback}{50}{subsubsection*.48}
 \contentsline {section}{\numberline {5.4}User Interface}{51}{section.5.4}
 \contentsline {chapter}{\numberline {6} Study}{53}{chapter.6}
 \contentsline {chapter}{\numberline {7} Conclusion and Outlook}{55}{chapter.7}
-\contentsline {section}{Bibliography}{56}{section*.49}
+\contentsline {section}{Bibliography}{56}{section*.50}
