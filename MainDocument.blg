@@ -7,43 +7,43 @@ Warning--empty school in Nusman2006-rf
 Warning--empty school in Thomann2017-ab
 You've used 57 entries,
             2276 wiz_defined-function locations,
-            883 strings with 14844 characters,
-and the built_in function-call counts, 21546 in all, are:
-= -- 2133
+            886 strings with 14996 characters,
+and the built_in function-call counts, 21691 in all, are:
+= -- 2154
 > -- 909
 < -- 0
 + -- 378
 - -- 318
-* -- 1470
-:= -- 3246
-add.period$ -- 170
+* -- 1484
+:= -- 3265
+add.period$ -- 172
 call.type$ -- 57
 change.case$ -- 273
 chr.to.int$ -- 0
 cite$ -- 59
-duplicate$ -- 913
-empty$ -- 1743
+duplicate$ -- 920
+empty$ -- 1750
 format.name$ -- 318
-if$ -- 4772
+if$ -- 4810
 int.to.chr$ -- 0
 int.to.str$ -- 57
-missing$ -- 48
-newline$ -- 287
+missing$ -- 49
+newline$ -- 289
 num.names$ -- 114
-pop$ -- 411
+pop$ -- 403
 preamble$ -- 1
 purify$ -- 273
 quote$ -- 0
-skip$ -- 796
+skip$ -- 803
 stack$ -- 0
-substring$ -- 1334
-swap$ -- 394
+substring$ -- 1357
+swap$ -- 400
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 216
 warning$ -- 2
-while$ -- 207
+while$ -- 209
 width$ -- 59
-write$ -- 588
+write$ -- 592
 (There were 2 warnings)
