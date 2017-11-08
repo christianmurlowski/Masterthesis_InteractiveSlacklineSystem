@@ -54,25 +54,25 @@
 \contentsline {section}{\numberline {4.7}Conclusion}{40}{section.4.7}
 \contentsline {chapter}{\numberline {5} \leavevmode {\color {red}System integration}}{41}{chapter.5}
 \contentsline {section}{\numberline {5.1}Technical feasibility}{41}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}General setup \leavevmode {\color {red}\textbf {REVIEW STOPPED HERE}}}{42}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.1}Constraints of the Kinect}{42}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Testing scenario}{42}{subsection.5.1.2}
-\contentsline {subsubsection}{Slackline positioning}{42}{subsubsection*.39}
-\contentsline {subsubsection}{Kinect height}{43}{subsubsection*.40}
+\contentsline {subsubsection}{Slackline positioning}{43}{subsubsection*.40}
+\contentsline {subsubsection}{Comparing different Kinect heights}{43}{subsubsection*.41}
 \contentsline {subsection}{\numberline {5.1.3}Best positioning for beginner learning purposes}{44}{subsection.5.1.3}
 \contentsline {section}{\numberline {5.2}Execise Integration}{44}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Visual gesture builder}{45}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Building gestures workflow}{45}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}System architecture}{46}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Hardware and software components}{46}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Software implementation}{46}{subsection.5.3.2}
-\contentsline {subsubsection}{Data management}{47}{subsubsection*.41}
-\contentsline {subsubsection}{Engagement gesture}{47}{subsubsection*.42}
-\contentsline {subsubsection}{Starting position}{48}{subsubsection*.43}
-\contentsline {subsubsection}{Hand cursor interaction}{49}{subsubsection*.44}
-\contentsline {subsubsection}{User selection}{50}{subsubsection*.46}
-\contentsline {subsubsection}{Tier \& exercise menu}{50}{subsubsection*.47}
-\contentsline {subsubsection}{Exercise execution, providing feedback}{50}{subsubsection*.48}
-\contentsline {section}{\numberline {5.4}User Interface}{51}{section.5.4}
+\contentsline {subsection}{\numberline {5.3.2}Implementation \leavevmode {\color {red}hier review weiterf\IeC {\"u}hren}}{46}{subsection.5.3.2}
+\contentsline {subsubsection}{Data management}{47}{subsubsection*.42}
+\contentsline {subsubsection}{Engagement gesture}{47}{subsubsection*.43}
+\contentsline {subsubsection}{Starting position}{48}{subsubsection*.44}
+\contentsline {subsubsection}{Hand cursor interaction}{48}{subsubsection*.45}
+\contentsline {subsubsection}{User selection}{49}{subsubsection*.47}
+\contentsline {subsubsection}{Tier \& exercise menu}{50}{subsubsection*.48}
+\contentsline {subsubsection}{Exercise execution, providing feedback}{50}{subsubsection*.49}
+\contentsline {section}{\numberline {5.4}User Interface}{50}{section.5.4}
 \contentsline {chapter}{\numberline {6} Study}{53}{chapter.6}
 \contentsline {chapter}{\numberline {7} Conclusion and Outlook}{55}{chapter.7}
-\contentsline {section}{Bibliography}{56}{section*.51}
+\contentsline {section}{Bibliography}{56}{section*.52}

@@ -5,32 +5,33 @@ In the following several components of the general system architecture will be d
 \subsection{Hardware and software components}
 % Kinect, Beamer, Screen, Slackline --> Alpidex High Performance
 
-As slackline the mobile \textit{alpidex POWER-WAVE 2.0} is used. It is placed in front of the \textit{Microsoft Kinect v2}, which is used as tracking device. The Kinect itself is attached on a \todo{modell} tripod with a height of about \todo{height, hüfthöhe?}. A \textit{Steambox PC} \todo{footnote specs} served as development device that fulfilled the recommended specs of the Kinect: \todo{kinect specs}. To give the user a more immersive feeling a projector \todo{modell} with a resolution of 1920x1080 was attached on a traverse system. With this a projection screen with a size of \todo{2x3m} is used.
+As slackline the mobile \textit{alpidex POWER-WAVE 2.0} is used. It is placed in front of the \textit{Microsoft Kinect v2}, which is used as tracking device. The Kinect itself is attached on a \todo{modell} tripod with a height of about \todo{height, hüfthöhe?}. A \textit{Steambox PC} \todo{footnote specs} served as development device that fulfilled the recommended specs of the Kinect: \textit{Windows 8, 4 GB Memory, Physical dual-core processor with 3.1 GHz or faster, USB 3.0 Gen-2 controller, Graphics card supporting DirectX 11}. A projector \todo{modell} with a resolution of 1920x1080 was attached on a traverse system to give the user a more immersive feeling. The image is visualised on a projection screen with a size of \todo{2x3m}.
 
 % KinectStudio, VGB, Unity3D, Kinect SDK for unity, Kinect MS-SDK
-For software realization the cross-platform game engine \textit{Unity3D} by \textit{Unity Technologies} is used. This is a game engine which is mostly used for developing
-Applications developed with this can be deployed for several platforms on desktop, mobile, web, console, TV, VR, and AR (e.g. Windows, macOS, Android, iOS, Oculus Rift, Windows Mixed Reality and so on). It is widely used for developing games but has also very high compatibility with devices like \textit{VR Head Mounted Display}, \textit{Leap Motion}, or the Kinect.
+For software realization the cross-platform game engine \textit{Unity3D} by \textit{Unity Technologies} is used. It is widely known for developing games but manufacturer of several interaction devices (e.g. \textit{HTC Vive}, \textit{Oculus Rift}, \textit{Leap Motion}) provide \todo{compatibility packages} to make use of them in Unity. Applications can be deployed for several platforms on desktop, mobile, web, console, TV, VR, and AR (e.g. Windows, macOS, Android, iOS, Oculus Rift, Windows Mixed Reality and so on).
 
- For accessing the data stream of the Kinect the \textit{Microsoft Kinect SDK v2.0}
-\footnote{\label{fn:kinectTools}\url{https://developer.microsoft.com/de-de/windows/kinect/tools}}has to be installed on the PC. Microsoft offers also a \textit{Kinect for Windows Unity package}\cref{fn:kinectTools}, which delivers all required scripts to manage the data stream in Unity for creating a Kinect based unity application. Since \textit{Unity 5} it can be used with the free personal edition, whereas before it could be only used with the pro version. Also the \textit{Kinect v2 Examples with MS-SDK} \footnote{\url{https://www.assetstore.unity3d.com/en/\#!/content/18708}} by Rumen Filkov were used for making data access and interaction implementation more simple as well as getting an idea on how to handle incoming data from the Kinect.
+To access the data stream of the Kinect the \textit{Microsoft Kinect SDK v2.0}~\footnote{\label{fn:kinectTools}\url{https://developer.microsoft.com/de-de/windows/kinect/tools}} has to be installed on the PC. Microsoft offers also a \textit{Kinect for Windows Unity package}\cref{fn:kinectTools}, which provides all required scripts in Unity for creating a Kinect based unity application. Since \textit{Unity 5} it can be used with the free personal edition of Unity, whereas before it could be only used with the pro version. Also the \textit{Kinect v2 Examples with MS-SDK} \footnote{\url{https://www.assetstore.unity3d.com/en/\#!/content/18708}} by Rumen Filkov was used to make data access and interaction implementation more simple as well as getting an idea on how to handle incoming data from the Kinect.
 
-\subsection{Software implementation}
+\todo{hier evtl UI design chapter rein}
+
+\subsection{Implementation \todo{hier review weiterführen}}
 The software development process consists of the interplay of two system components (figure \todo{image unity and kinect sdk}). First Unity itself, which is used to display and manage actions by the user on the interface. Second the Kinect SDK plugin for accessing the users action recognized by the Kinect device. In the following the data structure and management, interaction integration, and feedback implemention of the system are further described.
 
 %This application a 3D project has been generated, since the Kinect uses 3D space to track the user, she should be able to interact within that, and a 3-Dimensional environment design is considered. Further some examples of the interaction implementation is described.
 \subsubsection{Data management}
-The data will be stored in JSON files, which is more human-readable and makes accessing and updating data simple in Unity via the JSON serialization feature~\footnote{\url{https://docs.unity3d.com/Manual/JSONSerialization.html}}. For each object containing key-value pairs a class is generated, i.e. for Users, Tier, Exercise, Sides, and Repetitions. In listing \todo{ref c\# code example} an example for the \textit{Tier} object can be seen. A class must be marked as serializable to work with the JSON serializer. It contains variables, which match the JSON structure on listing \todo{ref json code}. 
-\todo{c\# code example and json file}
+The data will be stored in JSON files, which is more human-readable and makes accessing and updating data simple in Unity via the JSON serialization feature~\footnote{\url{https://docs.unity3d.com/Manual/JSONSerialization.html}}. 
+%For each object containing key-value pairs a class is generated, i.e. for Users, Tier, Exercise, Sides, and Repetitions. In listing \todo{ref c\# code example} an example for the \textit{Tier} object can be seen. A class must be marked as serializable to work with the JSON serializer. It contains variables, which match the JSON structure on listing \todo{ref json code}. 
+%\todo{c\# code example and json file}
 
-With this an instance of the class can be created and the value accessed for adjustments (listing \todo{ref img class instance}). This can then be serialized into a JSON object. Line \todo{ln number} shows how existing JSON data can be converted back into an object instance. This is needed to fetch user data that already exists.
+%With this an instance of the class can be created and the value accessed for adjustments (listing \todo{ref img class instance}). This can then be serialized into a JSON object. Line \todo{ln number} shows how existing JSON data can be converted back into an object instance. This is needed to fetch user data that already exists.
 
-\todo{img class instance}
+%\todo{img class instance}
 
-In the system a default exercise JSON file was created that is used as reference for all users. Each user has therefore the same basement regarding the exercises right from the beginning. For proper data management a internal exercise and user editor was created in Unity (figure \todo{ref editor window}). The data files can be managed and adjusted more easily for testing purposes.
+In the system a default exercise JSON file was created that is used as reference for all users. Each user has therefore the same basement regarding the exercises right from the beginning. For proper data management a internal exercise and user editor was created in Unity. The data files can be managed and adjusted more easily for testing purposes.
 
-\todo{img editor window}
+%\todo{img editor window}
 
-The files are stored within the \textit{StreamingAssets} folder of unity. It serves as location where files that should be accessed via path name of the target machines file system should be stored. The overall data structure can be seen in figure \todo{img ref data structure}.
+The files are stored within the \textit{StreamingAssets} folder of unity. It is a location in which data is stored that should be accessed via path name of the target machines file system. The overall data structure can be seen in figure \todo{img ref data structure}.
 
 \todo{image of data structure}
 
