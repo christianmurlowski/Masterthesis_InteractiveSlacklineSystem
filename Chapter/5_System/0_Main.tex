@@ -33,16 +33,15 @@ This chapter discusses the implementation of the interactive learning system wit
 \end{comment}
 
 \section{User Interface}\label{5_4_userInterface}
+The user starts with an engagement gesture which is implemented as raising her hand over the head. After that a tutorial about interaction techniques of the system will be given. Now that she's confident with the system interaction she can select her profile in the user menu. This loads the profile which leads further to the level selection menu. In here she can select a level, whereas initially the first one is can be selected. Selecting a level leads to the exercise menu. In here she has to read initially the stage introduction to become a basic understanding about the exercises within. After reading this, it unlocks the first exercise. Selecting an exercise leads to the side selection, where the user has to choose the side she wants to train. This is followed by an introduction of the exercise, in which is explained how to perform it correctly. If the user is ready, she should stay in a starting position to be able to start the exercise execution. Then she find herself in the exercise execution scene. It provides indicators to correctly execute the exercise, like the time, repetitions, confidence and a checklist. After finishing with the exercise, a summary is shown which summarizes the user performance. Then she can return to the main menu or directly try the next exercise. At the end of each stage an overall summary gives an overview about all exercises with average performance parameters.
+
 The user should be introduced to the stage. In here the purpose, goal, and helpful techniques should be given, such that the user becomes an overview about the exercises. At last a summary scene shows several performance parameter for the exercises in this stage.
 
-The user starts with an engagement gesture like raising her hand over the head to convey that the system initially recognises and responds to a user action. After that a tutorial about the interaction with the system will be given that covers clicking and scrolling techniques. Now she's confident with the system interaction and can select a profile in the user select to train. This loads the profile which leads to the stage selection menu. In here she can select a stage, whereas initially the first one is can be selected and the others have to be unlocked by successfully accomplishing all exercises in the preview stage. Selecting a stage leads to the exercise menu. In here she has to read initially the stage introduction to become a basic understanding about the exercises in here. After reading this, it unlocks the first exercise. Selecting an exercise leads to the side selection, where the user has to choose the side she wants to train for this exercise. This is followed by an introduction of the exercise, in which is explained how to perform it correctly. If the user is ready, she should stay in a starting position to be able to start the exercise execution. In here she find all relevant elements to perform the exercise, like indicators for the time, repetitions, confidence and a checklist, which helps her to correctly execute the exercise. After successfully executing the exercise, a summary is shown which summarizes the user performance. Then she can return to the main menu or directly approach the next exercise. A stage summary gives an overview about all exercises with average performance parameters.
-
-\todo{replace figure with directional flow}
 \begin{figure}[htb]
 	\centering
 	\begin{minipage}[t]{1\linewidth}
 		\centering
-		\includegraphics[width=0.8\linewidth]{Pictures/conceptScenarioFlow2}
+		\includegraphics[width=1\linewidth]{Pictures/5_1_UIWorkflow}
 		\caption{Scenario workflow}
 		\label{fig:scenarioWorkflow}
 	\end{minipage}

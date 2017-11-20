@@ -1,6 +1,15 @@
 \section{System architecture}\label{5_3_systemArchitecture}
 %- System architecture of system --> Unity3D, Kinect SDK, Kinectstudio, VGB --> kinect sdk free to use since version X
-In the following several components of the general system architecture will be described that are necessary for the functionality of the interactive learning system with real-time feedback and for the study afterwards. An overview can be seen in figure \todo{systemarchitecture}.
+In the following several components of the general system architecture will be described that are necessary for the functionality of the interactive learning system with real-time feedback and for the study afterwards. An overview can be seen in figure~\ref{fig:5_3_systemArchitecture}.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_3_systemArchitecture}
+		\caption{System overview}
+		\label{fig:5_3_systemArchitecture}
+	\end{minipage}
+\end{figure}
 
 \subsection{Hardware and software components}
 % Kinect, Beamer, Screen, Slackline --> Alpidex High Performance
@@ -14,12 +23,22 @@ To access the data stream of the Kinect the \textit{Microsoft Kinect SDK v2.0}~\
 
 \todo{hier evtl UI design chapter rein}
 
-\subsection{Implementation \todo{hier review weiterführen}}
-The software development process consists of the interplay of two system components (figure \todo{image unity and kinect sdk}). First Unity itself, which is used to display and manage actions by the user on the interface. Second the Kinect SDK plugin for accessing the users action recognized by the Kinect device. In the following the data structure and management, interaction integration, and feedback implemention of the system are further described.
+\subsection{Implementation}
+The software development process consists of the interplay of two system components (Figure~\ref{fig:5_3_unityKinectArchitecture}). First Unity itself, which is used to create the virtual environment, interface, and manage actions by the user. Second the Kinect SDK plugin for accessing input data of the user recognized by the Kinect device like e.g. joint position, gesture detection, and user actions. In the following the data structure and management, interaction integration, and feedback implementation of the system are further described.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_3_unityKinectArchitecture}
+		\caption{Unity and Kinect architecture}
+		\label{fig:5_3_unityKinectArchitecture}
+	\end{minipage}
+\end{figure}
 
 %This application a 3D project has been generated, since the Kinect uses 3D space to track the user, she should be able to interact within that, and a 3-Dimensional environment design is considered. Further some examples of the interaction implementation is described.
 \subsubsection{Data management}
-The data will be stored in JSON files, which is more human-readable and makes accessing and updating data simple in Unity via the JSON serialization feature~\footnote{\url{https://docs.unity3d.com/Manual/JSONSerialization.html}}. 
+All relevant user and exercise data will be stored in JSON files, which is more human-readable and makes accessing and updating data simple in Unity via the JSON serialization feature~\footnote{\url{https://docs.unity3d.com/Manual/JSONSerialization.html}}. Each user should have the same basement regarding the exercises. Therefore a default exercise JSON file serves as reference for all registered users in the system. An internal editor for exercises and users was created for proper data management and to adjust the data files more easily for testing purposes. The overall data structure can be seen in figure \todo{img ref data structure}.
+
 %For each object containing key-value pairs a class is generated, i.e. for Users, Tier, Exercise, Sides, and Repetitions. In listing \todo{ref c\# code example} an example for the \textit{Tier} object can be seen. A class must be marked as serializable to work with the JSON serializer. It contains variables, which match the JSON structure on listing \todo{ref json code}. 
 %\todo{c\# code example and json file}
 
@@ -27,17 +46,42 @@ The data will be stored in JSON files, which is more human-readable and makes ac
 
 %\todo{img class instance}
 
-In the system a default exercise JSON file was created that is used as reference for all users. Each user has therefore the same basement regarding the exercises right from the beginning. For proper data management a internal exercise and user editor was created in Unity. The data files can be managed and adjusted more easily for testing purposes.
 
 %\todo{img editor window}
 
-The files are stored within the \textit{StreamingAssets} folder of unity. It is a location in which data is stored that should be accessed via path name of the target machines file system. The overall data structure can be seen in figure \todo{img ref data structure}.
+%The files are stored within the \textit{StreamingAssets} folder of Unity. Data stored in this folder can easily be accessed via path name of the target machines file system. 
 
 \todo{image of data structure}
 
 \subsubsection{Engagement gesture}
-The engagement gesture is the very first interaction with the system. The user raises her hand, such that she initially knows that the system recognizes her actions. An example on how to acess the Kinect and manage this gesture can be seen in the code snipped in listing~\ref{lst:codeEngagement}. The \textit{KinectManager} exists as an empty \textit{GameObject} in the scene and has to be referenced in the script. The \textit{KienctInterop} class delivers several utility and interop function and calls the sensor interfaces. Here it is used to assign the proper joint type for tracking them. For the functionality the script has to assure that the Kinect is initialized, a user has been detected, and the relating joints are recognized. In line\textit{~\ref{lst:codeEngagement15}} the condition checks if the current vertical position of the right hand is greater than the current position of the head joint. If this is the case, the next scene is loaded. This is actually part of the script for the first scene in the application, in which the user has to engage with the Kinect by doing the described movement.
+The engagement gesture is the very first user interaction with the system. %It is done by raising any hand over the head. This is to convey her that the system recognises specific movement actions. 
+She has to raise her hand over the head whereupon the system conveys that it recognises specific user actions. 
 
+A code example on how to this gesture is implemented can be seen in listing~\ref{lst:codeEngagement}.
+%The \textit{KinectManager} exists as an empty \textit{GameObject} in the scene and has to be referenced in the script. The \textit{KienctInterop} class delivers several utility and interop function and calls the sensor interfaces. Here it is used to assign the proper joint type for tracking them. 
+First the developer has to assure that the Kinect is initialized, a user has been detected, and the relating joints are recognized.  A condition checks if the current vertical position of the right hand is above the head joint (\textit{Listin~\ref{lst:codeEngagement} line~\ref{lst:codeEngagement15}}). If this is the case, the next scene can be loaded. 
+%This is actually part of the script for the first scene in the application, in which the user has to engage with the Kinect by doing the described movement.
+
+\begin{lstlisting}[caption=C$^\sharp$ example code for tracking a raising hand, label=lst:codeEngagement]
+if (_kinectManager.IsInitialized() && _kinectManager.IsUserDetected())
+{
+	long uId = _kinectManager.GetPrimaryUserID();
+
+	if ((_kinectManager.IsJointTracked(uId, (int) _jointHandRight) && 
+			 _kinectManager.IsJointTracked(uId, (int) _jointHead))
+	{
+		Vector3 jointHandRightPosition = 
+			_kinectManager.GetJointKinectPosition(uId, (int) _jointHandRight);
+		Vector3 jointHeadPosition = 
+			_kinectManager.GetJointKinectPosition(uId, (int) _jointHead);			
+
+		if (jointHandRightPosition.y > jointHeadPosition.y)(*@ \label{lst:codeEngagement15} @*)
+			SceneManager.LoadScene("Tutorial");
+	}
+}
+\end{lstlisting}
+
+\begin{comment}
 \begin{lstlisting}[caption=C$^\sharp$ example code for tracking a raising hand, label=lst:codeEngagement]
 public  KinectManager KinectManager;
 private KinectManager _kinectManager;
@@ -73,23 +117,60 @@ void Update ()
 	}
 }
 \end{lstlisting}
-\subsubsection{Starting position}\label{5_2_1_startingPosition}
-After engaging with the system the user  is introduced in how to stay in the proper starting position. This is required by some actions like just before starting the exercise execution. It ensures the user is ready and to get her initial joint positions for primarily calculating the y-axis of the joint (cf. \todo{section Feedback integration}). This initial joint position can differ if the user stands closer or more far away from the sensor because of the Kinects angel regarding its height. Hence the z-axis joint position of the left and right feet will be compared with each other to have the same value with a little tolerance. Hereby the user has to stand with both feets in line and in front to the Kinect like in figure \todo{ref illustration}.
-
-\todo{illustration feets parallel}
+\end{comment}
 
 \subsubsection{Hand cursor interaction}
-To be more familiar with the system the user interacts with her own hands. With this she is in constant system interaction and gets more used to it. A cursor visualizes where the user currently is and with this she can interact with other interface elements. As interaction gesture four different approaches were tested. First hovering with the hand over elements (Figure \todo{interaction variation A}). This gesture is a good approach specific small elements should be selectable. The problem was that relatively big and many interaction elements exists. Therefore the user accidently hovers over elements which resulted in unwanted misclicks. 
-The second one is interacting by closing the hand to a fist (Figure \todo{interaction variation B}). In testing periods many user accidently triggered a click although they thought they did nothing wrong. Problems exist here concerning the users anatomical behaviour. The difficulty was that the users hand, closes automatically during hand movement. No user will stretch and spread her hand out because it is uncomfortable. Hence they tend to close the hand a little bit, which is more comfortable and results in a misclick recognition of the Kinect, which is fortified by the enlarged standing position of the user (Figure \todo{comparison default \& target }).
-A better interaction gesture is the \textit{V-sign}. The user makes simply a pointing gesture with the index as well as the middle finger (Figure \todo{interaction variation C}). The event is triggered when the user releases into the default hand state. It clearly distinguished from the fist gesture and will be accurately recognized. To give the user appropriate feedback the state is visualized like in (Figure \todo{img handcursorPointing}).
-The last gesture is pushing the hand towards the Kinect. This is related to the real world like pushing a button down and therefore the most intuitive gestures (Figure \todo{interaction variation D}). 
-%The state of the this interaction gesture is visualized by providing a filling circle around the hand cursor that represents the progress like seen in figure \ref{fig:handcursorProgress}.
-Since in this gesture the hand has to move from point a to point b in the z-axis the progress is visualized by a filling circle like seen in figure~\ref{fig:handcursorProgress}.
+To provide the possibility of an autonomous interaction the user has to navigate on her own with the system. Her hands serve as input for interacting with interface elements. The current position on the screen is visualised by a virtual cursor. Therefore she is in constant interaction with the system and becomes more familiar to it.
 
-The pushing gesture is implemented as the main interaction technique because of its natural movement and real world 
-reference. A fallback gestures is also implemented if something went wrong or the user feels uncomfortable with the pushing gesture. The \textit{V-sign} is the next best technique for this, since there were less problems than with the remaining gestures.
+Four different approaches were tested as interaction gesture. First hovering with the hand over elements (Figure~\ref{fig:5_3_hover}). It is a good approach if small elements should be selectable. However relatively big and many interaction elements exists in the system, which resulted in accidental and unwanted misclicks.
+The second one is interacting by closing the hand to a fist or grab gesture and releasing it(Figure~\ref{fig:5_3_fist}). This resulted also in unwanted misclicks because of the anatomical behaviour and tracking distance. The hand of the testing users closes automatically a little bit during system interaction, which is sufficient to trigger a click (Figure \todo{comparison default \& target }).
+A better interaction gesture is the \textit{V-sign}. The user makes simply a pointing gesture with the index as well as the middle finger. The click event triggers when the user releases her hand into the default state (Figure~\ref{fig:5_3_point}). The last interaction gesture is pushing the hand towards the Kinect. It is related to the real world like pushing a button down and therefore the most intuitive and natural gesture behaviour (Figure~\ref{fig:5_3_push}). %Since in this gesture the hand has to move from point a to point b in the z-axis the progress is visualized by a filling circle like seen in figure~\ref{fig:handcursorProgress}.
 
-\todo{img interaction varations A - Hover\&wait, B - fist, C - pointing, D - push}
+Therefore as main interaction serves the hand push gesture. The V-sign servers as fallback interaction if something wents wrong with the push gesture.
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{0.15\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_3_hover}
+		\subcaption{Hover and wait}
+		\label{fig:5_3_hover}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.1\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_3_fist}
+		\subcaption{Grab}
+		\label{fig:5_3_fist}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.12\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_3_point}
+		\subcaption{Lasso}
+		\label{fig:5_3_point}
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.22\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_3_push2}
+		\subcaption{Pushing towards Kinect}
+		\label{fig:5_3_push}
+	\end{minipage}
+	\caption{Several tried hand interaction techniques of the Kinect}
+	\label{fig:5_3_handInteraction}
+\end{figure}
+
+\begin{comment}
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_3_handInteraction}
+		\caption{Several hand interaction techniques of the Kinect}
+		\label{fig:5_3_handInteraction}
+	\end{minipage}
+\end{figure}
 
 \begin{figure}[htb]
 	\centering
@@ -100,17 +181,24 @@ reference. A fallback gestures is also implemented if something went wrong or th
 		\label{fig:handcursorProgress}
 	\end{minipage}
 \end{figure}
+\end{comment}
+
+\subsubsection{Starting position}\label{5_2_1_startingPosition}
+After engaging with the system the user is introduced on how to stay in a proper starting position. She has to stand with both feet parallel and in front to the Kinect like in figure \todo{ref illustration}. This is required by some actions like just before starting the exercise execution. It ensures the readiness of the user and is needed to get the initial foot joint positions (cf. \todo{section Feedback integration}). This is mainly to verify that the user stays, in the slackline exercises, on the line and not on the ground, since the Kinect cannot cover this condition.
+%This initial joint position can differ if the user stands closer or more far away from the sensor because of the Kinects angel regarding its height. Hence the z-axis joint position of the left and right feet will be compared to have the same value with a little tolerance. 
+
+\todo{illustration feets parallel}
 
 \subsubsection{User selection}
-The user profile are created by the developer. In the user selection the trainee should select the right profile by herself to cover the condition of multiple user that can train with the system. When selecting a user the system checks if the JSON file has any data. If no data is available the default exercise JSON file will be copied. The users name and id are saved in as \textit{PlayerPrefs}. This is a class in Unity that provides the possibility to be globally accessible in the application. The respective code for setting and getting the values can be seen in listing \todo{ref listing playerpfrefs}. This is needed to find the correct path for the JSON files to save the data.
-
-\todo{listing playerprefs}
+The system can have multiple user profiles. Hereby more than one user can train with the system separately. When the trainee selects her profile the system checks if the JSON file has any data. If no data is available, which means it is a new user, the default exercise JSON file will be copied into the profile. Then all exercise data are loaded into the system for data adjustment and management.
+%The trainee selects her profile by herself. With this the data will be loaded into the system. In the user selection the trainee should select the right profile by herself to cover the condition of multiple user that can train with the system. 
+%The users name and id are saved in as \textit{PlayerPrefs}. This is a class in Unity that provides the possibility to be globally accessible in the application. The respective code for setting and getting the values can be seen in listing \todo{ref listing playerpfrefs}. This is needed to find the correct path for the JSON files to save the data.
 
 \subsubsection{Tier \& exercise menu}
-The tier and exercise menus are designed as levels the user has to accomplish. A locked tier can be unlocked by executing all exercises of the previous one. This is done by storing a boolean variable named \textit{accomplished} for every tier and its exercises. The structure already seen in section \textit{\ref{4_4_exercises}} is adapter for storing the corresponding information for the tier, exercise, side, or repetition.
+The tier and exercise menus are designed as levels. Like a regular level system all levels are locked but the first one to provide a starting position. They can be unlocked by executing each exercise of the previous one. The structure already seen in section \textit{\ref{4_4_exercises}} is adapted to store the corresponding information for the tier, exercise, side, and repetition.
 
 \subsubsection{Exercise execution, providing feedback}
-The most functionality is implemented in the exercise execution. Feedback indicators provide the user with information about the current exercise in real time. This should support the user to successfully accomplish the exercise performance. In the slackline system the following feedback indicators are integrated:
+The exercise execution consists of the biggest functionality implementation. Feedback indicators provide the user with necessary information about the current exercise in real time. This should help to enhance the performance in her execution and for successfully accomplishing the exercise. In the slackline system the following feedback indicators are integrated:
 
 \begin{itemize}
 \item Correct performance of an exercise
@@ -122,7 +210,7 @@ The most functionality is implemented in the exercise execution. Feedback indica
 \item Checklist about key elements of an exercise (hands up, foot stretched, etc.)
 \end{itemize}
 
-After each successful exercise execution the user is lead to a summary screen. Here she gets an overview about her performance. It shows parameters about the execution time, attempts, and the confidence for each repetition as well as an average value for the accomplished side. A similar summary screen exists also for the entire stage with the same parameters but only the average value for the entire exercises.
+After each successful exercise execution the user is lead to a summary screen. Here she gets an overview about her performance. It shows parameters about the execution time, attempts, and the confidence for each repetition as well as an average value for the accomplished side. A similar summary screen exists also for the entire level with the same parameters but only the average value for the entire exercises.
 
 \begin{comment}
 \item When an exercise is currently correctly performed
