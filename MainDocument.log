@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  20 NOV 2017 14:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  22 NOV 2017 09:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,7 +1239,7 @@ Underfull \vbox (badness 4531) has occurred while \output is active []
 File: Pictures/bodyPlanes.jpg Graphic file (type jpg)
 
 <use Pictures/bodyPlanes.jpg>
-Package pdftex.def Info: Pictures/bodyPlanes.jpg used on input line 30.
+Package pdftex.def Info: Pictures/bodyPlanes.jpg used on input line 31.
 (pdftex.def)             Requested size: 145.96451pt x 175.64735pt.
 
 <Pictures/bodyDirectionalReferences.jpg, id=494, 1455.4375pt x 1135.24126pt>
@@ -1247,7 +1247,7 @@ File: Pictures/bodyDirectionalReferences.jpg Graphic file (type jpg)
 
 <use Pictures/bodyDirectionalReferences.jpg>
 Package pdftex.def Info: Pictures/bodyDirectionalReferences.jpg used on input l
-ine 37.
+ine 38.
 (pdftex.def)             Requested size: 230.46965pt x 179.75417pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1258,10 +1258,10 @@ File: Pictures/systemInaccurateImprecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemInaccurateImprecise.jpg>
 Package pdftex.def Info: Pictures/systemInaccurateImprecise.jpg used on input l
-ine 53.
+ine 54.
 (pdftex.def)             Requested size: 188.21709pt x 91.70677pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--54
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
 []\T1/ppl/m/n/8 (a) |In-ac-cu-rate and im-pre-cise sys-tem gen-er-ates
  []
 
@@ -1270,7 +1270,7 @@ File: Pictures/systemInaccuratePrecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemInaccuratePrecise.jpg>
 Package pdftex.def Info: Pictures/systemInaccuratePrecise.jpg used on input lin
-e 60.
+e 61.
 (pdftex.def)             Requested size: 188.21709pt x 91.58347pt.
 
 <Pictures/systemAccuratePrecise.jpg, id=509, 243.309pt x 118.38515pt>
@@ -1278,7 +1278,7 @@ File: Pictures/systemAccuratePrecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemAccuratePrecise.jpg>
 Package pdftex.def Info: Pictures/systemAccuratePrecise.jpg used on input line 
-67.
+68.
 (pdftex.def)             Requested size: 188.21709pt x 91.58315pt.
 
 <Pictures/systemAccurateImprecise.jpg, id=510, 233.31pt x 113.52pt>
@@ -1286,7 +1286,7 @@ File: Pictures/systemAccurateImprecise.jpg Graphic file (type jpg)
 
 <use Pictures/systemAccurateImprecise.jpg>
 Package pdftex.def Info: Pictures/systemAccurateImprecise.jpg used on input lin
-e 74.
+e 75.
 (pdftex.def)             Requested size: 188.21709pt x 91.58347pt.
  [12 <./Pictures/systemInaccurateImprecise.jpg> <./Pictures/systemInaccuratePre
 cise.jpg> <./Pictures/systemAccuratePrecise.jpg> <./Pictures/systemAccurateImpr
@@ -1737,10 +1737,7 @@ File: Pictures/5_1_UIWorkflow.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/5_1_UIWorkflow.jpg used on input line 44.
 (pdftex.def)             Requested size: 384.1122pt x 242.48212pt.
 ) (./Chapter/6_Study/0_Main.tex [51] [52 <./Pictures/5_1_UIWorkflow.jpg>] (./Ch
-apter/6_Study/1_ResearchQuestions.tex
-Underfull \vbox (badness 6775) has occurred while \output is active []
-
- [53
+apter/6_Study/1_ResearchQuestions.tex [53
 
 
 ])
@@ -1754,40 +1751,50 @@ Package pdftex.def Info: Pictures/6_studyGroupsExample.jpg used on input line 1
 (pdftex.def)             Requested size: 307.29092pt x 173.12701pt.
 ) (./Chapter/6_Study/3_SetUp.tex
 [54 <./Pictures/6_studyGroupsExample.jpg>]) (./Chapter/6_Study/4_Structure.tex
-[55]) (./Chapter/6_Study/5_ResultsAnalysis.tex)
-(./Chapter/6_Study/6_Discussion.tex)) (./Chapter/7_Conclusion/0_Main.tex
-[56]) [57
+Underfull \vbox (badness 7759) has occurred while \output is active []
+
+ [55])
+(./Chapter/6_Study/5_ResultsAnalysis.tex) (./Chapter/6_Study/6_Discussion.tex))
+(./Chapter/7_Conclusion/0_Main.tex [56] [57] [58
+
+]) [59
+
+] (./MainDocument.bbl
+[60
 
 
-] (./MainDocument.bbl [58
-
-
-] [59] [60]
+] [61] [62]
 Underfull \hbox (badness 2799) in paragraph at lines 169--173
 []\T1/ppl/m/sc/10.95 (+20) Kroiÿ, An-dreas\T1/ppl/m/n/10.95 (+20) .  Der Trend-
 sport Slack-line und seine An-wen-
  []
 
-[61] [62] [63]) [64]
+[63] [64] [65]) [66]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
  (./MainDocument.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
-Package rerunfilecheck Info: File `MainDocument.out' has not changed.
-(rerunfilecheck)             Checksum: C59F3949228C0E09B1D2B21873DC88C7;4551.
 
+
+Package rerunfilecheck Warning: File `MainDocument.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `MainDocument.out':
+(rerunfilecheck)             Before: 2EBBD0C8C593B1B62E7A7AD776DB3F47;4570
+(rerunfilecheck)             After:  6932DCF8E95AEB0CAED286669EB413C2;4569.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 15476 strings out of 493014
- 247904 string characters out of 6133352
+ 15477 strings out of 493014
+ 247922 string characters out of 6133352
  366633 words of memory out of 5000000
  17985 multiletter control sequences out of 15000+600000
- 74284 words of font info for 306 fonts, out of 8000000 for 9000
+ 74129 words of font info for 304 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,49p,1680b,1947s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1801,10 +1808,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 alatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri
 8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on MainDocument.pdf (73 pages, 5089414 bytes).
+Output written on MainDocument.pdf (75 pages, 5092272 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 1033 compressed objects within 11 object streams
- 276 named destinations out of 1000 (max. 500000)
+ 1236 PDF objects out of 1440 (max. 8388607)
+ 1043 compressed objects within 11 object streams
+ 280 named destinations out of 1000 (max. 500000)
  34572 words of extra memory for PDF output out of 35830 (max. 10000000)
 
