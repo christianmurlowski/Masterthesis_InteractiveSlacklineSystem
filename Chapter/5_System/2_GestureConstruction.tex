@@ -11,7 +11,6 @@ This tool relies on machine learning and looks at the data given by the develope
 The workflow for creating a gesture is almost always the same (Figure~\ref{fig:5_3_gestureCreation}). 
 First the actual gesture has to be recorded via KinectStudio. This is a tool provided by Microsoft for monitoring and recording clips of the Kinect streams. After finishing with the recording a new project can be made in the Visual Gesture Builder. The developer selects the body parts that are necessary for the gesture. After that the indicator of the gesture has to be defined, i.e. if it is discrete or continuous. Discrete means that the system determines if a gesture is currently performed or not. It provides a confidence value that determines the correctness of the persons execution regarding the specific gesture. This is the majority for gesture tracking like e.g. raising the hand or lifting a leg. However the continuous indicator means that the progress of a gesture can be measured. Often multiple small gesture are combined to an entire gesture. This could be for example a golf swing or switching the standing leg, where rather the progress has to be measured than the confidence~\cite{MicrosoftVGB}.
 
-After the project creation training data can be inserted, which are the prior recorded clips. The developer has the inserted tags that define the starting as well as the end point of the gesture. When finished a gesture database file can be built and then analysed via a live preview or with other recorded clips in the analyse area. The gesture database file can then be implemented in the application for gesture detecting. The structuring of the application architecture is part of the next section.
 \begin{figure}[htb]
 	\centering
 	\begin{minipage}[t]{1\linewidth}
@@ -21,3 +20,5 @@ After the project creation training data can be inserted, which are the prior re
 		\label{fig:5_3_gestureCreation}
 	\end{minipage}
 \end{figure}
+
+After the project creation training data can be inserted, which are the prior recorded clips. The developer has to define tags that describe the starting and the end point of the gesture. After finishing with the tagging a gesture database file can be built. Afterwards it can be analysed via a live preview or with other recorded clips in a separate analysing area. If some misbehaviour appears the developer has to record and add more clips for the gesture or the tags have to be adjusted. Lastly after the testing phase a gesture database file can be built and then implemented in the application for gesture detecting. %The structuring of the application architecture is part of the next section.
