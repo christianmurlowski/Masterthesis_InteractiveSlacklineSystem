@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  26 NOV 2017 01:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  26 NOV 2017 21:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -895,13 +895,23 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \cellspace@firstht=\dimen147
 \cellspace@lastdp=\dimen148
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 ))
-(./MainDocument.aux)
+(./MainDocument.aux
+
+LaTeX Warning: Label `table:1' multiply defined.
+
+
+LaTeX Warning: Label `table:1@cref' multiply defined.
+
+)
 \openout1 = `MainDocument.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -919,8 +929,7 @@ LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 3.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 \AtBeginShipoutBox=\box55
@@ -1664,17 +1673,20 @@ Package pdftex.def Info: Pictures/5_1_1_trackingRange.png used on input line 26
 .
 (pdftex.def)             Requested size: 169.0103pt x 113.85783pt.
  [42 <./Pictures/5_1_1_visionAngle.png> <./Pictures/5_1_1_trackingRange.png>])
-(./Chapter/5_System/2_GestureConstruction.tex [43] [44]
-<Pictures/5_3_gestureCreation.jpg, id=956, 1429.34pt x 1078.0275pt>
+(./Chapter/5_System/2_GestureConstruction.tex
+Underfull \vbox (badness 4416) has occurred while \output is active []
+
+ [43]
+[44] <Pictures/5_3_gestureCreation.jpg, id=955, 1429.34pt x 1078.0275pt>
 File: Pictures/5_3_gestureCreation.jpg Graphic file (type jpg)
 
 <use Pictures/5_3_gestureCreation.jpg>
-Package pdftex.def Info: Pictures/5_3_gestureCreation.jpg used on input line 18
+Package pdftex.def Info: Pictures/5_3_gestureCreation.jpg used on input line 45
 .
 (pdftex.def)             Requested size: 384.1122pt x 289.70602pt.
 )
 (./Chapter/5_System/3_SystemArchitecture.tex
-<Pictures/5_3_systemArchitecture.jpg, id=958, 1240.635pt x 558.085pt>
+<Pictures/5_3_systemArchitecture.jpg, id=957, 1240.635pt x 558.085pt>
 File: Pictures/5_3_systemArchitecture.jpg Graphic file (type jpg)
 
 <use Pictures/5_3_systemArchitecture.jpg>
@@ -1688,7 +1700,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 7981) has occurred while \output is active []
 
  [46 <./Pictures/5_3_systemArchitecture.jpg>]
-<Pictures/5_3_unityKinectArchitecture.jpg, id=976, 1467.4825pt x 493.845pt>
+<Pictures/5_3_unityKinectArchitecture.jpg, id=975, 1467.4825pt x 493.845pt>
 File: Pictures/5_3_unityKinectArchitecture.jpg Graphic file (type jpg)
 
 <use Pictures/5_3_unityKinectArchitecture.jpg>
@@ -1703,7 +1715,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 66.
  [48]
-<Pictures/5_3_hover.jpg, id=1022, 244.915pt x 250.9375pt>
+<Pictures/5_3_hover.jpg, id=1021, 244.915pt x 250.9375pt>
 File: Pictures/5_3_hover.jpg Graphic file (type jpg)
 
 <use Pictures/5_3_hover.jpg>
@@ -1714,21 +1726,21 @@ Underfull \hbox (badness 4391) in paragraph at lines 136--136
 []\T1/ppl/m/n/8 (a) |Hover and
  []
 
-<Pictures/5_3_fist.jpg, id=1023, 162.6075pt x 208.78pt>
+<Pictures/5_3_fist.jpg, id=1022, 162.6075pt x 208.78pt>
 File: Pictures/5_3_fist.jpg Graphic file (type jpg)
 
 <use Pictures/5_3_fist.jpg>
 Package pdftex.def Info: Pictures/5_3_fist.jpg used on input line 142.
 (pdftex.def)             Requested size: 38.41356pt x 49.32133pt.
 
-<Pictures/5_3_point.jpg, id=1024, 186.6975pt x 248.93pt>
+<Pictures/5_3_point.jpg, id=1023, 186.6975pt x 248.93pt>
 File: Pictures/5_3_point.jpg Graphic file (type jpg)
 
 <use Pictures/5_3_point.jpg>
 Package pdftex.def Info: Pictures/5_3_point.jpg used on input line 149.
 (pdftex.def)             Requested size: 46.09158pt x 61.45367pt.
 
-<Pictures/5_3_push2.jpg, id=1025, 339.2675pt x 248.93pt>
+<Pictures/5_3_push2.jpg, id=1024, 339.2675pt x 248.93pt>
 File: Pictures/5_3_push2.jpg Graphic file (type jpg)
 
 <use Pictures/5_3_push2.jpg>
@@ -1750,7 +1762,7 @@ File: omsppl.fd
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 204.
 ) [50]
-<Pictures/5_1_UIWorkflow.jpg, id=1040, 1078.0275pt x 680.5425pt>
+<Pictures/5_1_UIWorkflow.jpg, id=1039, 1078.0275pt x 680.5425pt>
 File: Pictures/5_1_UIWorkflow.jpg Graphic file (type jpg)
 
 <use Pictures/5_1_UIWorkflow.jpg>
@@ -1762,12 +1774,12 @@ Package pdftex.def Info: Pictures/5_1_UIWorkflow.jpg used on input line 54.
 
 ])
 (./Chapter/6_Study/2_Participants.tex
-Overfull \hbox (2.47624pt too wide) in paragraph at lines 20--37
+Overfull \hbox (2.47624pt too wide) in paragraph at lines 18--35
  [][] 
  []
 
 ) (./Chapter/6_Study/3_Methods.tex [54]
-<Pictures/6_studyGroupsExample.jpg, id=1065, 469.00218pt x 264.23718pt>
+<Pictures/6_studyGroupsExample.jpg, id=1064, 469.00218pt x 264.23718pt>
 File: Pictures/6_studyGroupsExample.jpg Graphic file (type jpg)
 
 <use Pictures/6_studyGroupsExample.jpg>
@@ -1801,18 +1813,21 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `MainDocument.out' has not changed.
-(rerunfilecheck)             Checksum: 15B8993E1F33F9608A4734023C9FCFA0;4429.
+(rerunfilecheck)             Checksum: B4CF0158A55450DA01EB897EBC1D0AB7;4444.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 59.
  ) 
 Here is how much of TeX's memory you used:
- 15633 strings out of 493014
- 250135 string characters out of 6133352
- 372454 words of memory out of 5000000
- 18130 multiletter control sequences out of 15000+600000
+ 15640 strings out of 493014
+ 250310 string characters out of 6133352
+ 373928 words of memory out of 5000000
+ 18136 multiletter control sequences out of 15000+600000
  72843 words of font info for 306 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,15n,49p,1680b,1227s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1827,10 +1842,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
 alatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb>
-Output written on MainDocument.pdf (75 pages, 5081805 bytes).
+Output written on MainDocument.pdf (75 pages, 5080187 bytes).
 PDF statistics:
- 1224 PDF objects out of 1440 (max. 8388607)
- 1032 compressed objects within 11 object streams
- 280 named destinations out of 1000 (max. 500000)
+ 1223 PDF objects out of 1440 (max. 8388607)
+ 1031 compressed objects within 11 object streams
+ 279 named destinations out of 1000 (max. 500000)
  34044 words of extra memory for PDF output out of 35830 (max. 10000000)
 

@@ -36,7 +36,7 @@ Since the mobile slackline device has a length of three meters, it would fit ent
 %The test took place in the laboratory of the research group in the \textit{german reasearch center for artificial intelligence}~\footnote{\url{https://www.dfki.de/web/kontakt/dfki-saarbruecken}}. A big advantage of this is the large space to place the slackline easily in different variations. 
 The slackline is placed in three positions to the Kinect: frontal (0 Degree), diagonal (45 Degree) and sideways (90 Degree) \textbf{\todo{(Figure X - 1)}}. Each of this positions is tested regarding three different height level of the Kinect: 80 cm, 160 cm, and 240 cm. Therefore it was attached on a tripod or traverse system (\textbf{\todo{Figure X - 2}}). At the end nine different combinations are covered to track a user on a slackline, which gives a general overview of the Kinect height to the slackline. The testing person was recorded via \textit{KinectStudio}~\footnote{\url{https://developer.microsoft.com/de-de/windows/kinect/tools}}, a tool for recording clips out of the streaming data of the Kinect. In the following the results discuss the feasibility and appropriate tracking positions.
 
-\subsubsection{Slackline positioning}
+\subsection{Slackline \& Kinect positioning}
 With a slackline positioned sideways in 90 Degrees rotated to the Kinect, the advantage is that the whole body on the slackline is in a constant line within the tracking area. No interference regarding the limits of the tracking range can happen \textbf{\todo{(Figure X)}}. However, the Kinect had problems to detect the body joints with appropriate accuracy and precision, because of overlapping body parts (\textbf{\todo{Figure X}}).
 
 By placing the slackline diagonal in 45 Degrees to the Kinect the frontal and end point of the slackline now differ in the vertical axis, which is unproblematic  \textbf{\todo{(Table X and Figure X)}}. 
@@ -48,7 +48,6 @@ Positioning the slackline frontal towards the Kinect resulted in the best user t
 The sensor can see the full body and track the joints without any problems.
 But detection failure occurred at the starting position of the slackline since the it utilises the entire depth range of the Kinect. This is because the user stands closer to the outermost limit of the detection range~\textbf{\todo{(Figure X)}}.
 
-\subsubsection{Comparing different Kinect heights}
 %Three main height levels were used to show the main differences of the tracking behaviour from the Kinect. It is mounted on a tripod and covers the heights of 0.80, 1.60 and 2.40 meters off the ground. 
 
 Beginning with a height of 2.40 meters the Kinect has a very steep view angle to track the slackers' body on the full range of the slackline. Because of this the depth range shifts into the front like seen in \textbf{\todo{Figure X}}. Therefore, if the slacker begins at the starting position on the slackline, she immediately reaches the end of the tracking area which can cause detection problems. Also the closer she walks towards the Kinect the more the joints overlap due to the angle view of the Kinect.
@@ -57,6 +56,27 @@ With a height of 1.60 and 0.80 meters the entire body is fully visible in almost
 
 \todo{\textbf{table}}
 %The tracking and view is more homogeneous and the angle flatter, which results in the possibility to use the full depth range. With a higher attachment the angle will be too steep, which results in less depth range, as well as more occlusions of body parts can occur.
+\rowcolors{2}{tablerowgray}{tablerowgray}
+\begin{table}[h!]
+\centering
+%\arrayrulecolor{white}
+\renewcommand{\arraystretch}{1}
+\begin{tabular}{ | c | c | c | c | c | c | c | c | }
+\hline
+\rowcolor{tableheadergray} & \multicolumn{7}{ c| }{\textbf{Slackline Positioning}} \\ 
+\rowcolor{tableheadergray} & \multicolumn{2}{ c| }{\textbf{Frontal}} & \multicolumn{2}{ |c| }{\textbf{Diagonal}} & \multicolumn{3}{ |c| }{\textbf{Sideways}}\\
+\rowcolor{tableheadergray} \multirow{-3}{*}{\textbf{Kinect Height}} & \textbf{Front} & \textbf{Back} & \textbf{Front} & \textbf{Back} & \textbf{Front} & \textbf{Back} & \textbf{Mid} \\
+\hline
+2,40 m & 1,30m & 4,30m & 1,90m & 3,80m & 3,00m & 3,00m & 2,70m \\
+\hline
+1,60 m & 1,70m & 4,70m & 2,10m & 4,00m & 3,00m & 3,00m & 2,70m \\
+\hline
+0,80 m & 1,30m & 4,30m & 1,90m & 3,80m & 2,60m & 2,60m & 2,10m \\
+\hline
+\end{tabular}
+\caption{Demographic data and physical activity table}
+\label{table:1}
+\end{table}
 
 \subsection{Best positioning for study purposes}
 % But since beginner will use the entire slackline range it can be neglected.
