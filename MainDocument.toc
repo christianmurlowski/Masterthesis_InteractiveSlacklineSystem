@@ -36,11 +36,8 @@
 \contentsline {subsection}{\numberline {3.3.1}Methods for slackline skill acquisition}{28}{subsection.3.3.1}
 \contentsline {subsubsection}{Methodical routine}{29}{subsubsection*.28}
 \contentsline {subsubsection}{Differential method}{30}{subsubsection*.30}
-\contentsline {subsection}{\numberline {3.3.2}Stages and Exercises of Learning Slacklining}{31}{subsection.3.3.2}
-\contentsline {subsubsection}{Level I - Preliminary Exercises}{32}{subsubsection*.33}
-\contentsline {subsubsection}{Level II - First Contact with the Line}{32}{subsubsection*.34}
-\contentsline {subsubsection}{Level III - Static Exercises}{33}{subsubsection*.35}
-\contentsline {subsubsection}{Level IV - Dynamic Exercises}{33}{subsubsection*.36}
+\contentsline {subsection}{\numberline {3.3.2}Levels and Exercises of Learning Slacklining}{31}{subsection.3.3.2}
+\contentsline {subsubsection}{Level for Slacklining Skill Acquisition}{32}{subsubsection*.33}
 \contentsline {section}{\numberline {3.4}Conclusion}{33}{section.3.4}
 \contentsline {chapter}{\numberline {4} Concept}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}Basic Principles}{35}{section.4.1}
@@ -54,34 +51,34 @@
 \contentsline {chapter}{\numberline {5} \leavevmode {\color {red}System implementation}}{41}{chapter.5}
 \contentsline {section}{\numberline {5.1}Hardware}{41}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Physical setup}{41}{subsection.5.1.1}
-\contentsline {subsubsection}{Limitations of the Kinect}{42}{subsubsection*.39}
-\contentsline {subsubsection}{Testing scenario}{43}{subsubsection*.41}
-\contentsline {subsubsection}{Best positioning for study purposes}{43}{subsubsection*.42}
+\contentsline {subsubsection}{Limitations of the Kinect}{42}{subsubsection*.36}
+\contentsline {subsubsection}{Testing scenario}{43}{subsubsection*.38}
+\contentsline {subsubsection}{Best positioning for study purposes}{43}{subsubsection*.39}
 \contentsline {section}{\numberline {5.2}Exercise Integration}{44}{section.5.2}
 \contentsline {subsection}{\numberline {5.2.1}Workflow for Building Gestures}{45}{subsection.5.2.1}
 \contentsline {section}{\numberline {5.3}System architecture}{46}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Hardware and Software Components}{46}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Software Implementation}{47}{subsection.5.3.2}
-\contentsline {subsubsection}{Data Management}{47}{subsubsection*.47}
-\contentsline {subsubsection}{Engagement gesture}{48}{subsubsection*.48}
-\contentsline {subsubsection}{Hand cursor interaction}{49}{subsubsection*.49}
-\contentsline {subsubsection}{Starting position}{49}{subsubsection*.51}
-\contentsline {subsubsection}{User selection}{50}{subsubsection*.52}
-\contentsline {subsubsection}{Tier \& exercise menu}{50}{subsubsection*.53}
-\contentsline {subsubsection}{Exercise execution, providing feedback}{50}{subsubsection*.54}
+\contentsline {subsubsection}{Data Management}{47}{subsubsection*.44}
+\contentsline {subsubsection}{Engagement gesture}{48}{subsubsection*.45}
+\contentsline {subsubsection}{Hand cursor interaction}{49}{subsubsection*.46}
+\contentsline {subsubsection}{Starting position}{49}{subsubsection*.48}
+\contentsline {subsubsection}{User selection}{50}{subsubsection*.49}
+\contentsline {subsubsection}{Tier \& exercise menu}{50}{subsubsection*.50}
+\contentsline {subsubsection}{Exercise execution, providing feedback}{50}{subsubsection*.51}
 \contentsline {section}{\numberline {5.4}User Interface}{51}{section.5.4}
 \contentsline {chapter}{\numberline {6} Study}{53}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction and Goals}{53}{section.6.1}
 \contentsline {section}{\numberline {6.2}Participants}{54}{section.6.2}
 \contentsline {section}{\numberline {6.3}Method}{55}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Conditions of Slackline Training}{55}{subsection.6.3.1}
-\contentsline {subsubsection}{Interactive Slackline System Group}{55}{subsubsection*.57}
-\contentsline {subsubsection}{Human Trainer Group}{55}{subsubsection*.58}
-\contentsline {subsubsection}{Apparatus}{55}{subsubsection*.60}
+\contentsline {subsubsection}{Interactive Slackline System Group}{55}{subsubsection*.54}
+\contentsline {subsubsection}{Human Trainer Group}{55}{subsubsection*.55}
+\contentsline {subsubsection}{Apparatus}{55}{subsubsection*.57}
 \contentsline {subsection}{\numberline {6.3.2}Design}{56}{subsection.6.3.2}
 \contentsline {subsection}{\numberline {6.3.3}Procedure}{56}{subsection.6.3.3}
 \contentsline {subsection}{\numberline {6.3.4}Independent and dependent variables}{57}{subsection.6.3.4}
 \contentsline {section}{\numberline {6.4}\leavevmode {\color {red}Results and analysis}}{58}{section.6.4}
 \contentsline {section}{\numberline {6.5}\leavevmode {\color {red}Discussion}}{58}{section.6.5}
 \contentsline {chapter}{\numberline {7} Conclusion and Outlook}{59}{chapter.7}
-\contentsline {section}{Bibliography}{60}{section*.61}
+\contentsline {section}{Bibliography}{60}{section*.58}
