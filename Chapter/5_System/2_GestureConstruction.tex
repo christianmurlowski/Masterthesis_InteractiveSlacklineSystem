@@ -1,9 +1,10 @@
-\section{Execise Integration}\label{5_2_gestureConstruction}
+\section{Exercise Integration}\label{5_2_gestureConstruction}
 %- Recording of gestures --> Kinectstudio --> Making/Train gestures --> Visual gestures builder
 The SLS leads the trainee through predefined exercises for slacklining. In development it is important to know that the exercises are defined as \textit{gestures}. The \textit{Kinect for Windows Human Interface Guidelines} describe the term gesture as follows: "\textit{[...] we use the term gesture broadly to mean any form of movement that can be used as an input or interaction to control or influence an application.}"~\cite{MicrosoftHIG2014-mh}.
 
-There are two approaches for creating custom gestures.
-The first one is to do heuristics, which means to manually track the position of each joint of the user. Conditions can then be defined according to the action that should happen e.g. if a joint exceed a certain threshold or is in a defined range.
+Two approaches exist to create custom gestures.
+The first one is heuristics, which means to manually track the position of each joint of the user.
+Conditions can then be defined according to the action that should happen e.g. if a joint exceed a certain threshold or is in a defined range.
 This can be easily used for simple gestures like raising the hand over the head.
 For more complex gestures, the developer must have a good understanding about the movement and behaviour of the human body.
 Furthermore, environmental factors, like an inappropriate mounting of the Kinect, could exacerbate managing and maintaining the code.
