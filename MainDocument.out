@@ -37,22 +37,25 @@
 \BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 37
 \BOOKMARK [0][-]{chapter.5}{ System implementation}{}% 38
 \BOOKMARK [1][-]{section.5.1}{Hardware}{chapter.5}% 39
-\BOOKMARK [2][-]{subsection.5.1.1}{Physical setup}{section.5.1}% 40
-\BOOKMARK [1][-]{section.5.2}{Exercise Integration}{chapter.5}% 41
-\BOOKMARK [2][-]{subsection.5.2.1}{Workflow for Building Gestures}{section.5.2}% 42
-\BOOKMARK [1][-]{section.5.3}{System architecture}{chapter.5}% 43
-\BOOKMARK [2][-]{subsection.5.3.1}{Hardware and Software Components}{section.5.3}% 44
-\BOOKMARK [2][-]{subsection.5.3.2}{Software Implementation}{section.5.3}% 45
-\BOOKMARK [1][-]{section.5.4}{User Interface}{chapter.5}% 46
-\BOOKMARK [0][-]{chapter.6}{ Study}{}% 47
-\BOOKMARK [1][-]{section.6.1}{Introduction and Goals}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.2}{Participants}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.3}{Method}{chapter.6}% 50
-\BOOKMARK [2][-]{subsection.6.3.1}{Conditions of Slackline Training}{section.6.3}% 51
-\BOOKMARK [2][-]{subsection.6.3.2}{Design}{section.6.3}% 52
-\BOOKMARK [2][-]{subsection.6.3.3}{Procedure}{section.6.3}% 53
-\BOOKMARK [2][-]{subsection.6.3.4}{Independent and dependent variables}{section.6.3}% 54
-\BOOKMARK [1][-]{section.6.4}{Results and analysis}{chapter.6}% 55
-\BOOKMARK [1][-]{section.6.5}{Discussion}{chapter.6}% 56
-\BOOKMARK [0][-]{chapter.7}{ Conclusion and Outlook}{}% 57
-\BOOKMARK [1][-]{section*.58}{Bibliography}{chapter.7}% 58
+\BOOKMARK [2][-]{subsection.5.1.1}{Components}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.2}{Kinect and Slackline positioning}{section.5.1}% 41
+\BOOKMARK [1][-]{section.5.2}{Data Model}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{Movement Recognition}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.3.1}{Heuristics vs. Visual Gesture Builder}{section.5.3}% 44
+\BOOKMARK [2][-]{subsection.5.3.2}{Workflow for Building Gestures}{section.5.3}% 45
+\BOOKMARK [1][-]{section.5.4}{Frontend}{chapter.5}% 46
+\BOOKMARK [2][-]{subsection.5.4.1}{Unity3D and Kinect SDK}{section.5.4}% 47
+\BOOKMARK [2][-]{subsection.5.4.2}{Implementation}{section.5.4}% 48
+\BOOKMARK [1][-]{section.5.5}{User Interface}{chapter.5}% 49
+\BOOKMARK [0][-]{chapter.6}{ Study}{}% 50
+\BOOKMARK [1][-]{section.6.1}{Introduction and Goals}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.2}{Participants}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.3}{Method}{chapter.6}% 53
+\BOOKMARK [2][-]{subsection.6.3.1}{Conditions of Slackline Training}{section.6.3}% 54
+\BOOKMARK [2][-]{subsection.6.3.2}{Design}{section.6.3}% 55
+\BOOKMARK [2][-]{subsection.6.3.3}{Procedure}{section.6.3}% 56
+\BOOKMARK [2][-]{subsection.6.3.4}{Independent and dependent variables}{section.6.3}% 57
+\BOOKMARK [1][-]{section.6.4}{Results and analysis}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.5}{Discussion}{chapter.6}% 59
+\BOOKMARK [0][-]{chapter.7}{ Conclusion and Outlook}{}% 60
+\BOOKMARK [1][-]{section*.56}{Bibliography}{chapter.7}% 61

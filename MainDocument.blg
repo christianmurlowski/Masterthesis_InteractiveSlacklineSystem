@@ -5,45 +5,45 @@ The style file: acm_fkerber.bst
 Database file #1: references.bib
 Warning--empty school in Nusman2006-rf
 Warning--empty school in Thomann2017-ab
-You've used 60 entries,
+You've used 59 entries,
             2276 wiz_defined-function locations,
-            904 strings with 15499 characters,
-and the built_in function-call counts, 22570 in all, are:
-= -- 2238
-> -- 945
+            901 strings with 15413 characters,
+and the built_in function-call counts, 22359 in all, are:
+= -- 2219
+> -- 938
 < -- 0
-+ -- 394
-- -- 330
-* -- 1550
-:= -- 3406
-add.period$ -- 180
-call.type$ -- 60
-change.case$ -- 285
++ -- 391
+- -- 328
+* -- 1542
+:= -- 3372
+add.period$ -- 177
+call.type$ -- 59
+change.case$ -- 282
 chr.to.int$ -- 0
-cite$ -- 62
-duplicate$ -- 956
-empty$ -- 1821
-format.name$ -- 330
-if$ -- 5001
+cite$ -- 61
+duplicate$ -- 948
+empty$ -- 1798
+format.name$ -- 328
+if$ -- 4955
 int.to.chr$ -- 0
-int.to.str$ -- 60
+int.to.str$ -- 59
 missing$ -- 51
-newline$ -- 303
-num.names$ -- 120
-pop$ -- 415
+newline$ -- 298
+num.names$ -- 118
+pop$ -- 406
 preamble$ -- 1
-purify$ -- 285
+purify$ -- 282
 quote$ -- 0
-skip$ -- 834
+skip$ -- 827
 stack$ -- 0
-substring$ -- 1397
-swap$ -- 415
+substring$ -- 1392
+swap$ -- 413
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 228
+type$ -- 224
 warning$ -- 2
-while$ -- 219
-width$ -- 62
-write$ -- 620
+while$ -- 217
+width$ -- 61
+write$ -- 610
 (There were 2 warnings)

@@ -1,0 +1,46 @@
+\section{Data Model}\label{5_2_dataModel}
+\todo{Vlt eher allgemeiner beschrieben mit videos, pictures und so}
+%This application a 3D project has been generated, since the Kinect uses 3D space to track the user, she should be able to interact within that, and a 3-Dimensional environment design is considered. Further some examples of the interaction implementation is described.
+All relevant data is stored in JSON files. It is more human-readable and makes accessing as well as updating data simple. Each user should have the same basis of exercises. Therefore a default exercise JSON file serves as template for all registered users in the SLS. An internal editor was created for proper data management and to adjust the data files more easily for testing purposes. The overall data structure can be seen in Figure~\ref{fig:5_2_dataModel}.
+
+%For each object containing key-value pairs a class is generated, i.e. for Users, Tier, Exercise, Sides, and Repetitions. In listing \todo{ref c\# code example} an example for the \textit{Tier} object can be seen. A class must be marked as serializable to work with the JSON serializer. It contains variables, which match the JSON structure on listing \todo{ref json code}. 
+%\todo{c\# code example and json file}
+
+%With this an instance of the class can be created and the value accessed for adjustments (listing \todo{ref img class instance}). This can then be serialized into a JSON object. Line \todo{ln number} shows how existing JSON data can be converted back into an object instance. This is needed to fetch user data that already exists.
+
+%\todo{img class instance}
+
+
+%\todo{img editor window}
+
+%The files are stored within the \textit{StreamingAssets} folder of Unity. Data stored in this folder can easily be accessed via path name of the target machines file system. 
+
+The user data represent the profile of slacker, who wants to train with the system. It consists of her name and a default template of levels and exercises. Only one user profile at a time can be active. This ensures that no user can affect other user profiles.
+
+A level can be unlocked but do not have to be accomplished, like the very first level. It consists of a level name that will be displayed to the slacker and a file name for loading the appropriate gesture database. Furthermore, the specific goals and a description list are included. Several exercises can be part of a level.
+
+Exercises can be, like a level, unlocked, accomplished, have an exercise name to be displayed, and have a file name to load the appropriate exercise in the database, pictures, and videos in the application. For the gesture detection it is important to store if the current exercise is discrete or progress gesture. The purpose of this is further described in Section~\textit{\nameref{5_3_movementRecognition}}. Further, the average user time, average confidence, and entire amount of attempts out of both sides for this exercise are stored. Lastly, each exercise has two sides.
+
+Every side can be accomplished and unlocked. A direction specifies the current side, which can be either left or right. The actual exercise description is also stored here, as well as the average user time, average confidence, and the entire attempts out of all repetitions.
+
+Multiple repetitions are part of a side. A single repetition consists of a minimum time the user has to reach, the time of the user in execution, her confidence, and the amount of attempts she needed. 
+Further the side has a checklist, which is used to help the user for the correct exercise execution.
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=1\linewidth]{Pictures/5_2_dataModel}
+		\caption{Data model overview}
+		\label{fig:5_2_dataModel}
+	\end{minipage}
+\end{figure}
+
+%- Name, Side
+%-- Side, Description, Min time, Repetitions
+%-- Average user time, user attempts, confidence
+%-- Checklist
+%--- Repetitions
+%--- User time, User time, Attempts
+%- Average user time, user attempts, confidence
+%- Gesture

@@ -3,17 +3,21 @@ The following chapter discusses the implementation of an interactive slackline l
 %A certain freedom of movement of the user is necessary to be able to practice slackline exercises appropriately.
 Like already discussed in section~\textit{\nameref{trackingTechnologie}} the low-cost tracking camera Microsoft Kinect v2 will be used as tracking device.
 %Therefore, like already discussed in section~\textit{\nameref{trackingTechnologie}}, the low-cost tracking camera Microsoft Kinect v2 will be used as tracking device. 
-Before going into detail with the actual implementation, section~\textit{\nameref{5_1_technicalFeasibility}} discusses the tracking performance of the Kinect with persons on a slackline.
+Before going into detail with the actual implementation, section~\textit{\nameref{5_1_systemSetup}} discusses the general system architecture including a comparison of the Kinects' tracking performance for people on a slackline.
+Further section \textit{\nameref{5_2_dataModel}} covers how the data is structured and stored.
 Currently each exercise has to be created by the developer such that the SLS can match and compare the movement performance of a trainee with the actual exercise. 
-The workflow of constructing such exercises is described in section \textit{\nameref{5_2_gestureConstruction}}.
+The workflow of constructing such exercises is described in section \textit{\nameref{5_3_movementRecognition}}.
 %describes the recording and training of predefined exercises for the system. 
-After that, section \textit{\nameref{5_3_systemArchitecture}} explains the general relationship of each system component, which includes for example the interplay of the Kinect SDK with  Unity3D as game engine, and more specific topics like e.g. real-time feedback integration.
-%data management, the interaction techniques, gesture integration, and real-time feedback.
-Lastly section \textit{\nameref{5_4_userInterface}} covers the design process of the application with scribbles, mock-ups, and the final interface.
+Lastly section \textit{\nameref{5_4_software}} explains the relationship between the Kinect SDK and Unity3D as game engine, as well as each application component based on a top-down workflow through the interface.
 
-\input{Chapter/5_System/1_TechnicalFeasibility}
-\input{Chapter/5_System/2_GestureConstruction}
-\input{Chapter/5_System/3_SystemArchitecture}
+%data management, the interaction techniques, gesture integration, and real-time feedback.
+
+%Lastly section \textit{\nameref{5_4_userInterface}} covers the design process of the application with scribbles, mock-ups, and the final interface.
+
+\input{Chapter/5_System/1_SystemSetup}
+\input{Chapter/5_System/2_DataModel}
+\input{Chapter/5_System/3_MovementRecognition}
+\input{Chapter/5_System/4_Frontend}
 
 \begin{comment}
 - Kinect used for tracking --> how Kinect tracks user - skeleton, infrared, own algorithm -> RW
