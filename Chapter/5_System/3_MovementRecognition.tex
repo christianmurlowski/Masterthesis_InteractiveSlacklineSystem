@@ -1,27 +1,25 @@
 \section{Movement Recognition}\label{5_3_movementRecognition}
 %- Recording of gestures --> Kinectstudio --> Making/Train gestures --> Visual gestures builder
-The SLS leads the trainee through predefined exercises for slacklining. In development it is important to know that the exercises are defined as \textit{gestures}. The \textit{Kinect for Windows Human Interface Guidelines} describe the term gesture as follows: "\textit{[...] we use the term gesture broadly to mean any form of movement that can be used as an input or interaction to control or influence an application.}"~\cite{MicrosoftHIG2014-mh}.
-
-\todo{confidence + progress einbauen}
+The SLS leads the trainee through predefined exercises for slacklining. In the case of this thesis it is important to know that exercises are defined as \textit{gestures} within the context of the Kinect development. The \textit{Kinect for Windows Human Interface Guidelines} describe the term gesture as follows: "\textit{[...] we use the term gesture broadly to mean any form of movement that can be used as an input or interaction to control or influence an application.}"~\cite{MicrosoftHIG2014-mh}.
 
 \subsection{Heuristics vs. Visual Gesture Builder}
-\todo{hier vlt was kürzen}
-
-Two approaches exist to create custom gestures.
+The Kinect SDK provides two approaches for tracking a gesture in an application~\cite{MicrosoftVGB}.
 The first one is heuristics, which means to manually track the position of each joint of the user.
 Conditions can then be defined according to the action that should happen e.g. if a joint exceed a certain threshold or is in a defined range.
-This can be easily used for simple gestures like raising the hand over the head.
+This is a good approach for simple gestures like raising the hand over the head, which is implemented in the SLS as engagement gesture.
 For more complex gestures, the developer must have a good understanding about the movement and behaviour of the human body.
-Furthermore, environmental factors, like an inappropriate mounting of the Kinect, could exacerbate managing and maintaining the code.
+Furthermore, environmental factors like an inappropriate mounting of the Kinect could exacerbate managing and maintaining the code.
 
-Usually a common developer has not the appropriate expertise of the human body behaviour.
-Hence, it is recommended to use the Visual gesture builder (VGB) provided by Microsoft for more complex gestures.
-It uses machine learning to build a database out of pre-recorded clips.
+Usually a common developer has not the appropriate expertise of the human body behaviour or it would take too much effort.
+Hence, it is recommended to use the Visual gesture builder (VGB) provided by Microsoft. 
+With this more complex gestures can be easily defined, e.g. doing squats that is a sequence of multiple actions and also implemented in the SLS as an exercise.
+The VGB uses machine learning to build a database out of pre-recorded clips.
 Afterwards it can be implemented in an application to track the desired gesture.
-A major advantage is that environmental factors are not as complex to handle as in comparison to heuristics. The user just records multiple clips with the Kinect and let the machine learning algorithm learn it.
+A major advantage is that environmental factors are not as complex to handle as in comparison to heuristics.
+The user just records multiple clips with the Kinect and builds a new database.
 In the heuristic approach it has to be considered manually in the code.
 The cons of the VGB are the huge file size of the recorded clips that can take very much disk space.
-Also tagging keyframes for the gestures, which should be detected by the application, is time consuming. 
+Also tagging the clips for the gestures, which should be detected by the application, is time consuming. 
 On the other hand the tool is simple to use and constructing complex gestures can be easy like described in the next subsection.
 
 
@@ -43,13 +41,38 @@ Also tagging keyframes for recorded clips, which should be detected by the appli
 On the other hand the tool is simple to use and constructing complex gestures can be easy like described in the next subsection.
 \end{comment}
 
-\subsection{Workflow for Building Gestures}
-\todo{hier vlt was kürzen}
+\begin{comment}
+\subsection{Categories of indicators}
+An indicator defines the machine learning technology with which the gesture will be learned.
+It can be categorized in a discrete or continuous gesture.
+Discrete gestures underlay a conditional check in which the application determines if a certain gesture is currently performed or not.
+It provides a confidence value that compares the correctness of the persons execution regarding the gestures in the database.
+This is the majority usage for gesture tracking like e.g. raising the hand or lifting a leg.
 
-The workflow for creating a gesture follows a general routine (Figure~\ref{fig:5_3_gestureCreation}). 
-At first the gesture has to be recorded via \textit{KinectStudio}. This is a tool provided by Microsoft for monitoring and recording clips of the Kinect streams. Before inserting the clip into the VGB a new project has to be created. Therefore the developer first selects the body parts that are necessary for the gesture. After that an indicator has to be defined, i.e. if it is a discrete or continuous gesture. Discrete gestures underlay a conditional check in which the application determines if a certain gesture is currently performed or not. It provides a confidence value that compares the correctness of the persons execution regarding the gestures in the database. This is the majority usage for gesture tracking like e.g. raising the hand or lifting a leg. A continuous gesture however means that its progress can be measured instead of the confidence. Usually multiple small gestures are combined to an entire gesture, for which the progress is essential. This could be for example a golf swing or switching the standing leg~\cite{MicrosoftVGB}.
+A continuous gesture however means that a progress can be measured instead of the confidence.
+Usually a sequence of motions is combined to an entire gesture.
+The progress gives feedback about the ongoing movement of the person regarding the gesture.
+This could be for example a golf swing or switching the standing leg~\cite{MicrosoftVGB}.
+\end{comment}
 
-After the project creation the recordings can be inserted as training data. The developer has to describe a starting as well as an end point of the gesture by tagging the clips. When finished, a gesture database file can be built. For testing reasons it can be analysed via a live preview or with other recorded clips in a separate analysis area. If the testing results are not satisfying, the developer can record and add more clips or adjust the tags of existing clips. Lastly, after the testing phase the gesture database file can be implemented in the application for gesture detection. %The structuring of the application architecture is part of the next section.
+\subsection{Workflow for Building Gestures \todo{- hier vlt was kürzen}}
+The workflow for creating a gesture follows a general routine (Figure~\ref{fig:5_3_gestureCreation}).
+At first the gesture has to be recorded via \textit{KinectStudio}.
+This is a tool provided by Microsoft for monitoring and recording raw clips out of the Kinect streams.
+Before inserting the clip into the VGB a new project has to be created.
+Therefore the developer first selects the body parts that are necessary for the gesture.
+After that an indicator has to be defined, which can be either discrete or continuous.
+Discrete gestures define a binary state that defines if a certain gesture is currently performed or not (e.g. standing on one leg).
+It provides a confidence value that compares the correctness of the persons execution regarding the gestures in the database.
+A continuous gesture however means that usually a sequence of motions is combined to an entire gesture (e.g. switching standing leg).
+Instead of the confidence, a progress value gives feedback in percent about the ongoing movement of the person regarding the gesture.
+
+After the project creation the recordings can be inserted as training data.
+The developer has to describe a starting as well as an end point of the gesture by tagging the clips.
+When finished a gesture database file can be built.
+It can be tested via a live preview or with other recorded clips in a separate analysis area.
+If the results are not satisfying, more recorded clips can be added or the tags of existing clips can be adjusted.
+Lastly, after the testing phase the gesture database file can be implemented in the application for gesture detection in runtime. %The structuring of the application architecture is part of the next section.
 \begin{figure}[htb]
 	\centering
 	\begin{minipage}[t]{1\linewidth}
