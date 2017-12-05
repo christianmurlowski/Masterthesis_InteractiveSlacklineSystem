@@ -1,7 +1,7 @@
 \section{User Interface Design}
 The user interacts with the system through the provided interface. This should contain all relevant information, which are necessary to achieve a specific goal and support her on the way to reach this goal. General user interface approaches from exergame like related work approaches should be compared. Therefore the subsection \textit{\nameref{2_5_1_userInterfacefeedback}} gives an overview on which elements can be used for guiding the user through the system and how feedback can be visualized properly. After that in subsection \textit{\nameref{2_5_2_kinectHIG}} shows how to enhance the user experience on a kinect application with guidelines provided by Microsoft.
 
-\subsection{User interface design for appropriate feedback}\label{2_5_1_userInterfacefeedback}
+\subsection{User Interface Design for Appropriate Feedback}\label{2_5_1_userInterfacefeedback}
 
 Important feedback information during the exercise should be placed surrounding the focus point in the peripheral view of the user. Directing the user for correcting her movement can be done in several ways. Basic information about the execution should be given prior to the user for exercise preparation. Surrounding objects can be displayed as arrows, flashing notifications or weighting scale like seen by Garrido et al.~\cite{Garrido2013-zs} in Figure \ref{fig:informationUISurroundingObjects}. 
 \begin{figure}[htb]
@@ -66,10 +66,10 @@ The task about the execution has to be clarified. Chang et al.~\cite{Chang2012-h
 Microsoft itself offers Human-Interface-Guidelines (HIG) for developer and designer that describes several techniques of certain areas for developing a kinect application~\cite{MicrosoftHIG2014-mh}. It provides a quick introduction into the Kinect itself, design principles for interactions regarding gesture and voice, techniques on teaching complex gestures, and how to visualize appropriate feedback. Also which interactions should be used for a specific action. Therefore developer may follow this general standard to support their end-user. In the following general principles of the guideline will be discussed on which the interactive slackline system will rely on to enhance the user experience. 
 %The general design principles are that the application should be context-aware, make the user confident, choosing the right input method and to conduct user tests. 
 
-\subsubsection{Basic design principles}
+\subsubsection{Basic Design Principles}
 Context-awareness delivers the best user experience e.g. controls should be placed where user would expect them to be and interactions should be appropriate for the environment. It is important that the user feel confident by designing interactions simple and easy to learn. User will choose an input that take the least effort for the given goal. Therefore the input method should match its purpose, be reliable, consistent, and convenient. Conducting user test helps to improve the system. Not each person will use the system the same way and minor adjustments can make a huge difference in the understanding of the usage.
 
-\subsubsection{Visual and audio feedback}
+\subsubsection{Visual and Audio Feedback}
 Giving the user constant feedback helps her to know what is happening. In general appropriate feedback should show if the sensor is ready, she is visible and engaging with the Kinect, and so on (Figure \ref{fig:hciGuidelinesFeedbackCursor}). Regarding this a combination of visual as well as audio feedback results in a better experience, e.g. clicking a button changes its visual state and provides an audio signal (Figure \ref{fig:hciGuidelinesFeedbackControl}).
 \begin{comment}
 \begin{figure}[htb]
@@ -131,7 +131,7 @@ The most important part for complex gestures is the progress indicator described
 \subsubsection{Clarification}
 The user may interpret interactions with the system differently from others. Therefore the system should explain clearly what the user has to do, e.g. \textit{"Raise one hand above your head"} instead of just \textit{"Raise your hand"}. The cognitive load of the user should be kept low and not exceed a number of six gestures, such that she easily remembers the actions. The system has a set of three basic interaction techniques, which fits in this range.
 
-\subsubsection{User viewer}
+\subsubsection{User Viewer}
 A small scene viewer shows the range in which the user can move and is recognized by the Kinect. It displays a mirror like view in which the user can see a silhouette of herself and the constraints of the Kinect device, like in figure \ref{fig:higUserViewer}.
 \begin{figure}[htb]
 	\centering
@@ -143,7 +143,7 @@ A small scene viewer shows the range in which the user can move and is recognize
 	\end{minipage}
 \end{figure}
 
-\subsubsection{Learning interaction methods}
+\subsubsection{Learning Interaction Methods}
 The application should teach the user how to proper interact with it right from the beginning with an introduction tutorial. An interaction itself should rely on the real world, which can help the user to be more familiar with the product, than learning unknown gestures (Figure \ref{fig:hciGuidelinesDynamicGesture}). Also biliteral interaction support should be applied to cover both possibilities for left- and right-handed people.
 \begin{figure}[htb]
 	\centering
@@ -155,7 +155,7 @@ The application should teach the user how to proper interact with it right from 
 	\end{minipage}
 \end{figure}
 
-\subsubsection{Teaching complex gestures / exercises}
+\subsubsection{Teaching Complex Gestures / Exercises}
 Executing gestures is a core functionality in the slacklining assistance system. For new gestures, especially complex ones, the application should provide a tutorial that teaches and shows the user on how to execute or accomplish the gesture properly. When performing the gesture a visual indicator (a hint, animation, or notification) should acknowledge if the gesture is executed and when it is completed. (Figure \ref{fig:hciGuidelinesTeachingMethods}).
 \begin{figure}[htb]
 	\centering
@@ -167,10 +167,10 @@ Executing gestures is a core functionality in the slacklining assistance system.
 	\end{minipage}
 \end{figure}
 
-\subsubsection{Element sizing}
+\subsubsection{Element Sizing}
 The system will rely on the guidelines and match the button sizing regarding the screen resolution to keep reliability on interaction. This is a size of 208 by 208px in a resolution of 1920x1080 pixel. As recommended a tile button style will be used which are a good baseline where the user can hit them accurately and read the button text.
 
-\subsubsection{Physical interaction zone}
+\subsubsection{Physical Interaction Zone}
 This zone ensures that the user is able to reach anything in a comfortable range. In the application it is constrained by the joints of the shoulders to the hips of the opposite site of the interaction hand. It is designed like seen in figure \ref{fig:higPHIZ} to have a better understanding.
 \begin{figure}[htb]
 	\centering

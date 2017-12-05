@@ -1,7 +1,7 @@
 \section{Data Model}\label{5_2_dataModel}
-All relevant data are stored in JSON files. It is more human-readable and makes accessing as well as updating data simple. Each user should have the same basis of exercises. A default exercise JSON file serves as template for all registered users in the SLS. An internal editor was created for better data management and to adjust the data files more easily, e.g. for testing purposes. The overall data structure can be seen in Figure~\ref{fig:5_2_dataModel}.
+All relevant data are stored in JSON files. It is more human-readable and makes accessing as well as updating data simple. Each user should have the same basis of exercises. A default exercise JSON file serves as template for all registered users in the SLS. An internal editor was created to make data management and adjustments more easy. Figure~\ref{fig:5_2_dataModel} shows the overall data structure.
 
-The user data represent the profile of slacker, who wants to train with the system. It consists of her name and a default template of levels and exercises. Only one user profile at a time can be active. This ensures that no user can affect other profiles.
+A user data file represents the profile of a slacker, who wants to train with the system. It consists of her name and a default template of levels and exercises. Only one user profile at a time can be active. This ensures that no other profiles can affected by the current user.
 
 \begin{comment}
 A level can be unlocked and accomplished, e.g. at the beginning the very first level is unlocked but not accomplished since no exercise has been finished.
@@ -10,20 +10,25 @@ The specific goals and a description list are included.
 Several exercises can be part of a level.
 \end{comment}
 
-A level can be unlocked and accomplished. Unlocking the current exercise means the prior exercise has been successfully accomplished. This again means that each exercise of the current level has been finished. Furthermore, each level consists of a name, a list of goals, and a description list that gives hints about the overall exercise execution.
+A level has a name and can be unlocked and accomplished. Unlocking the next level means the current one has been successfully accomplished. This again means that each exercise of it has been finished. Furthermore, each level consists of a name, a list of goals, and a description that gives hints about the general execution of its exercises.
 Several exercises are part of a level.
 
+
 \begin{comment}
-Exercises can be, like a level, unlocked, accomplished, have an exercise name to be displayed, and have a file name to load the appropriate exercise in the database, pictures, and videos in the application. For the gesture detection it is important to store if the current exercise is discrete or progress gesture. The purpose of this is further described in Section~\textit{\nameref{5_3_movementRecognition}}. Further, the average user time, average confidence, and entire amount of attempts out of both sides for this exercise are stored. Lastly, each exercise has two sides.
+Exercises can also be unlocked, accomplished and have an exercise name to be displayed. In addition they have a file name to load the appropriate exercise in the database, pictures for a preview in the , and videos in the application. For the gesture detection it is important to store if the current exercise is discrete or progress gesture. The purpose of this is further described in Section~\textit{\nameref{5_3_movementRecognition}}. Further, the average user time, average confidence, and entire amount of attempts out of both sides for this exercise are stored. Lastly, each exercise has two sides.
 \end{comment}
 
-Exercises consists of a name, description for the execution, looping video to visualize how it has to be executed, and a thumbnail picture that is shown in the exercise overview.
+Exercises consists of a name, description for the execution, looping video of the correct execution, and a thumbnail picture that is shown in the exercise menu.
 The current exercise has to be accomplished to unlock the next one.
 This can be achieved by successfully executing the training.
-For each body side the user has to challenge several repetitions with a minimum time to hold the specific position
-A check list provides the user during her execution with helpful real-time feedback, which guides her for a successful exercise execution.
-An exercise has a type that can be either discrete or continuous, which is important to know for the user tracking. The actual exercise is stored as a gesture in the database to match it against the current user movement. The purpose of the type and database this are further described in Section~\textit{\nameref{5_3_movementRecognition}}. 
-Lastly the time the user needed to execute the exercise, the confidence she achieved by matching the pre defined exercise in the database, and the amount of attempts are stored.
+For each body side the user has to challenge several repetitions with a minimum time to hold the specific position.
+A check list provides the user during her execution with supportive real-time feedback, which guides her for a successful exercise execution.
+The performance of her current execution is given by the confidence, which displays the percentage of the correct execution related to the database, and the time that runs if an exercise is executed with a certain confidence.
+%The time the user needed to execute the exercise, the confidence she achieved by matching the pre-defined exercise in the database, and the amount of attempts are stored. 
+%These parameter provide post-feedback about her performance progress of the exercise. They are also used to analyse the difficulty level and progress for each user in the study.
+An exercise has a type that can be either discrete or continuous, which is important to know for the user tracking. 
+The actual exercise is stored as a gesture in the database to match it against the current user movement.
+The next Section~\textit{\nameref{5_3_movementRecognition}} describes the purpose of a type, gesture, and database more specifically.
 
 \begin{comment}
 Every side can be accomplished and unlocked. A direction specifies the current side, which can be either left or right. The actual exercise description is also stored here, as well as the average user time, average confidence, and the entire attempts out of all repetitions.
