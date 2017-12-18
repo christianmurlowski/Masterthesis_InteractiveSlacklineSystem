@@ -1,14 +1,88 @@
 \section{Motivation}
 %- Interactive real time feedback system in other sports
-With the realease of the Wii in year \todo{year} a new area of game interaction has been released. It was possible to interact an application with a controller that adapts the users hand. The hand is here part of the controlling device. Hereby new interaction possibilities resulted out of this. For example in a baseball game the controller represents the baseball bat. The user had to swing the controller like in the real world (Figure \todo{FIGURE}). Specific characteristics of games were hereby more realistic, since the controller could be adapted as main interaction with the virtual gaming device. 
+With the release of the Microsoft Kinect in 2010 a new area of game interaction has been released.
+Already existing interaction consoles like the Nintento Wii or PlayStation Move provided a remote control with motions sensors as controlling device.
+However, the Microsoft Kinect followed another approach by tracking the entire body of the user with an infrared sensor.
+This resulted in various interaction possibilities, since no controlling device is needed and the full body could be tracked.
+Especially fitness application with exercises in which the user needs both hands or should not be disturbed by any other device benefited from this (Figure~\ref{fig:1_kinectSports}).
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.55\linewidth]{Pictures/1_nikePlusKinect2}
+		\caption{Ingame screenshot of the \textit{Nike+ Kinect Training}\protect\footnotemark application. A virtual avatar demonstrates the exercise on the left side. The user can see herself mirorred on the right side of the screen.}
+		\label{fig:1_kinectSports}
+	\end{minipage}
+\end{figure}
+\footnotetext{\url{https://marketplace.xbox.com/de-DE/Product/Nike-Kinect-Training/66acd000-77fe-1000-9115-d8024d53090f}}
 
-\todo{Figure baseball bat}
+\begin{comment}
+With the release of the Nintendo Wii in year 2006 a new area of game interaction has been released.
+Whereas in common gaming console the main interaction was provided via buttons and analog sticks the Wii provided a remote controller with motion sensors. 
+The position and movement of the user can be hereby located and adapted in the actual application.
+This offered new possibilities of interaction in which motion based gaming application found its place.
 
-Other manufacturers conquered with their own system, like the PlayStation Move or Microsoft Kinect. The PlayStation Move implemented a similar approach like the Nintendo Wii, with a controller that serves as pointing device. Since the interaction of these devices are restricted to a controller the Kinect followed another approach. It was possible to interact without any controlling device but just with the users hands. This again resulted in even more possibilities. Fitness applications found its application in the world of interactive technology devices with the Kinect. Especially with exercises where the user needs both hands or should not be disturbed by any other device, like push ups or crunches (Figure \todo{FIGURE}).
+For example in a baseball game the controller represents the hands of the virtual avatar (Figure~\ref{fig:1_wiiSportsTennis}).
+The user swings the controller like in the real world to throw a ball.
+In this way specific characteristics of games were more realistic, since the motions of the controller could be adapted to actions in the virtual gaming application.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.55\linewidth]{Pictures/1_wiiSportTennis}
+		\caption{asdasd}
+		\label{fig:1_wiiSportsTennis}
+	\end{minipage}
+\end{figure}
 
-\todo{Figure fitness applications}
+Other manufacturers conquered with their own systems.
+The PlayStation Move implemented a similar approach like the Nintendo Wii, with a remote controller.
+However, the interaction of these devices are still restricted to a controller.
+The Microsoft Kinect followed another approach by tracking the entire body of the user and building a skeleton.
+It was possible to interact without any controlling device but just with the users‘ hands.
+This again resulted in even more interaction possibilities, since the full body could be tracked.
+Especially fitness application with exercises in which the user needs both hands or should not be disturbed by any other device, like push ups or crunches (Figure~\ref{fig:1_kinectSports}).
 
-The combination of such exercise applications in the context of a gamified environment and approach originated in a new gaming area with the name \textit{exergames}.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.55\linewidth]{Pictures/1_kinectSports}
+		\caption{A user swinging his hands to control a virtual golf bat in Kinect Sports~\cite{Wiki2017-ksport}}
+		\label{fig:1_kinectSports}
+	\end{minipage}
+\end{figure}
+\end{comment}
+
+The combination of exercises implemented in a video game or a gamified environment and tracking the body movement of the user with an appropriate device originated in a new genre named \textit{exergames}~\cite{Buddharaju2016-ex, Sinclair2007-ex}.
+Since the uprising modern sedentary way of life of many people, due to working on a compute or watching television, leads to insufficient movement throughout the day.
+Exergames can bring more contrast into it when implemented effectively~\cite{Rudella2012-ex}.
+Several studies showed that they can improve the physical activity level, improve the engagement of the user, promote exercises, and provide an enjoyable experience~\cite{Graf2009-ex, Hicks2010-ex, Thin2010-ex}. Further works have shown, that interactive system applications with an exergame approach can improve and train sport specific skill acquisition~\cite{Bogdanovych2015-ci, Medeiros2017-ex, Holsti2013-kn, Jensen2014-ex, Kajastila2016-ot}.
+
+Slacklining is a specific sport that relies on the balance of the user. She has to walk over a narrow ribbon that is in general tensed between two static end points and about the height of a the knee. The length of the line varies from 3 up to 100 meters and more. In general a beginner learns to balance on a slackline on her own due to repetitive trials. This can be frustrating and dangerous because she has to learn it by herself without any knowledge about the correct movements and body position. Another approach is to learn it with an expert, that has some knowledge and can support her in this way. However, the trainee must know such an person and is dependent on her.
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}[t]{1\linewidth}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Pictures/1_slackline}
+		\caption{Person standing on a slackline and balancing out his sway}
+		\label{fig:1_slackline}
+	\end{minipage}
+\end{figure}
+
+These problems can be conquered by an interactive slackline learning system. At the current stage of this thesis no technology or application is known that provides specific exercises as well as real-time support and feedback for beginners to learn slacklining. Building a constructive predefined exercise routine with an appropriate difficulty level teaches her how to stand and walk on slackline from the ground up. A detailed introduction with a preview of the exercise execution provides her with the appropriate knowledge for the ongoing exercise. During the execution she gets audiovisual feedback about her execution in real-time due to several indicators. Lastly showing several performance parameters summarize her learning progress of the exercise execution.
+
+
+%The main skill acquisition technique for slacklining beginners is a personal trainer with intermediate expertise. Because of her experience she can provide useful tips, hints, and correct the slacker during the exercise execution. However the drawback is the dependency on the trainer. The slackline trainee has to know someone who can teach her slacklining. In reverse the dependency of the trainer to the trainee is also a drawback, since she has to look how good the exercises are executed. Further the trainee has to do several repetitive trials, to get familiar with her balancing actions and with the slackline. For this time range no trainer is needed, because she has to learn this movements by herself.
+
+%In contrast to a personal human trainer the user is independent of any person. She is therefore 
+
+%strengthens her general balance ability, introduces her to the slackline, and provide beginner exercises on it.
+
+\begin{comment}
+- no chance for beginners to learn it by herself correctly. Interactive assistance system would conquer these problems. No related work for this
+-- In contrast to such a human personal trainer this thesis will elaborate an interactive slackline learning system with real-time feedback, called further SLS. 
+-- Support slackline beginners with such a system
 
 \textbf{-> Interaktive Systeme auf dem Markt}
 
@@ -46,4 +120,4 @@ The combination of such exercise applications in the context of a gamified envir
 -- In contrast to such a human personal trainer this thesis will elaborate an interactive slackline learning system with real-time feedback, called further SLS
 
 -- Support slackline beginners with such a system
-%\end{comment}
+\end{comment}

@@ -19,6 +19,12 @@
 \newblock In {\em Proceedings of the 7th ACM SIGCHI Symposium on Engineering
   Interactive Computing Systems\/} (2015), EICS '15, ACM, pp.~64--73.
 
+\bibitem{Buddharaju2016-ex}
+{\sc Buddharaju, Pradeep and Lokanathan, Yokeshwaran}.
+\newblock Mobile Exergaming: Exergames on the Go.
+\newblock In {\em Proceedings of the International Conference on Mobile
+  Software Engineering and Systems\/} (2016), ACM, pp.~25--26.
+
 \bibitem{Chang2012-hz}
 {\sc Chang, Chien-Yen; Lange, B.; Zhang, Mi; Koenig, S.; Requejo, P.; Somboon,
   N.; Sawchuk, A.~A. and Rizzo, A.~A.}
@@ -42,6 +48,13 @@
 {\sc Corporation, Microsoft}.
 \newblock {\em Visual Gesture Builder: A Data-Driven Solution to Gesture
   Detection}, 2014.
+
+\bibitem{Medeiros2017-ex}
+{\sc de~M., Pâmella; C., Renata; Z., Marcely~Almeida; da~S.,
+  Siomara~Aparecida; B., Thais~Silva and C., Fernando~Luiz}.
+\newblock EXERGAMES AS A TOOL FOR THE ACQUISITION AND DEVELOPMENT OF MOTOR
+  SKILLS AND ABILITIES: A SYSTEMATIC REVIEW.
+\newblock {\em Revista Paulista de Pediatria 35\/} (2017), pp.~464 -- 471.
 
 \bibitem{Donath2013-kk}
 {\sc Donath, L.; Roth, R.; Rueegge, A.; Groppa, M.; Zahner, L. and Faude, O.}
@@ -97,6 +110,11 @@
   ICST (Institute for Computer Sciences, Social-Informatics and
   Telecommunications Engineering), pp.~319--322.
 
+\bibitem{Graf2009-ex}
+{\sc Graf, Diana~L.; Pratt, Lauren~V.; Hester, Casey~N. and Short, Kevin~R.}
+\newblock Playing Active Video Games Increases Energy Expenditure in Children.
+\newblock {\em Pediatrics 124}, 2 (2009), pp.~534--540.
+
 \bibitem{Granacher2010-ow}
 {\sc Granacher, U.; Iten, N.; Roth, R. and Gollhofer, A.}
 \newblock Slackline training for balance and strength promotion.
@@ -114,6 +132,11 @@
 \newblock In {\em Proceedings of the 3rd Nordic Conference on Human-computer
   Interaction\/} (2004), NordiCHI '04, ACM, pp.~199--202.
 
+\bibitem{Hicks2010-ex}
+{\sc Hicks, Lisa and Higgins, John}.
+\newblock Exergaming: Syncing Physical Activity and Learning.
+\newblock {\em Strategies 24}, 1 (2010), pp.~18--21.
+
 \bibitem{Hodges2002-gb}
 {\sc Hodges, Nicola~J. and Franks, Ian~M.}
 \newblock Modelling coaching practice: the role of instruction and
@@ -126,6 +149,13 @@
 \newblock Body-controlled Trampoline Training Games Based on Computer Vision.
 \newblock In {\em CHI '13 Extended Abstracts on Human Factors in Computing
   Systems\/} (2013), CHI EA '13, ACM, pp.~1143--1148.
+
+\bibitem{Jensen2014-ex}
+{\sc Jensen, Mads~M{\o}ller; Rasmussen, Majken~Kirkegaard and Gr{\o}nb{\ae}k,
+  Kaj}.
+\newblock Design Sensitivities for Interactive Sport-training Games.
+\newblock In {\em Proceedings of the 2014 Conference on Designing Interactive
+  Systems\/} (2014), ACM, pp.~685--694.
 
 \bibitem{Johnson1998-hb}
 {\sc Johnson, D.A.; Rose, ED; Rushton, S.; Pentland, B. and Attree, E.A.}
@@ -249,6 +279,13 @@
   Patients Rehabilitation Research Techniques\/} (2015), REHAB '15, ACM,
   pp.~54--57.
 
+\bibitem{Rudella2012-ex}
+{\sc Rudella, Jennifer~L. and Butz, Jennifer~V.}
+\newblock Exergames: Increasing Physical Activity through Effective
+  Instruction.
+\newblock {\em Journal of Physical Education, Recreation \& Dance 86}, 6
+  (2015), pp.~8--15.
+
 \bibitem{Ryan2000-jn}
 {\sc Ryan, R. and Deci, E.}
 \newblock Self-determination theory and the facilitation of intrinsic
@@ -272,6 +309,13 @@
 \newblock Individualität - ein vernachlässigter Parameter?
 \newblock {\em Leistungssport 29}, 2 (1999), pp.~5--12.
 
+\bibitem{Sinclair2007-ex}
+{\sc Sinclair, Jeff; Hingston, Philip and Masek, Martin}.
+\newblock Considerations for the Design of Exergames.
+\newblock In {\em Proceedings of the 5th International Conference on Computer
+  Graphics and Interactive Techniques in Australia and Southeast Asia\/}
+  (2007), ACM, pp.~289--295.
+
 \bibitem{Tanaka2012-ACO}
 {\sc Tanaka, Kazumoto; Parker, Jim; Baradoy, Graham; Sheehan, Dwayne; Holash,
   John~R and Katz, Larry}.
@@ -286,6 +330,13 @@
   Physiotherapy Exercises.
 \newblock In {\em Proceedings of the 33rd Annual ACM Conference on Human
   Factors in Computing Systems\/} (2015), CHI '15, ACM, pp.~4123--4132.
+
+\bibitem{Thin2010-ex}
+{\sc Thin, Alasdair~G. and Poole, Nicola}.
+\newblock {\em Dance-Based ExerGaming: User Experience Design Implications for
+  Maximizing Health Benefits Based on Exercise Intensity and Perceived
+  Enjoyment}.
+\newblock Springer Berlin Heidelberg, 2010, pp.~189--199.
 
 \bibitem{Thomann2013-aa}
 {\sc Thomann, Andreas}.
@@ -320,32 +371,37 @@
 
 \bibitem{WikiSlacklining2017-longline}
 {\sc Wikipedia}.
-\newblock https://commons.wikimedia.org/wiki/File:Slackline2.jpg.
+\newblock Slacklining Longline - Picture --- Wikipedia{,} The Free
+  Encyclopedia.
 \newblock [Online; accessed 12-March-2017].
 
 \bibitem{WikiSlacklining2017-lowline}
 {\sc Wikipedia}.
-\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
-\newblock [Online; accessed 12-March-2017].
-
-\bibitem{WikiSlacklining2017-trickline}
-{\sc Wikipedia}.
-\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock Slacklining Lowline - Picture --- Wikipedia{,} The Free Encyclopedia.
 \newblock [Online; accessed 12-March-2017].
 
 \bibitem{WikiSlacklining2017-rodeoline}
 {\sc Wikipedia}.
-\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock Slacklining Rodeoline - Picture --- Wikipedia{,} The Free
+  Encyclopedia.
 \newblock [Online; accessed 12-March-2017].
 
-\bibitem{WikiSlacklining2017-waterline}
+\bibitem{WikiSlacklining2017-trickline}
 {\sc Wikipedia}.
-\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock Slacklining Trickline - Picture --- Wikipedia{,} The Free
+  Encyclopedia.
 \newblock [Online; accessed 12-March-2017].
 
 \bibitem{WikiSlacklining2017-urbanline}
 {\sc Wikipedia}.
-\newblock Slacklining - Picture --- Wikipedia{,} The Free Encyclopedia.
+\newblock Slacklining Urbanline - Picture --- Wikipedia{,} The Free
+  Encyclopedia.
+\newblock [Online; accessed 12-March-2017].
+
+\bibitem{WikiSlacklining2017-waterline}
+{\sc Wikipedia}.
+\newblock Slacklining Waterline - Picture --- Wikipedia{,} The Free
+  Encyclopedia.
 \newblock [Online; accessed 12-March-2017].
 
 \bibitem{Winstein1990-to}
