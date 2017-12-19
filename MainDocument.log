@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  18 DEC 2017 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.3.9)  19 DEC 2017 07:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,7 +1213,7 @@ am-ing and train-ing meth-
 
 [5]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 41.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 45.
 ) (./Chapter/1_Introduction/3_Outline.tex))
 (./Chapter/2_RelatedWork/0_Main.tex [6]
 (./Chapter/2_RelatedWork/1_SlacklineTraining.tex [7
@@ -2009,7 +2009,7 @@ e1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 /palatino/uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palati
 no/uplri8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a
 .pfb>
-Output written on MainDocument.pdf (77 pages, 11650576 bytes).
+Output written on MainDocument.pdf (77 pages, 11650726 bytes).
 PDF statistics:
  1274 PDF objects out of 1440 (max. 8388607)
  1060 compressed objects within 11 object streams
