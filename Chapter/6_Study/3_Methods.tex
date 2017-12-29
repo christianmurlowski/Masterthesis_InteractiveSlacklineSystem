@@ -1,4 +1,4 @@
-\section{Method}
+\section{Method}\label{6_method}
 \begin{comment}
 -- briefing
 -- methods
@@ -7,11 +7,25 @@
 -- interview
 \end{comment}
 \subsection{Conditions of Slackline Training}
-\subsubsection{Interactive Slackline System Group}
-Like seen in chapter~\ref{5_systemIntegration} the participant has to interact at her own with the system. It teaches the user how to interact with it and guides her through predefined exercises. Therefore it explains on her own how to execute the exercises, how many repetitions to make, and in which time to accomplish each repetition. It provides real-time feedback about the performance. The participant could ask to skip the exercise if it were too difficult to accomplish or not recognisable by the system. The experiment leader had no influence about questions regarding the exercise execution to ensure the autonomy of the user with the system.
+Each participant is provided with the same levels, exercises and its detailed description about the execution.
+The difference in each conditions lies in the training method itself, how the information is provided to the participant, and how feedback about the execution is given.
+In the following each condition is described as well as the apparatus.
+
+\subsubsection{Interactive System Group}
+The participant interacts on her own with the system, which teaches the user how to interact with it and guides her through predefined exercises.
+It explains on its own how to execute the exercises with a detailed description and a looping video.
+Furthermore, how many repetitions and in which time to accomplish each repetition.
+It provides real-time feedback about the current execution performance with several indicators.
+If the exercise is too difficult to accomplish or not recognised by the system, the participant has the possibility to skip it.
+Since its a think-aloud study, the participant further tells on which actions she is troubling with and when there is any confusion or misunderstanding with the system implementation.
+%The experiment leader had no influence about questions regarding the exercise execution to ensure the autonomy of the user with the system.
 
 \subsubsection{Human Trainer Group}
-The participant has been instructed by a human trainer. At first an introduction about the current level is given. Then the specific exercise is instructed by how to execute an exercise, how many repetitions to do, and the minimum time she had to hold the pose. After that the trainer demonstrates the execution of the exercise for the trainee. The trainer himself had an exercise description sheet to provide the trainee with the same information as in the SLS condition.
+The participant is instructed by a human trainer, which in this case is the director of the study.
+At first the trainer provides an instruction about the ongoing level of exercises.
+Then the specific exercise is instructed. How to execute the exercise, how many repetitions, and the minimum time the trainee should hold the pose.
+After that the trainer demonstrates the execution of the exercise for the trainee.
+The trainer himself has an exercise description sheet to provide the trainee with the same information as the ISG.
 \begin{figure}[htb]
 	\centering
 	\begin{minipage}[t]{1\linewidth}
@@ -23,18 +37,63 @@ The participant has been instructed by a human trainer. At first an introduction
 \end{figure}
 
 \subsubsection{Apparatus}
-The setup can be seen in Figure \todo{[figure]}. The Kinect was attached on a tripod with a height of \todo{90 cm}. It was placed in front of the screen with the camera faced in the direction of the slackline. A projector was \todo{mounted on the ceiling of the room} to project the interface on the screen in front of it. The mobile slackline stood, like discussed in Section~\ref{5_1_hardwareComponents}, directly in front of the Kinect. A marker was attached on the slackline to provide a starting point for the participant for getting up the line.
-The set up for the human trainer group was the same, but without the screen. The video camera for recording was placed \todo{behind the slacker in a more diagonal way} to have her actions as well as the interface interaction recorded. The set up was not changed during the study to have the same condition for every participant.
-
-Like seen in section  a mobile slackline device is used.
+Figure \todo{[figure]} shows the setup of the study.
+The Kinect was attached on a tripod with a height of \todo{90 cm}.
+It is placed in front of a wall, which is used as projector screen.
+The camera is faced in the direction of the slackline.
+A projector is mounted on the ceiling of the room to project the systems interface on a wall.
+The mobile slackline stands, like discussed in Section~\ref{5_1_hardwareComponents}, directly in front of the Kinect.
+Marker attached on the slackline provide information for pre- and post-measurements as well as the starting point for the participant to get up the line.
+The set up for the human trainer group was the same, but without the projector and the Kinect.
+To record the execution a video camera was placed behind the participant to have her actions as well as the interface interaction recorded.
+The set up was not changed during the study to have the same condition for every participant.
 
 \todo{[Figure]}
 
-\subsection{Design}
+\subsection{Design and independent \& dependent variables}\label{6_variables}
+The experiment of the study is a 2 x 2 mixed factorial design.
+Subjects were randomly assigned to a interactive system group (experimental) or a human trainer group (control).
+Within subject a pre-measurement and post-measurement was conducted.
+The measurements are divided into two parts.
+First, measuring the time of a single leg stance with the left as well as the right foot on the slackline.
+Second, measuring the steps and distance the participant can walk on the slackline with the left and right foot as starting point.
+The distance and steps on the slackline were measured by dividing the mobile slackline into five areas, each with a distance of 60 cm.
+Three attempts per side of the foot and method were executed and calculated to compare the results.
+
+\textbf{Independent variables}
+\begin{itemize}
+\item Interactive Slackline Group
+\item Human Trainer Group
+\end{itemize}
+
+\textbf{Dependent variables}
+\begin{itemize}
+\item Time stood on line with left, right, both feet
+\item As many steps as possible on the line ( + distance with markers on the line) left, right feet
+\item Accomplished exercises
+\end{itemize}
+
+\textbf{Confounding variable}
+\begin{itemize}
+\item Experience with general balance training
+\item Experience with slacklining
+\item General physical activity
+\end{itemize}
+
+%A measurement of the participants' current balance performance was conducted before and after the training to compare the training results and learning progress.  This involves the measurement of how long the participant can stand on the slackline in seconds with her left, right, and with both feet. Further, how many steps were she able to walk on the slackline with the left or right foot for getting up the line. Three attempts per side and method were executed and \todo{the best taken / the average calculated} to compare the results.
+
 \begin{comment}
-2 between subject x 1 within subjects
-2 (ISG vs HTG) x 1 (beginner)
+2 x 2 mixed factorial design
+2 within subject --> test
+pre-test
+post-test
+
+2 between subject --> training
+Experiemental group --> ISG
+Base line group --> HTG
+
 ODER
+
 3 dependent vs 2 independent variables
 \end{comment}
 
@@ -45,14 +104,20 @@ The physical activity level as well as the lateral preference was determined lik
 
 \todo{pre-measurement eher allgemein halten und in 6.3.4 ausarbeiten oder testprozedere hier näher erläutern (attempts, wie lange maximal, marker an der slackline, etc.), oder reicht das?}
 
-After that the participant had to stand on the ground as well as on a towel to obtain her general balance ability.
-Further a pre-measurement of the slackline balance ability and the steps the participant is able to go on a slackline was conducted for comparison in a post-measurement.
+The general balance ability of the participant was obtained before training by how long she can stand on the ground and a towel.
+Further, a pre-measurement of the slackline balance ability and the steps the participant is able to go on a slackline was conducted for comparison in a post-measurement.
+%Here the participant had to balance a single leg stance on the slackline with the left as well as with the right foot.
+%The time was counted if the balancing leg of the participants leaves the ground and stopped if she gets in contact with the ground with any foot.
 
-The participant had to stay on a marked position, which gives the starting position of all exercises. Similarly a marker on the slackline visualises the starting position on the line for the participant. She had to execute all exercises either provided by the system or the trainer. These are divided into four levels with \todo{6, 4, 6, and 3 exercises}. Between each exercises the participant could take a break if desired.
+After finishing the pre-measurements the participant was introduced about the ongoing training method.
+She had to stay on a marked position on the ground and on the slackline, which gives the starting position for all exercises. 
+She had to execute all exercises either provided by the system or the trainer.
+These are divided into four levels with \todo{6, 4, 6, and 3 exercises}.
+Between each exercises the participant could take a break if desired.
 
-After each accomplished exercise execution the participant was asked to rank the difficulty of the exercise. It ranged from 1 - very easy, to 5 - very difficult. Therefore the ranking of the participant can be compared with the logged performance data. Hereby, it can be shown if the difficulty of the exercise set in each level is increasing and match the users' assumptions. %integrated exercise routine.
-
-\todo{sollte die erklärung eher in \nameref{6_variables}?}
+After the training the participant was asked to rank the difficulty of the exercise from a range of 1 (very easy) to 5 (very difficult).
+Therefore the ranking of the participant can be compared with the logged performance data.
+Hereby, it can be shown if the difficulty of the exercise set in each level is increasing and match the users' assumptions. %integrated exercise routine.
 
 \todo{post-measurement eher allgemein halten und in 6.3.4 ausarbeiten oder testprozedere hier näher erläutern (attempts, wie lange maximal, marker an der slackline, etc.)?}
 
@@ -60,38 +125,5 @@ When finished with the training a post-measurement was conducted with the same p
 
 Finally the participant had to answer questions a semi-structured interview to obtain her opinion on the general method and application scenarios for exactly this method with the slackline and other sport activities that could fit this method. The ISG were additionally interviewed about the user interface of the SLS and their experience with the interaction. The specific questions can be seen in \todo{Appendix}.
 %for reviewing and validating performance parameters as well as to detect system failures.
-
-\subsection{Independent and dependent variables}\label{6_variables}
-The general balance ability of the participant was measured before training by how long she can stand on the ground and a towel. Comparing the results of the training method were conducted by standing on a slackline before and after the training. All measurements involves the left, right, and both feet and were counted in seconds. 
-
-Furthermore, the participant had to made as many steps as she can on the slackline with the left and right foot as starting point. \todo{Hereby the steps were counted as comparison parameter}. Additionally the distance on the slackline was measured by dividing the device into five areas, each with a distance of 60 cm. Three attempts per side and method were executed and \todo{the best taken / the average calculated} to compare the results.
-
-- \todo{exercise difficulty ranking, Interview questions?}
-
-\todo{Dependent variables --> }
-\begin{itemize}
-\item Time stood on line with left, right, both feet
-\item As many steps as possible on the line ( + distance with markers on the line) left, right feet
-\item Accomplished exercises
-\end{itemize}
-
-\todo{Independent variables --> training method}
-
-level?
-\begin{itemize}
-\item Interactive Slackline System
-\item Human Trainer Group
-\end{itemize}
-
-\todo{Confounding variable}
-\begin{itemize}
-\item Experience with general balance training
-\item Experience with slacklining
-\item General physical activity
-\end{itemize}
-
-%A measurement of the participants' current balance performance was conducted before and after the training to compare the training results and learning progress.  This involves the measurement of how long the participant can stand on the slackline in seconds with her left, right, and with both feet. Further, how many steps were she able to walk on the slackline with the left or right foot for getting up the line. Three attempts per side and method were executed and \todo{the best taken / the average calculated} to compare the results.
-
-
 
 
