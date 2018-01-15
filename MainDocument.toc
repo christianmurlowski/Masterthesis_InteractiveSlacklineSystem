@@ -25,11 +25,11 @@
 \contentsline {subsection}{\numberline {2.4.2}Kinect for Windows - Human Interface Guidelines}{21}{subsection.2.4.2}
 \contentsline {subsubsection}{Basic Design Principles}{22}{subsubsection*.17}
 \contentsline {subsubsection}{Visual and Audio Feedback}{22}{subsubsection*.18}
-\contentsline {subsubsection}{Clarification}{23}{subsubsection*.21}
+\contentsline {subsubsection}{Clarification}{22}{subsubsection*.21}
 \contentsline {subsubsection}{User Viewer}{23}{subsubsection*.22}
-\contentsline {subsubsection}{Learning Interaction Methods}{24}{subsubsection*.24}
+\contentsline {subsubsection}{Learning Interaction Methods}{23}{subsubsection*.24}
 \contentsline {subsubsection}{Teaching Complex Gestures / Exercises}{24}{subsubsection*.26}
-\contentsline {subsubsection}{Element Sizing}{25}{subsubsection*.28}
+\contentsline {subsubsection}{Element Sizing}{24}{subsubsection*.28}
 \contentsline {subsubsection}{Physical Interaction Zone}{25}{subsubsection*.29}
 \contentsline {section}{\numberline {2.5}Conclusion}{25}{section.2.5}
 \contentsline {chapter}{\numberline {3} Introduction into Slacklining and Slacklining Learning Techniques}{27}{chapter.3}
