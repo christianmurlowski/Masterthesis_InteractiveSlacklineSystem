@@ -73,12 +73,21 @@
 \contentsline {section}{\numberline {6.2}Participants}{56}{section.6.2}
 \contentsline {section}{\numberline {6.3}Method}{57}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Conditions of Slackline Training}{57}{subsection.6.3.1}
-\contentsline {subsubsection}{Interactive System Group}{57}{subsubsection*.61}
-\contentsline {subsubsection}{Human Trainer Group}{57}{subsubsection*.62}
-\contentsline {subsubsection}{Apparatus}{58}{subsubsection*.64}
-\contentsline {subsection}{\numberline {6.3.2}Design and independent \& dependent variables}{58}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Procedure}{59}{subsection.6.3.3}
-\contentsline {section}{\numberline {6.4}\leavevmode {\color {red}Results and analysis}}{60}{section.6.4}
-\contentsline {section}{\numberline {6.5}\leavevmode {\color {red}Discussion}}{60}{section.6.5}
-\contentsline {chapter}{\numberline {7} Conclusion and Outlook}{61}{chapter.7}
-\contentsline {section}{Bibliography}{62}{section*.65}
+\contentsline {subsubsection}{Interactive System Group (ISG)}{57}{subsubsection*.62}
+\contentsline {subsubsection}{Human Trainer Group (HTG)}{58}{subsubsection*.63}
+\contentsline {subsection}{\numberline {6.3.2}Procedure}{58}{subsection.6.3.2}
+\contentsline {subsubsection}{Apparatus}{59}{subsubsection*.65}
+\contentsline {subsection}{\numberline {6.3.3}Design and independent \& dependent variables}{60}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Results and Analysis}{60}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Single Leg Stance Performance}{61}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Walked Steps Performance}{62}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Walked Distance Performance}{62}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}\leavevmode {\color {red}Discussion}}{64}{section.6.5}
+\contentsline {subsubsection}{Interaction effects}{64}{subsubsection*.71}
+\contentsline {subsubsection}{Time effects}{65}{subsubsection*.72}
+\contentsline {subsubsection}{Group effect}{66}{subsubsection*.74}
+\contentsline {subsubsection}{Slackline Training Observations}{66}{subsubsection*.76}
+\contentsline {subsubsection}{Subjects Rating of exercise difficulty}{67}{subsubsection*.77}
+\contentsline {subsubsection}{Semi-structured Interview}{68}{subsubsection*.79}
+\contentsline {chapter}{\numberline {7} Conclusion and Outlook}{69}{chapter.7}
+\contentsline {section}{Bibliography}{70}{section*.80}

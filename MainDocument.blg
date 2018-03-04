@@ -1,50 +1,50 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: MainDocument.aux
 The style file: acm_fkerber.bst
 Database file #1: references.bib
 Warning--empty school in Nusman2006-rf
 Warning--can't use both author and editor fields in Thin2010-ex
 Warning--empty school in Thomann2017-ab
-You've used 67 entries,
+You've used 68 entries,
             2276 wiz_defined-function locations,
-            963 strings with 17625 characters,
-and the built_in function-call counts, 25903 in all, are:
-= -- 2583
-> -- 1074
+            968 strings with 17735 characters,
+and the built_in function-call counts, 26110 in all, are:
+= -- 2601
+> -- 1081
 < -- 0
-+ -- 447
-- -- 376
-* -- 1795
-:= -- 3882
-add.period$ -- 201
-call.type$ -- 67
-change.case$ -- 322
++ -- 450
+- -- 378
+* -- 1802
+:= -- 3915
+add.period$ -- 204
+call.type$ -- 68
+change.case$ -- 325
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 1104
-empty$ -- 2083
-format.name$ -- 376
-if$ -- 5760
+cite$ -- 71
+duplicate$ -- 1112
+empty$ -- 2106
+format.name$ -- 378
+if$ -- 5805
 int.to.chr$ -- 0
-int.to.str$ -- 67
+int.to.str$ -- 68
 missing$ -- 60
-newline$ -- 338
-num.names$ -- 134
-pop$ -- 459
+newline$ -- 343
+num.names$ -- 136
+pop$ -- 470
 preamble$ -- 1
-purify$ -- 322
+purify$ -- 325
 quote$ -- 0
-skip$ -- 965
+skip$ -- 971
 stack$ -- 0
-substring$ -- 1655
-swap$ -- 488
+substring$ -- 1660
+swap$ -- 490
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 254
+type$ -- 258
 warning$ -- 3
-while$ -- 254
-width$ -- 69
-write$ -- 694
+while$ -- 256
+width$ -- 70
+write$ -- 703
 (There were 3 warnings)

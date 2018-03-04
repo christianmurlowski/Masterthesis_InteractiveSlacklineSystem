@@ -21,6 +21,11 @@
 \@removefromreset{footnote}{chapter}
 \makeatother
 
+\usepackage{booktabs,caption}
+\usepackage[flushleft]{threeparttable}
+\usepackage{graphicx}
+\usepackage[table,xcdraw]{xcolor}
+
 \usepackage[font=scriptsize]{caption}
 \usepackage[font=scriptsize]{subcaption}
 \usepackage{subcaption}
@@ -93,7 +98,7 @@
 \renewcommand{\TODO}[1]{}
 \renewcommand{\ITODO}[1]{}
 
-
+\newcommand\mathf{$\hspace{-0.1em}f$}
 
 
 \definecolor{orange}{rgb}{1,.49,.18}
@@ -103,7 +108,7 @@
 \newcommand{\autovar}[1]{{\color{darkgreen} \textbf{#1}}}
 \newcommand{\conj}[1]{{\color{mypurple} \textbf{#1}}}
 
-
+\newcommand\tab[1][0.5cm]{\hspace*{#1}}
 
 \newcommand{\finaldate}{31\textsuperscript{st} Oktober, 2017}
 \noappendicestocpagenum
