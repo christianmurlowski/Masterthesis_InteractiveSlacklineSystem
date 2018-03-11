@@ -3,7 +3,7 @@
 \contentsline {chapter}{\numberline {1} Introduction}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Research Goals}{5}{section.1.2}
-\contentsline {subsubsection}{Exploration of slackline training and designing appealing interactive systems}{5}{subsubsection*.4}
+\contentsline {subsubsection}{Exploration of slackline training and designing an appealing interactive system}{5}{subsubsection*.4}
 \contentsline {subsubsection}{Conceptual design of a prototypical interactive slackline learning system}{5}{subsubsection*.5}
 \contentsline {subsubsection}{Implementation for the usage in a user study}{5}{subsubsection*.6}
 \contentsline {subsubsection}{Investigation of the slackline learning system}{6}{subsubsection*.7}
@@ -89,5 +89,11 @@
 \contentsline {subsubsection}{Slackline Training Observations}{66}{subsubsection*.76}
 \contentsline {subsubsection}{Subjects Rating of exercise difficulty}{67}{subsubsection*.77}
 \contentsline {subsubsection}{Semi-structured Interview}{68}{subsubsection*.79}
-\contentsline {chapter}{\numberline {7} Conclusion and Outlook}{69}{chapter.7}
-\contentsline {section}{Bibliography}{70}{section*.80}
+\contentsline {chapter}{\numberline {7} Conclusion and Future Work}{69}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusion}{69}{section.7.1}
+\contentsline {subsubsection}{Exploration of slackline training and designing an appealing interactive system}{69}{subsubsection*.80}
+\contentsline {subsubsection}{Conceptual design of a prototypical interactive slackline learning system}{69}{subsubsection*.81}
+\contentsline {subsubsection}{Implementation for the usage in a user study}{70}{subsubsection*.82}
+\contentsline {subsubsection}{Investigation of the slackline learning system}{70}{subsubsection*.83}
+\contentsline {section}{\numberline {7.2}Future Work}{70}{section.7.2}
+\contentsline {section}{Bibliography}{72}{section*.84}
