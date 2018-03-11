@@ -80,7 +80,7 @@ It caused problems because of accidental and unwanted misclicks due to relativel
 As second interaction technique the hand should be closed to a fist or grab gesture (Figure~\ref{fig:5_3_fist}).
 It also triggered unwanted misclicks if the hand of the user closes a bit during navigation.
 %The hand of the users closes automatically a little bit during the interaction, which in combination with the standing position on the outermost tracking range was sufficient to trigger a click.%(Figure \todo{comparison default \& target})
-A better interaction was performed by the so called \textit{V-sign}, where the user makes a pointing gesture with her index and the middle finger.
+A better interaction was performed by the so called \textit{V-sign}, where the user makes a pointing gesture with her index and middle finger.
 The click event triggers when the user releases her hand into the default state (Figure~\ref{fig:5_3_point}).
 Relating to the real word, a button is triggered by pushing it down with the hand or finger.
 This is used as an analogy in the last interaction gesture, where the user pushes the open hand towards the Kinect.
@@ -117,7 +117,11 @@ When selecting a profile the appropriate JSON file will be loaded into the syste
 %The trainee selects her profile by herself. With this the data will be loaded into the system. In the user selection the trainee should select the right profile by herself to cover the condition of multiple user that can train with the system. 
 %The users name and id are saved in as \textit{PlayerPrefs}. This is a class in Unity that provides the possibility to be globally accessible in the application. The respective code for setting and getting the values can be seen in listing \todo{ref listing playerpfrefs}. This is needed to find the correct path for the JSON files to save the data.
 
-Levels and exercises are also structured as menu (Figure~\ref{fig:5_3_level_menu} \&~\ref{fig:5_3_exercise_menu}). At first they are all locked except the very first one to provide a starting point. A level can be unlocked by accomplishing each exercise of the previous level. This procedure applies similarly for the exercise. Hereby, the next exercise can be unlocked by accomplishing all body sides and repetitions of the current exercise.
+Levels and exercises are also structured as menu (Figure~\ref{fig:5_3_level_menu} \&~\ref{fig:5_3_exercise_menu}).
+At first they are all locked except the very first one to provide a starting point.
+A level can be unlocked by accomplishing each exercise of the previous level.
+This procedure applies similarly to the exercises.
+Hereby, the next exercise can be unlocked by accomplishing all body sides and repetitions of the current exercise.
 %The structure already seen in section \textit{\ref{4_4_exercises}} is adapted to store the corresponding information for the tier, exercise, side, and repetition.
 \begin{figure}[htb]
 	\centering
