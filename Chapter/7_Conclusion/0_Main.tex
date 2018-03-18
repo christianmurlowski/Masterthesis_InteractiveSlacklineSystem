@@ -1,64 +1,75 @@
 \chapter{Conclusion and Future Work}\label{7_conclusion}
-This last chapter gives a summary of the concept, system integration, and conducted study.
-Further it provides possible ideas to extend and improve the system itself as well as recommendations for further research work.
+This last chapter provides a summary of the concept, system integration, and conducted study.
+Further it summarizes possible ideas to extend and improve the system itself as well as recommendations for further research work.
 
 \section{Conclusion}
-At first will be discussed how the research goals stated in section \textit{\nameref{1_2_researchGoals}} have been realized within the scope of this thesis.
+At first the research questions stated in section \textit{\nameref{1_2_researchGoals}} will be discussed and how they have been realized within the scope of this thesis.
 
-\subsubsection{Exploration of slackline training and designing an appealing interactive system}
-Slacklining shows positive effects on muscle strength improvements, muscle activation, as an alternative way to general balance training, and general improvements in postural control.
+\subsubsection{\nameref{rq_slacklineTrainingSystem}}
+Slacklining shows positive effects on muscle strength improvements, muscle activation.
+It can also be used as an alternative way to general balance training, because it shows general improvements in postural control.
 The Microsoft Kinect resulted in the best tracking device for the case of this thesis.
-Appropriate and simple feedback help the user during the exercise execution as well as motivating him for further exercises with an enjoyable but challenging virtual training environment and a user friendly interface.
+Appropriate and simple feedback help the user during the exercise execution, as well as motivating her for further exercises.
+This is achieved by an enjoyable virtual training environment, a challenging exercise structure, and a user friendly interface.
 
 
-\subsubsection{Conceptual design of a prototypical interactive slackline learning system}
+\subsubsection{\nameref{rq_concept}}
 The conceptual design has been elaborated by respecting Nielsens ten usability heuristics and defining basic and system specific requirements based on the related work and comparable applications.
 Splitting exercises into levels allows to separate them into different difficulty ranks and unlocking them by the user through accomplishing exercises gives a sense of motivation and gameplay.
+Giving the user a well structured interface with a clear workflow helps to enhance the user experience
 
-\subsubsection{Implementation for the usage in a user study}
+\subsubsection{\nameref{rq_development}}
 The system has been built with the help of Unity3D and Microsoft Kinect SDK as connection between Unity and Kinect hardware.
 For displaying the UI on a  big screen a projector has been used.
-The best combination of positioning resulted in a Kinect height of 0.80 up to 1.20 meters and positioning the Slackline directly to the Kinect.
-For the movement recognition the microsoft tools \textit{KinectStudio} and \textit{Visual Gesture Builder} have been used.
+The best combination of positioning the Kinect and the slackline resulted in a Kinect height of 0.80 up to 1.20 meters and positioning the slackline directly in front of the Kinect.
+Exercises for the movement recognition were created with the tools \textit{KinectStudio} and \textit{Visual Gesture Builder} by Microsoft.
+Furthermore, checking on small and simple gestures has been achieved with heuristics, which means programmatically checking on certain joint positions and angles in the x-, y- and z-axis.
 
-\subsubsection{Investigation of the slackline learning system}
+\subsubsection{\nameref{rq_study}}
 A conducted study compared the slackline learning system with a personal human trainer.
 A 2 (group: ISG, HTG) x 2 (time: PRE, POST) mixed factorial study design was chosen with the measurement parameters single leg stance, steps walked over the line, and distance walked over the line.
 The results showed no interaction effect between the groups for the time and no main effect between subjects.
 However a significant main effect for the time has been found.
-This means that both groups do not differ after the training regarding their performance, but all participants improved their own balance skill in almost all categories.
+This means that both groups do not differ after the training regarding their performance, but all participants improved their own balance skill in almost all measurement categories.
+Considering the numeric data results of the learning progress, the performance of both groups (HTG and ISG) can be seen as very similar.
+Therefore the learning progress on the slackline learning system can be compared with a personal human trainer.
 
 \section{Future Work}
-The following will include ideas and approaches for further development with the system from multiple perspectives and application fields.
+The following will suggest ideas and approaches for further development with the system from multiple perspectives and application fields.
 
 Further work could investigate the usage of the slackline learning system as a home workout system.
-This could show if it would be an appropriate alternative for private persons to become more fit and motivate them for balance sport activities.
+This can show if the system would be an appropriate alternative for private persons to become more fit and motivate them for balance sport activities.
+A similar scenario would be to integrate the SLS in a company in which office job is the main activity.
+It would be interesting if employees are motivated to use the system for having a certain amount of variety in their job.
+Considering the health an additional research could observe if employees will become more fit, prevent problems with their posture, or even improve their posture, which is strained due to sitting activities.
 
-Another interesting part would be the investigation of the slackline learning system in fields of sport medicine like e.g. for patients in physiotherapy.
-Patients could be more motivated through the gamified environment and for unlocking exercises, which helps to support them for curing their disorder.
-Because of its autonomous usage it would also ease the workload the medical personal at the same time, so they could focus on other work than supervising patients during their training period.
+Another interesting part would be the investigation of the SLS in fields of sport medicine, e.g. for patients in physiotherapy.
+Patients could be more motivated through the gamified environment and for unlocking exercises.
+A further question would be if it has positive effects to support the patients in respect of the cure of their disorder.
+Because of its autonomous usage it can be assumed that the workload the medical personal would be eased at the same time, so they could focus on other work than supervising patients during their training period.
 
-Noted by participants in the study of this thesis, the system could find its application as balance training system for several sport activities.
-Especially where self control and controlling the own body balance is essential like in martial arts, dancing, or rowing.
-Furthermore gyms rely more and more on a virtual trainer.
-Therefore such a system could find its application also in a gym or in a climbing hall as alternative balance training method.
+Noted by participants in the study of this thesis, the system could find its application as balance training system for several other sport activities.
+Especially where self control and controlling the own body balance is essential, like in martial arts, dancing, or rowing.
+Furthermore, gyms rely more and more on a virtual trainer.
+Such a learning system could find its application also in a gym or in a climbing hall as alternative training method.
 
-The system itself could also be improved to make it ore attractive and enhance the user experience with it.
+The SLS itself could also be improved to make it ore attractive and enhance the user experience with it.
 Especially for people that have a sense of competition or want to improve themselves for this kind of sport. 
-To achieve this the system could first assess the skill level of the user with pre defined exercises.
-Based on the outcome a pool of exercises would be created by the system.
-Like seen in section~\textit{\nameref{3_3_1_learningConcepts}} a differential method could also serve as an alternative training method to give the user more freedom in choosing exercises of a certain skill area.
+To achieve this the, system could first assess the skill level of the user with predefined exercises.
+Based on the outcome, a pool of exercises would be created by the system.
+Like seen in section~\textit{\nameref{3_3_1_learningConcepts}}, a differential method could also serve as an alternative training method to the methodical routine integrated in this study.
+An integration of a differential method provides the user with more freedom in choosing exercises of a certain skill area.
 The skill level of the user would then be calculated in points based on her performance, which could be the amount of attempts for the exercise, how confident she was, and how much time she needed to accomplish the exercise.
-Furthermore an achievement system could be used to motivate the user and reward her performance.
-The videos could be replaced by an animated character, which supports the trainee during the exercises like seen in the \textit{Nike +} application of section~\textit{\nameref{1_1_motivation}}.
+Furthermore an achievement system could be tested to motivate the user and reward her performance.
+An animated character could replace the videos to support the trainee during the exercises, like seen in the \textit{Nike +} application of section~\textit{\nameref{1_1_motivation}}.
 
-Further it would be interesting to adapt other sport activities than slacklining for such a learning system.
+It would also be interesting to adapt other sport activities than slacklining for such a learning system.
 Participants of the study named for example boxing, basketball, yoga, dancing, or skiing.
-In general all balance activities or activities in which a choreography are part of them.
+In general, all balance activities or activities in which a choreography are part of them could be integrated.
 
 Another open question would be, if slacklining could be combined with virtual reality technology.
-This would be an application for more advanced slacker, because the risk of accidents would be too big for beginners on a slackline.
-In special, elaborating the the impact of a pleasing virtual environment on the slacker and if it could provide a more immersive feeling because of the virtual environment.
+This would be an application for more advanced slacker, because the risk of accidents is probably be too high for beginners on a slackline.
+In special, elaborating the the impact of a pleasing virtual environment on the slacker and if the application could provide a more immersive feeling because of the virtual environment.
 Further the learning approach could also be integrated in virtual reality, in which a virtual trainer provides the exercises and demonstrates them to the trainee in a virtual environment
 
 % gamified home workout system
