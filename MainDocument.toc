@@ -2,11 +2,11 @@
 \vspace {-.45cm}
 \contentsline {chapter}{\numberline {1} Introduction}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Research Goals}{5}{section.1.2}
-\contentsline {subsubsection}{Exploration of slackline training and designing an appealing interactive system}{5}{subsubsection*.4}
-\contentsline {subsubsection}{Conceptual design of a prototypical interactive slackline learning system}{5}{subsubsection*.5}
-\contentsline {subsubsection}{Implementation for the usage in a user study}{5}{subsubsection*.6}
-\contentsline {subsubsection}{Investigation of the slackline learning system}{6}{subsubsection*.7}
+\contentsline {section}{\numberline {1.2}Research Questions}{5}{section.1.2}
+\contentsline {subsubsection}{Which exercises should be integrated for slackline training and what has to be considered to build an appealing interactive learning system?}{5}{subsubsection*.4}
+\contentsline {subsubsection}{How can a conceptual design of a prototypical interactive slackline learning system be designed?}{5}{subsubsection*.5}
+\contentsline {subsubsection}{Which technical architecture and hardware are necessary for developing such a system?}{5}{subsubsection*.6}
+\contentsline {subsubsection}{Can the slackline learning system compete with a common learning method and show a learning progress on users that trained with the system?}{6}{subsubsection*.7}
 \contentsline {section}{\numberline {1.3}Outline}{6}{section.1.3}
 \contentsline {chapter}{\numberline {2} Related Work}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Slackline Specific Training and Effects to the Human Body}{7}{section.2.1}
@@ -23,13 +23,13 @@
 \contentsline {section}{\numberline {2.4}User Interface Design}{20}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}User Interface Design for Appropriate Feedback}{20}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Kinect for Windows - Human Interface Guidelines}{21}{subsection.2.4.2}
-\contentsline {subsubsection}{Basic Design Principles}{22}{subsubsection*.17}
+\contentsline {subsubsection}{Basic Design Principles}{21}{subsubsection*.17}
 \contentsline {subsubsection}{Visual and Audio Feedback}{22}{subsubsection*.18}
 \contentsline {subsubsection}{Clarification}{22}{subsubsection*.21}
 \contentsline {subsubsection}{User Viewer}{23}{subsubsection*.22}
-\contentsline {subsubsection}{Learning Interaction Methods}{23}{subsubsection*.24}
+\contentsline {subsubsection}{Learning Interaction Methods}{24}{subsubsection*.24}
 \contentsline {subsubsection}{Teaching Complex Gestures / Exercises}{24}{subsubsection*.26}
-\contentsline {subsubsection}{Element Sizing}{24}{subsubsection*.28}
+\contentsline {subsubsection}{Element Sizing}{25}{subsubsection*.28}
 \contentsline {subsubsection}{Physical Interaction Zone}{25}{subsubsection*.29}
 \contentsline {section}{\numberline {2.5}Conclusion}{25}{section.2.5}
 \contentsline {chapter}{\numberline {3} Introduction into Slacklining and Slacklining Learning Techniques}{27}{chapter.3}
@@ -50,31 +50,32 @@
 \contentsline {section}{\numberline {4.3}Levels}{40}{section.4.3}
 \contentsline {section}{\numberline {4.4}Exercises}{40}{section.4.4}
 \contentsline {section}{\numberline {4.5}Feedback system}{40}{section.4.5}
-\contentsline {section}{\numberline {4.6}Conclusion}{41}{section.4.6}
+\contentsline {section}{\numberline {4.6}Summary}{41}{section.4.6}
 \contentsline {chapter}{\numberline {5} System implementation}{43}{chapter.5}
 \contentsline {section}{\numberline {5.1}Hardware}{43}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}Components}{43}{subsection.5.1.1}
 \contentsline {subsection}{\numberline {5.1.2}Kinect and Slackline positioning}{44}{subsection.5.1.2}
-\contentsline {subsubsection}{Limitations of the Kinect}{44}{subsubsection*.42}
-\contentsline {subsubsection}{Best positioning for study purposes}{45}{subsubsection*.44}
-\contentsline {section}{\numberline {5.2}Data Model \leavevmode {\color {red}3/4 A's am anfang vom satz}}{46}{section.5.2}
-\contentsline {section}{\numberline {5.3}Movement Recognition}{47}{section.5.3}
+\contentsline {subsubsection}{Limitations of the Kinect}{45}{subsubsection*.43}
+\contentsline {subsubsection}{Best positioning for study purposes}{45}{subsubsection*.45}
+\contentsline {section}{\numberline {5.2}Data Model}{46}{section.5.2}
+\contentsline {section}{\numberline {5.3}Movement Recognition}{48}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Heuristics vs. Visual Gesture Builder}{48}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Workflow for Building Gestures}{48}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Frontend}{49}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Unity3D and Kinect SDK}{49}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.3.2}Workflow for Building Gestures}{49}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Frontend}{50}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Unity3D and Kinect SDK}{50}{subsection.5.4.1}
 \contentsline {subsection}{\numberline {5.4.2}Implementation}{50}{subsection.5.4.2}
-\contentsline {subsubsection}{Interaction Tutorial}{50}{subsubsection*.50}
-\contentsline {subsubsection}{Selection Menus}{51}{subsubsection*.54}
-\contentsline {subsubsection}{Level and Exercise Description}{52}{subsubsection*.56}
-\contentsline {subsubsection}{Exercise Execution}{52}{subsubsection*.58}
+\contentsline {subsubsection}{Interaction Tutorial}{51}{subsubsection*.51}
+\contentsline {subsubsection}{Selection Menus}{52}{subsubsection*.55}
+\contentsline {subsubsection}{Level and Exercise Description}{52}{subsubsection*.57}
+\contentsline {subsubsection}{Exercise Execution}{53}{subsubsection*.59}
+\contentsline {section}{\numberline {5.5}Summary}{53}{section.5.5}
 \contentsline {chapter}{\numberline {6} Study}{55}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction and Goals}{55}{section.6.1}
 \contentsline {section}{\numberline {6.2}Participants}{56}{section.6.2}
 \contentsline {section}{\numberline {6.3}Method}{57}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Conditions of Slackline Training}{57}{subsection.6.3.1}
-\contentsline {subsubsection}{Interactive System Group (ISG)}{57}{subsubsection*.62}
-\contentsline {subsubsection}{Human Trainer Group (HTG)}{58}{subsubsection*.63}
+\contentsline {subsubsection}{Interactive System Group (ISG)}{57}{subsubsection*.63}
+\contentsline {subsubsection}{Human Trainer Group (HTG)}{58}{subsubsection*.64}
 \contentsline {subsection}{\numberline {6.3.2}Procedure}{58}{subsection.6.3.2}
 \contentsline {subsubsection}{Apparatus}{59}{subsubsection*.65}
 \contentsline {subsection}{\numberline {6.3.3}Design and independent \& dependent variables}{60}{subsection.6.3.3}
@@ -82,18 +83,29 @@
 \contentsline {subsection}{\numberline {6.4.1}Single Leg Stance Performance}{61}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}Walked Steps Performance}{62}{subsection.6.4.2}
 \contentsline {subsection}{\numberline {6.4.3}Walked Distance Performance}{62}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}\leavevmode {\color {red}Discussion}}{64}{section.6.5}
-\contentsline {subsubsection}{Interaction effects}{64}{subsubsection*.71}
-\contentsline {subsubsection}{Time effects}{65}{subsubsection*.72}
-\contentsline {subsubsection}{Group effect}{66}{subsubsection*.74}
-\contentsline {subsubsection}{Slackline Training Observations}{66}{subsubsection*.76}
-\contentsline {subsubsection}{Subjects Rating of exercise difficulty}{67}{subsubsection*.77}
-\contentsline {subsubsection}{Semi-structured Interview}{68}{subsubsection*.79}
-\contentsline {chapter}{\numberline {7} Conclusion and Future Work}{69}{chapter.7}
-\contentsline {section}{\numberline {7.1}Conclusion}{69}{section.7.1}
-\contentsline {subsubsection}{Exploration of slackline training and designing an appealing interactive system}{69}{subsubsection*.80}
-\contentsline {subsubsection}{Conceptual design of a prototypical interactive slackline learning system}{69}{subsubsection*.81}
-\contentsline {subsubsection}{Implementation for the usage in a user study}{70}{subsubsection*.82}
-\contentsline {subsubsection}{Investigation of the slackline learning system}{70}{subsubsection*.83}
-\contentsline {section}{\numberline {7.2}Future Work}{70}{section.7.2}
-\contentsline {section}{Bibliography}{72}{section*.84}
+\contentsline {section}{\numberline {6.5}Discussion}{64}{section.6.5}
+\contentsline {subsubsection}{Interaction effects}{64}{subsubsection*.72}
+\contentsline {subsubsection}{Time effects}{65}{subsubsection*.73}
+\contentsline {subsubsection}{Group effect}{66}{subsubsection*.75}
+\contentsline {subsubsection}{Slackline Training Observations}{66}{subsubsection*.77}
+\contentsline {subsubsection}{Subjects Rating of exercise difficulty}{67}{subsubsection*.79}
+\contentsline {subsubsection}{Semi-structured Interview}{68}{subsubsection*.81}
+\contentsline {chapter}{\numberline {7} Conclusion and Future Work}{71}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusion}{71}{section.7.1}
+\contentsline {subsubsection}{Exploration of slackline training and designing an appealing interactive system}{71}{subsubsection*.82}
+\contentsline {subsubsection}{Conceptual design of a prototypical interactive slackline learning system}{71}{subsubsection*.83}
+\contentsline {subsubsection}{Implementation for the usage in a user study}{72}{subsubsection*.84}
+\contentsline {subsubsection}{Investigation of the slackline learning system}{72}{subsubsection*.85}
+\contentsline {section}{\numberline {7.2}Future Work}{72}{section.7.2}
+\contentsline {chapter}{\hspace {-6mm}Appendices}{}{section*.86}
+\setcounter {tocdepth}{1}
+\contentsline {chapter}{\numberline {A} Data Collection of the User Study}{77}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}Demographic Data}{78}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}Physical Activity Questionnaire}{79}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}Lateral Preference Inventory}{81}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}Guided Interview Questionnaire}{82}{section.1.A.4}
+\contentsline {chapter}{\numberline {B} Statement of the Ethical Review Board}{83}{Appendix.1.B}
+\contentsline {chapter}{\hspace {-6mm}List of Abbreviations}{85}{chapter*.92}
+\contentsline {chapter}{\hspace {-6mm}List of Figures}{88}{chapter*.93}
+\contentsline {chapter}{\hspace {-6mm}List of Tables}{89}{chapter*.94}
+\contentsline {chapter}{\hspace {-6mm}Bibliography}{96}{chapter*.96}

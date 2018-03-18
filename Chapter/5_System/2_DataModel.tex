@@ -1,7 +1,13 @@
-\section{Data Model \todo{3/4 A's am anfang vom satz}}\label{5_2_dataModel}
-All relevant data are stored in JSON files. It is more human-readable and makes accessing as well as updating data simple. Each user should have the same basis of exercises. A default exercise JSON file serves as template for all registered users in the SLS. An internal editor was created to make data management and adjustments more easy. Figure~\ref{fig:5_2_dataModel} shows the overall data structure.
+\section{Data Model}\label{5_2_dataModel}
+All relevant data are stored in JSON files.
+It consists of human-readable data and makes accessing as well as updating data simple.
+The set of exercises are the same for all users
+% should have the same basis of exercises.
+A default exercise JSON file serves as template for all registered users in the SLS.
+To make data management and adjustments more easy an internal editor was created.
+Figure~\ref{fig:5_2_dataModel} shows the overall data structure.
 
-A user data file represents the profile of a slacker who wants to train with the system.
+Each user has her own user data file that represents the profile of a slacker who wants to train with the system.
 It consists of her name and a default template of levels and exercises.
 Only one user profile at a time can be active.
 This ensures that no other profiles can be affected by the current user.
@@ -20,7 +26,8 @@ Several exercises are part of a level.
 Exercises can also be unlocked, accomplished and have an exercise name to be displayed. In addition they have a file name to load the appropriate exercise in the database, pictures for a preview in the , and videos in the application. For the gesture detection it is important to store if the current exercise is discrete or progress gesture. The purpose of this is further described in Section~\textit{\nameref{5_3_movementRecognition}}. Further, the average user time, average confidence, and entire amount of attempts out of both sides for this exercise are stored. Lastly, each exercise has two sides.
 \end{comment}
 
-Exercises consist of a name and a thumbnail picture that is shown in the menu. A description and a looping video of the correct execution are provided in the introduction.
+Exercises consist of a name and a thumbnail picture that is shown in the menu.
+The introduction of an exercise provides a description and a looping video of the correct execution.
 For each body side the user has to challenge several repetitions with a minimum time to hold the specific position.
 If all repetitions have been successfully executed for both body sides, the current exercise is accomplished and the next one will unlock.
 A check list provides the user during her training with supportive real-time feedback, which guides her for a successful exercise execution.

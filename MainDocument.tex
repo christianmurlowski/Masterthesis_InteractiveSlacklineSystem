@@ -46,13 +46,27 @@
 \input{Chapter/6_Study/0_Main}
 \input{Chapter/7_Conclusion/0_Main}
 
+\input{Main/Appendix}
+
+\cleardoublepage
+\input{Main/Abbreviations}
+\addcontentsline{toc}{chapter}{\hspace {-6mm}List of Abbreviations}
+
+\cleardoublepage
+\listoffigures
+\addcontentsline{toc}{chapter}{\hspace {-6mm}\listfigurename}
+
+\cleardoublepage
+\listoftables
+\addcontentsline{toc}{chapter}{\hspace {-6mm}\listtablename}
+
 \clearpage
 \begingroup
   \pagestyle{plain}
   \bibliographystyle{acm_fkerber}
    \phantomsection
-	\addcontentsline{toc}{section}{Bibliography}
 	\bibliography{references}\emph{}
+	\addcontentsline{toc}{chapter}{\hspace {-6mm}Bibliography}
 	\vfill
   \clearpage
 \endgroup 

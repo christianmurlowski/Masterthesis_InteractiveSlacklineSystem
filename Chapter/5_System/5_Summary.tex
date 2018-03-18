@@ -1,0 +1,15 @@
+\section{Summary}
+The system setup consists of several components, which are the Kinect as tracking device, PC for running the application, as well as a projector and screen for projecting the interface.
+An important consideration is the positioning of the Kinect and slackline, mainly because of the tracking range and angle of the Kinect.
+The best combination resulted in a Kinect height of 0.80 m up to 1.20 m and placing the slackline vertically directly in front of the Kinect.
+Data of the current user and her progress with the system are stored in a separate folder as JSON file.
+They are human-readable and accessing as well as writing data is rather simple.
+Gestures can either be defined by the developer self, which is called heuristics or with the tool Visual Gesture Builder provided by Microsoft.
+Heuristics are good for checking small simple gestures and if the trainee accomplishes key elements of the current gesture.
+In contrast, the VGB is used to create complex gestures, like standing on the slackline or switching the standing leg.
+%VGB and KinectStudio help to define complex gestures for exercises in the system.
+Unity3D serves as game engine to develop the frontend of the application and Microsoft Kinect SDK v2.0 to access the Kinect data stream.
+A playful game environment design, in which the user can see herself mirrored, makes the interaction more enjoyable.
+The system teaches the user how to interact with itself from the beginning.
+Feedback is an important key feature.
+Several indicators, like the amount of repetitions or the elapsed time the user is performing an exercise, provide the user with appropriate feedback about her current performance during the exercise execution.
