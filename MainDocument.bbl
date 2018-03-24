@@ -18,6 +18,11 @@
 \newblock {\em German Journal of Exercise and Sport Research 38}, 4 (2008),
   pp.~423--450.
 
+\bibitem{Wiki2017-atol}
+{\sc Blausen Medical~Communications, Inc.}
+\newblock Medical gallery of Blausen Medical 2014.
+\newblock {\em WikiJournal of Medicine 1}, 2 (2014).
+
 \bibitem{Bogdanovych2015-ci}
 {\sc Bogdanovych, Anton and Stanton, Christopher}.
 \newblock A Novel Approach to Sports Oriented Video Games with Real-time Motion
@@ -54,6 +59,11 @@
 {\sc Corporation, Microsoft}.
 \newblock {\em Visual Gesture Builder: A Data-Driven Solution to Gesture
   Detection}, 2014.
+
+\bibitem{WikiSlacklining2017-highline}
+{\sc Davis, L.}
+\newblock Photography of a man highlining at Taft Point, Yosemite National
+  Park, with El Capitan in the background., 2013.
 
 \bibitem{Medeiros2017-ex}
 {\sc de~M., Pâmella; C., Renata; Z., Marcely~Almeida; da~S.,
@@ -101,6 +111,14 @@
   Game}.
 \newblock In {\em Proceedings of SBGames 2012\/} (2012), pp.~144--153.
 
+\bibitem{WikiSlacklining2017-rodeoline}
+{\sc Friedrich, B.}
+\newblock Photograph of a person walking on a rodeoline in Graz, 2006.
+
+\bibitem{WikiSlacklining2017-waterline}
+{\sc Friedrich, F.}
+\newblock Photograph of a person waterlining over the Sulm in Austria, 2007.
+
 \bibitem{Fuchs2015-bsa}
 {\sc Fuchs, Reinhard; Klaperski, Sandra; Gerber, Markus and Seelig, Harald}.
 \newblock Messung der Bewegungs- und Sportaktivität mit dem BSA-Fragebogen.
@@ -126,6 +144,10 @@
 \newblock Slackline training for balance and strength promotion.
 \newblock {\em International Journal of Sports Medicine 31\/} (2010),
   pp.~717--723.
+
+\bibitem{WikiSlacklining2017-trickline}
+{\sc Grižon, S.}
+\newblock Photograph of a person doing a handstand on a trickline, 2013.
 
 \bibitem{Groessing1997-sp}
 {\sc Gr{\"o}ßing, Stefan}.
@@ -155,6 +177,10 @@
 \newblock Body-controlled Trampoline Training Games Based on Computer Vision.
 \newblock In {\em CHI '13 Extended Abstracts on Human Factors in Computing
   Systems\/} (2013), CHI EA '13, ACM, pp.~1143--1148.
+
+\bibitem{Wiki2017-bopl}
+{\sc Institute, National~Cancer}.
+\newblock Picture of the planes of human anatomy., 2006.
 
 \bibitem{Jensen2014-ex}
 {\sc Jensen, Mads~M{\o}ller; Rasmussen, Majken~Kirkegaard and Gr{\o}nb{\ae}k,
@@ -285,6 +311,11 @@
   Patients Rehabilitation Research Techniques\/} (2015), REHAB '15, ACM,
   pp.~54--57.
 
+\bibitem{WikiSlacklining2017-urbanline}
+{\sc Rillieux-la Pape, M.}
+\newblock Photograph of a person slacklining in an urban area in
+  Rillieux-la-Pape, 2016.
+
 \bibitem{Rudella2012-ex}
 {\sc Rudella, Jennifer~L. and Butz, Jennifer~V.}
 \newblock Exergames: Increasing Physical Activity through Effective
@@ -321,6 +352,11 @@
 \newblock In {\em Proceedings of the 5th International Conference on Computer
   Graphics and Interactive Techniques in Australia and Southeast Asia\/}
   (2007), ACM, pp.~289--295.
+
+\bibitem{WikiSlacklining2017-longline}
+{\sc Taichi, T.}
+\newblock Photography of Alexander Schulz walking on a 340m longline for a
+  world record in Mitterbruch, 2012.
 
 \bibitem{Tanaka2012-ACO}
 {\sc Tanaka, Kazumoto; Parker, Jim; Baradoy, Graham; Sheehan, Dwayne; Holash,
@@ -369,46 +405,6 @@
   Game Environment (Code Red Triage): Doctoral Consortium Paper.
 \newblock In {\em Proceedings of the 28th Annual European Conference on
   Cognitive Ergonomics\/} (2010), ECCE '10, ACM, pp.~319--322.
-
-\bibitem{Wiki2017-ATOL}
-{\sc Wikipedia}.
-\newblock Anatomical terms of location --- Wikipedia{,} The Free Encyclopedia.
-\newblock [Online; accessed 05-October-2017].
-
-\bibitem{WikiSlacklining2017-longline}
-{\sc Wikipedia}.
-\newblock Slacklining Longline - Picture --- Wikipedia{,} The Free
-  Encyclopedia.
-\newblock [Online; accessed 12-March-2017].
-
-\bibitem{WikiSlacklining2017-lowline}
-{\sc Wikipedia}.
-\newblock Slacklining Lowline - Picture --- Wikipedia{,} The Free Encyclopedia.
-\newblock [Online; accessed 12-March-2017].
-
-\bibitem{WikiSlacklining2017-rodeoline}
-{\sc Wikipedia}.
-\newblock Slacklining Rodeoline - Picture --- Wikipedia{,} The Free
-  Encyclopedia.
-\newblock [Online; accessed 12-March-2017].
-
-\bibitem{WikiSlacklining2017-trickline}
-{\sc Wikipedia}.
-\newblock Slacklining Trickline - Picture --- Wikipedia{,} The Free
-  Encyclopedia.
-\newblock [Online; accessed 12-March-2017].
-
-\bibitem{WikiSlacklining2017-urbanline}
-{\sc Wikipedia}.
-\newblock Slacklining Urbanline - Picture --- Wikipedia{,} The Free
-  Encyclopedia.
-\newblock [Online; accessed 12-March-2017].
-
-\bibitem{WikiSlacklining2017-waterline}
-{\sc Wikipedia}.
-\newblock Slacklining Waterline - Picture --- Wikipedia{,} The Free
-  Encyclopedia.
-\newblock [Online; accessed 12-March-2017].
 
 \bibitem{Winstein1990-to}
 {\sc Winstein, Carolee~J. and Schmidt, Richard~A.}

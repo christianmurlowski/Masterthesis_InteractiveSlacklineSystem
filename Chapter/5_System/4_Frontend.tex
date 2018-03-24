@@ -1,7 +1,7 @@
 \section{Frontend}\label{5_4_software}
 \subsection{Unity3D and Kinect SDK}
 % KinectStudio, VGB, Unity3D, Kinect SDK for unity, Kinect MS-SDK
-The software development process consists of the interplay of two major software components (Figure~\ref{fig:5_3_unityKinectArchitecture}).
+The software development process consists of the interplay of two major software components (see Figure~\ref{fig:5_3_unityKinectArchitecture}).
 First the cross-platform game engine \textit{Unity3D} by \textit{Unity Technologies}. It is widely known for game development but also for development with several interaction devices (e.g. \textit{HTC Vive}, \textit{Leap Motion}). Applications can be deployed for various platforms like desktop, mobile, web, console, TV, or virtual/augmented/mixed reality devices.
 Unity is used in the SLS to create the virtual environment, interface design, manage actions by the user, and for data management.
 %(e.g. Windows, macOS, Android, iOS, Oculus Rift, Windows Mixed Reality and so on).
@@ -32,9 +32,9 @@ The frontend implementation of the SLS will be explained on the basis of the wor
 %interaction integration, and feedback implementation of the system are further described.
 
 \subsubsection{Interaction Tutorial}
-When a user starts with the SLS (Figure~\ref{fig:5_3_welcome}) an engagement gesture is the very first interaction. She has to raise any hand over the head. This conveys that the system recognises and reacts to specific movement actions. 
+When a user starts with the SLS (see Figure~\ref{fig:5_3_welcome}) an engagement gesture is the very first interaction. She has to raise any hand over the head. This conveys that the system recognises and reacts to specific movement actions. 
 
-Afterwards the user is introduced into the interaction techniques (Figure~\ref{fig:5_3_tutHandPush} \&~\ref{fig:5_3_tutHandPoint} ).
+Afterwards the user is introduced into the interaction techniques (see Figure~\ref{fig:5_3_tutHandPush} \&~\ref{fig:5_3_tutHandPoint} ).
 Her hands serve hereby as input for navigating and interacting with interface elements in the SLS. Therefore she is in constant interaction with the system and becomes more familiar to it.
 The current position on the screen is visualised by a virtual hand cursor.
 
@@ -75,16 +75,16 @@ The current position on the screen is visualised by a virtual hand cursor.
 %Her hands serve as input for interacting with interface elements.
 
 Four different approaches were tested as hand interaction gesture.
-First, hovering with the hand over elements for a few seconds (Figure~\ref{fig:5_3_hover}).
+First, hovering with the hand over elements for a few seconds (see Figure~\ref{fig:5_3_hover}).
 It caused problems because of accidental and unwanted misclicks due to relatively big and many interaction elements in the interface.
-As second interaction technique the hand should be closed to a fist or grab gesture (Figure~\ref{fig:5_3_fist}).
+As second interaction technique the hand should be closed to a fist or grab gesture (see Figure~\ref{fig:5_3_fist}).
 It also triggered unwanted misclicks if the hand of the user closes a bit during navigation.
 %The hand of the users closes automatically a little bit during the interaction, which in combination with the standing position on the outermost tracking range was sufficient to trigger a click.%(Figure \todo{comparison default \& target})
 A better interaction was performed by the so called \textit{V-sign}, where the user makes a pointing gesture with her index and middle finger.
-The click event triggers when the user releases her hand into the default state (Figure~\ref{fig:5_3_point}).
+The click event triggers when the user releases her hand into the default state (see Figure~\ref{fig:5_3_point}).
 Relating to the real word, a button is triggered by pushing it down with the hand or finger.
 This is used as an analogy in the last interaction gesture, where the user pushes the open hand towards the Kinect.
-It is the most intuitive, natural, and least error-prone technique (Figure~\ref{fig:5_3_push}). %Since in this gesture the hand has to move from point a to point b in the z-axis the progress is visualized by a filling circle like seen in figure~\ref{fig:handcursorProgress}.
+It is the most intuitive, natural, and least error-prone technique (see Figure~\ref{fig:5_3_push}). %Since in this gesture the hand has to move from point a to point b in the z-axis the progress is visualized by a filling circle like seen in figure~\ref{fig:handcursorProgress}.
 Therefore the push technique is used as main interaction. The V-sign is implemented as second interaction technique, since it resulted in better interaction experience than the fist and hover gesture.
 \begin{figure}[htb]
 	\centering
@@ -100,7 +100,7 @@ Therefore the push technique is used as main interaction. The V-sign is implemen
 	\label{fig:5_3_handInteraction}
 \end{figure}
 
-When finished with the interaction techniques the user is introduced on how to stand in the right starting position (Figure~\ref{fig:5_3_standingPosition}). She has to stand with both feet parallel and in front to the Kinect. This ensures the readiness of the user and is required before starting the exercise execution.
+When finished with the interaction techniques the user is introduced on how to stand in the right starting position (see Figure~\ref{fig:5_3_standingPosition}). She has to stand with both feet parallel and in front to the Kinect. This ensures the readiness of the user and is required before starting the exercise execution.
 %Furthermore the initial joint positions of the foot is taken to verify if the user stands on the ground or on the line during the appropriate exercises.
 %This initial joint position can differ if the user stands closer or more far away from the sensor because of the Kinects angel regarding its height. Hence the z-axis joint position of the left and right feet will be compared to have the same value with a little tolerance. 
 \begin{figure}[htb]
@@ -111,13 +111,12 @@ When finished with the interaction techniques the user is introduced on how to s
 \end{figure}
 
 \subsubsection{Selection Menus}
-The system consists of several selection menus. At first a user profile has to be selected (Figure~\ref{fig:5_3_user_menu}). Hereby it provides the possibility that more than one user can train with the system separately.
+The system consists of several selection menus. At first a user profile has to be selected (see Figure~\ref{fig:5_3_user_menu}). Hereby it provides the possibility that more than one user can train with the system separately.
 %When the trainee selects her profile the system checks if the JSON file has any data. If no data is available, which means it is a new user, the default exercise JSON file will be copied into the profile. 
 When selecting a profile, the appropriate JSON file will be loaded into the system for accessing and managing the user data.
 %The trainee selects her profile by herself. With this the data will be loaded into the system. In the user selection the trainee should select the right profile by herself to cover the condition of multiple user that can train with the system. 
 %The users name and id are saved in as \textit{PlayerPrefs}. This is a class in Unity that provides the possibility to be globally accessible in the application. The respective code for setting and getting the values can be seen in listing \todo{ref listing playerpfrefs}. This is needed to find the correct path for the JSON files to save the data.
-
-Levels and exercises are also structured as menus (Figure~\ref{fig:5_3_level_menu} \&~\ref{fig:5_3_exercise_menu}).
+Levels and exercises are also structured as menus (see Figure~\ref{fig:5_3_level_menu} \&~\ref{fig:5_3_exercise_menu}).
 At first they are all locked except the very first one to provide a starting point.
 A level can be unlocked by accomplishing each exercise of the previous level.
 This procedure applies similarly to the exercises.
@@ -150,7 +149,7 @@ Hereby, the next exercise can be unlocked by accomplishing all body sides and re
 \end{figure}
 
 \subsubsection{Level and Exercise Description}
-Selecting a level leads the user to the level introduction (Figure~\ref{fig:5_3_level_intro}). She is informed about the goals of the current level and gets helpful information for the execution of the following exercises. After that she selects the first exercise in the menu and afterwards a body side, which she wants to train first (Figure~\ref{fig:5_3_select_side}). This leads her to the detailed exercise description (Figure~\ref{fig:5_3_exercise_intro}). It is introduced by a list of actions she has to follow to perform it correctly. Additionally, the amount of repetitions and the minimum time to hold the gesture are given. Furthermore, a looping video on the visualizes the correct execution to the user.
+Selecting a level leads the user to the level introduction (see Figure~\ref{fig:5_3_level_intro}). She is informed about the goals of the current level and gets helpful information for the execution of the following exercises. After that she selects the first exercise in the menu and afterwards a body side, which she wants to train first (see Figure~\ref{fig:5_3_select_side}). This leads her to the detailed exercise description (see Figure~\ref{fig:5_3_exercise_intro}). It is introduced by a list of actions she has to follow to perform it correctly. Additionally, the amount of repetitions and the minimum time to hold the gesture are given. Furthermore, a looping video on the visualizes the correct execution to the user.
 \begin{figure}[htb]
 	\centering
 	\begin{minipage}[t]{0.32\linewidth}
@@ -178,7 +177,7 @@ Selecting a level leads the user to the level introduction (Figure~\ref{fig:5_3_
 \end{figure}
 
 \subsubsection{Exercise Execution}
-The exercise execution consists of the biggest functionality implementation (Figure~\ref{fig:5_3_exercise_execution}). Feedback indicators provide the user with necessary information about the current exercise in real time. This should help to enhance the performance in her execution and for successfully accomplishing the exercise. In the SLS the following feedback indicators are integrated:
+The exercise execution consists of the biggest functionality implementation (see Figure~\ref{fig:5_3_exercise_execution}). Feedback indicators provide the user with necessary information about the current exercise in real time. This should help to enhance the performance in her execution and for successfully accomplishing the exercise. In the SLS the following feedback indicators are integrated:
 
 \begin{itemize}
 \item Checklist about key elements of an exercise
@@ -203,10 +202,10 @@ The exercise execution consists of the biggest functionality implementation (Fig
 
 \end{comment}
 
-After each successful exercise execution the user is forwarded to a summary screen (Figure~\ref{fig:5_3_exercise_summary}).
+After each successful exercise execution the user is forwarded to a summary screen (see Figure~\ref{fig:5_3_exercise_summary}).
 She gets an overview about performance parameters for the execution time, attempts, and the confidence for each repetition. Averaged values for the accomplished side summarize this.
 %A similar summary screen exists for the entire level if all exercises of it have been accomplished. The same parameters are given but averaged (Figure~\ref{fig:5_3_level_summary}).
-A similar summary screen for the entire level can be selected in the exercise menu. It provides an overview of the same performance parameters for each exercise in average (Figure~\ref{fig:5_3_level_summary}).
+A similar summary screen for the entire level can be selected in the exercise menu. It provides an overview of the same performance parameters for each exercise in average (see Figure~\ref{fig:5_3_level_summary}).
 
 \begin{comment}
 \item When an exercise is currently correctly performed

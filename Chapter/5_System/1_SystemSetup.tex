@@ -1,7 +1,7 @@
 \section{Hardware}\label{5_1_systemSetup}
 \subsection{Components}\label{5_1_hardwareComponents}
 %- System architecture of system --> Unity3D, Kinect SDK, Kinectstudio, VGB --> kinect sdk free to use since version X
-In the following several hardware components of the system architecture will be described. Each component is important for the functionality of the SLS and the study afterwards. An overview can be seen in Figure~\ref{fig:5_3_systemArchitecture}.
+In the following several hardware components of the system architecture will be described. Each component is important for the functionality of the SLS and the study afterwards.
 % Kinect, Beamer, Screen, Slackline --> Alpidex High Performance
 
 Since the focus of this thesis lies mainly on beginners, the mobile slackline device \textit{alpidex POWER-WAVE 2.0}\footnote{\url{http://www.alpidex.com/fitness/slacklines/slackline-gestell-in-2-laengen-power-wave-2-0-inklusive-slackline/a-10288/}} is used (see figure \ref{fig:5_1_mobileSlackline}).
@@ -10,7 +10,7 @@ Since the focus of this thesis lies mainly on beginners, the mobile slackline de
 	\centering
 	\begin{minipage}[t]{1\linewidth}
 		\centering
-		\includegraphics[width=0.44\linewidth]{Pictures/5_1_mobileSlackline}
+		\includegraphics[width=0.4\linewidth]{Pictures/5_1_mobileSlackline}
 		\caption{Mobile slackline \textit{alpidex POWER-WAVE 2.0}~\cite{alpidex2017-ms}}
 		\label{fig:5_1_mobileSlackline}
 	\end{minipage}
@@ -25,14 +25,14 @@ The Kinect itself is attached on a tripod with a height of about 90 cm.
 A \textit{STEAM® MACHINE by ZOTAC}~\footnote{Technical details of the STEAM® MACHINE: Intel Core i5-6400T @ 2.2 GHz, NVIDIA GeForce® GTX 960, 8 GB RAM} served as development PC that fulfilled the recommended specs of the Kinect.
 %: \textit{Windows 8, 4 GB Memory, Physical dual-core processor with 3.1 GHz or faster, USB 3.0 Gen-2 controller, DirectX 11 Graphics card}.
 As visual output device a projector with a resolution of 1920x1080 was attached on a traverse system.
-The interface was visualized on a projector screen with a size of 2,40 x 3,00 m to give the user a more immersive feeling.
+The interface was visualized on a projector screen with a size of 2.40 x 3.00 m to give the user a more immersive feeling. A general overview about the interplay of all hardware can be seen in Figure~\ref{fig:5_3_systemArchitecture}.
 
 \begin{figure}[htb]
 	\centering
-	\begin{minipage}[t]{1\linewidth}
+	\begin{minipage}[t]{0.58\linewidth}
 		\centering
-		\includegraphics[width=1\linewidth]{Pictures/5_3_systemArchitecture}
-		\caption{System overview \todo{evtl. bild vom setup}}
+		\includegraphics[width=1\linewidth]{Pictures/5_1_slackliner}
+		\caption{Setup of all components}
 		\label{fig:5_3_systemArchitecture}
 	\end{minipage}
 \end{figure}
@@ -61,9 +61,9 @@ This scenario clarifies how good a person can be tracked on the entire slackline
 
 \subsubsection{Limitations of the Kinect} 
 A considerable role plays the angle and tracking range of the Kinects' depth sensor in the positioning.
-Its angle of vision covers horizontally 70 degrees and vertically 60 degrees (Figure~\ref{fig:5_1_1_visionAngle}).
+Its angle of vision covers horizontally 70 degrees and vertically 60 degrees (see Figure~\ref{fig:5_1_1_visionAngle}).
 Since the slackline is about 30 cm off the ground body parts of the user could be cropped depending on the Kinects' height and its angle.
-The total tracking range of the sensor covers a range between 0.5 and 4.5 meters, whereas the sweet spot area lies between 1 and up to 4 meters (Figure~\ref{fig:5_1_1_trackingRange})~\cite{MicrosoftHIG2014-mh}.
+The total tracking range of the sensor covers a range between 0.5 and 4.5 meters, whereas the sweet spot area lies between 1 and up to 4 meters (see Figure~\ref{fig:5_1_1_trackingRange})~\cite{MicrosoftHIG2014-mh}.
 The mobile slackline device used in this thesis has a length of three meters and fits theoretically entirely within the sweet spot.
 %it could lead to tracking problems by 
 \begin{figure}[htb]
@@ -94,18 +94,18 @@ The mobile slackline device used in this thesis has a length of three meters and
 \subsubsection{Best positioning for study purposes}
 \textbf{\textit{Slackline Positioning}}
 
-With a slackline positioned orthogonal (90 Degrees) to the Kinect, no interference regarding the limit of the tracking range can happen because the whole body is in a constant line with the tracking area. However, permanent overlapping of body parts resulted in problems to detect body joints with an appropriate accuracy and precision (Figure~\ref{fig:5_3_slacklineSideways}).
+With a slackline positioned orthogonal (90 Degrees) to the Kinect, no interference regarding the limit of the tracking range can happen because the whole body is in a constant line with the tracking area. However, permanent overlapping of body parts resulted in problems to detect body joints with an appropriate accuracy and precision (see Figure~\ref{fig:5_3_slacklineSideways}).
 When placing the slackline diagonal (45 Degrees) the body is more visible to the sensor and showed better results.
 %to the Kinect several body parts will not overlap.
 %the frontal and end point of the slackline now differ in the vertical axis, which is unproblematic  \textbf{\todo{(Table X and Figure X)}}. 
 %This could even result in a better trackability in matter of the depth field range, since the distance in the front shrinked and is therefore closer to the Kinect depth view. 
-Tracking failure still happen especially when regaining equilibrium on the line. Mainly the joints of the arms and legs interfere with other body joints (Figure~\ref{fig:5_3_slacklineDiagonal}).
+Tracking failure still happen especially when regaining equilibrium on the line. Mainly the joints of the arms and legs interfere with other body joints (see Figure~\ref{fig:5_3_slacklineDiagonal}).
 In addition, every time the user wants to interact with the Kinect she has to turn towards it, which leads to a more complicated user experience.
 %which makes it also unusable.
 %This results in a relatively bad skeletal tracking and depending on the executed exercise it can lead to detection problems.
 Positioning the slackline vertical to the Kinect avoids this. Furthermore, the sensors' view can see the full body and track joints without any occlusion.
 Problems occurred at the starting position of the slackline since it uses the entire tracking range.
-The user stands here at the outermost limit of this range, where the detection of the Kinect begins to get worse (Figure~\ref{fig:5_3_slacklineVertical}).
+The user stands here at the outermost limit of this range, where the detection of the Kinect begins to get worse (see Figure~\ref{fig:5_3_slacklineVertical}).
 Because of this the slackline must be arranged, such that the starting position of the line lies within the sweet spot area.
 %Because of this the slackline must be positioned close to the Kinect for study purposes.
 %The starting position of the line is now within the sweet spot area of the Kinect tracking range.
@@ -140,13 +140,13 @@ Because of this the slackline must be arranged, such that the starting position 
 
 Beginning with a height of 2.40 meters the Kinect has a very steep view angle.
 %to track the slackers' body on the full range of the slackline. 
-Hereby, the tracking range shifts more downwards and shrinks in its height (Figure~\ref{fig:5_3_kinectHeightHigh}).
+Hereby, the tracking range shifts more downwards and shrinks in its height (see Figure~\ref{fig:5_3_kinectHeightHigh}).
 With users of a height above 1.85 m the starting position cannot be arranged for appropriate usage.
 %If beginning at the starting position on the slackline the slacker reaches hereby immediately the end of the tracking area. 
-The same problem applies for a Kinect height of 1.60 m. The view angle is more flat but the slackline must be positioned further away from the Kinect to prevent cropped body parts like the head or arms (Figure~\ref{fig:5_3_kinectHeightMiddle}).
+The same problem applies for a Kinect height of 1.60 m. The view angle is more flat but the slackline must be positioned further away from the Kinect to prevent cropped body parts like the head or arms (see Figure~\ref{fig:5_3_kinectHeightMiddle}).
 %Also the further she walks towards the Kinect the more joints of the feet overlap.
 %With a height between 1.60 and 1.20 meters the view angle is more flat but the slackline must be positioned further away from the Kinect to prevent cropped body parts like the head or arms (Figure\ref{fig:5_3_kinectHeightMiddle}).
-A height of 1.20 up to 0.80 meters results in a flatter view angle and therefore in a more homogeneous view and tracking range (Figure~\ref{fig:5_3_kinectHeightLow}).
+A height of 1.20 up to 0.80 meters results in a flatter view angle and therefore in a more homogeneous view and tracking range (see Figure~\ref{fig:5_3_kinectHeightLow}).
 The body is fully visible in the entire tracking range and not limited in the height of the Kinect view.
 Additionally the Kinect is in a position that won't disturb the visual sense of the slacker during her training on the slackline, e.g. by setting a focus point in front of her.
 %Problems can occur with positioning the Kinect on a lower height. It can lead to cropped body parts like the head or arms at the very end of the slackline.

@@ -56,7 +56,7 @@ This could be for example a golf swing or switching the standing leg~\cite{Micro
 \end{comment}
 
 \subsection{Workflow for Building Gestures}
-The workflow for creating a gesture follows a general routine (Figure~\ref{fig:5_3_gestureCreation}).
+The workflow for creating a gesture follows a general routine (see Figure~\ref{fig:5_3_gestureCreation}).
 At first the gesture has to be recorded via \textit{KinectStudio}.
 This is a tool provided by Microsoft for monitoring and recording raw clips of the Kinect streams.
 Before inserting the clip into the VGB a new project has to be created.
@@ -66,13 +66,6 @@ Discrete gestures define a binary state and validate if a certain gesture is cur
 It provides a confidence value that compares the correctness of the persons execution regarding the gestures in the database.
 A continuous gesture means usually the combination of motions to a sequence of small gestures (e.g. switching standing leg).
 Instead of the confidence, a progress value gives feedback about the ongoing movement of the person matching the gesture sequence in the database.
-
-After the project creation the recordings can be inserted as training data.
-The developer has to tag the clips to define a starting as well as an end point of the gesture.
-After finishing with tagging a database file can be built.
-It is recommended to test it via a live preview or with other recorded clips in a separate analysis area.
-If the results are not satisfying, more clips can be recorded and added as training data or existing tags of the clips can be adjusted.
-After the testing phase the gesture database file is ready for the integration into the application to detect gestures in runtime. %The structuring of the application architecture is part of the next section.
 \begin{figure}[htb]
 	\centering
 	\begin{minipage}[t]{1\linewidth}
@@ -82,3 +75,10 @@ After the testing phase the gesture database file is ready for the integration i
 		\label{fig:5_3_gestureCreation}
 	\end{minipage}
 \end{figure}
+
+After the project creation the recordings can be inserted as training data.
+The developer has to tag the clips to define a starting as well as an end point of the gesture.
+After finishing with tagging a database file can be built.
+It is recommended to test it via a live preview or with other recorded clips in a separate analysis area.
+If the results are not satisfying, more clips can be recorded and added as training data or existing tags of the clips can be adjusted.
+After the testing phase the gesture database file is ready for the integration into the application to detect gestures in runtime. %The structuring of the application architecture is part of the next section.

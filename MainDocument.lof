@@ -3,7 +3,7 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Supportive exercises\nobreakspace {}\cite {Kroiss2007-ab}\relax }}{8}{figure.caption.8}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Basic exercises\nobreakspace {}\cite {Kroiss2007-ab}\relax }}{9}{figure.caption.9}
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Advanced techniques\nobreakspace {}\cite {Kroiss2007-ab}\relax }}{9}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Anatomical terms of location\nobreakspace {}\cite {Wiki2017-ATOL}\relax }}{13}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Anatomical terms of location\relax }}{13}{figure.caption.11}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Definition of accuracy and precision\nobreakspace {}\cite {Woolford2015-ub}\relax }}{14}{figure.caption.12}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Guideline for enhancing the cognitive load\nobreakspace {}\cite {Van_der_Spek2010-fe}\relax }}{16}{figure.caption.13}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Interface of a rehabilitation training application\nobreakspace {}\cite {Garrido2013-zs}\relax }}{20}{figure.caption.14}
@@ -24,7 +24,7 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Dynamic methodic in slacklining, adapted from Thomann\nobreakspace {}\cite {Thomann2013-aa}\relax }}{33}{figure.caption.38}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Exercise structure\relax }}{41}{figure.caption.40}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Mobile slackline \textit {alpidex POWER-WAVE 2.0}\nobreakspace {}\cite {alpidex2017-ms}\relax }}{44}{figure.caption.41}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces System overview \leavevmode {\color {red}evtl. bild vom setup}\relax }}{44}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Setup of all components\relax }}{44}{figure.caption.42}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Limitations of the Kinect v2 sensor\nobreakspace {}\cite {MicrosoftHIG2014-mh}\relax }}{45}{figure.caption.44}
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Different positions of the slackline. The coloured lines visualise the skeletal tracking of the Kinect. Thin lines represents inferred joints\relax }}{46}{figure.caption.46}
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Kinect view on different heights. The coloured lines visualises skeletal tracking.\relax }}{47}{figure.caption.47}
@@ -32,21 +32,21 @@
 \contentsline {figure}{\numberline {5.7}{\ignorespaces Workflow of creating a gesture database\relax }}{49}{figure.caption.49}
 \contentsline {figure}{\numberline {5.8}{\ignorespaces Unity and Kinect architecture\relax }}{50}{figure.caption.50}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces Instruction on how to use the SLS\relax }}{51}{figure.caption.52}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Several tested hand interaction techniques\relax }}{51}{figure.caption.53}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Several tested hand interaction techniques\relax }}{52}{figure.caption.53}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Instruction on how to use stand in the correct position\relax }}{52}{figure.caption.54}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Visualisation of selection menus\relax }}{52}{figure.caption.56}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Visualisation of selection menus\relax }}{53}{figure.caption.56}
 \contentsline {figure}{\numberline {5.13}{\ignorespaces Instruction screens for a level and an exercises\relax }}{53}{figure.caption.58}
 \contentsline {figure}{\numberline {5.14}{\ignorespaces Exercise execution and summary screens\relax }}{54}{figure.caption.60}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Apparatus of the user study (1 - PC, 2 - Kinect, 3 - Slackline with crashpads, 4 - Projector, 5 - Wall serves as screen)\relax }}{59}{figure.caption.66}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Single Leg Stance Improvement\relax }}{61}{figure.caption.67}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Walked Steps Improvement\relax }}{62}{figure.caption.68}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Walked Distance Improvement\relax }}{63}{figure.caption.69}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Improvements of each measurement condition for the time effect\relax }}{65}{figure.caption.74}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Scores for comparing the main effects of the group\relax }}{66}{figure.caption.76}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces The leg of the participant is wrongly tracked by the Kinect, which caused problems for the participant to finish the exercise\relax }}{67}{figure.caption.78}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Averaged rating of the exercise difficulty by the participants in blue and the general trend line in green\relax }}{68}{figure.caption.80}
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Demographic data for participants in the study. Question 8 was just shown for the interactive system group\relax }}{78}{figure.caption.87}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces First page of the physical activity questionnaire, adapted from Fuchs et. al\nobreakspace {}\cite {Fuchs2015-bsa}\relax }}{79}{figure.caption.88}
-\contentsline {figure}{\numberline {A.3}{\ignorespaces Second page of the physical activity questionnaire, adapted from Fuchs et. al\nobreakspace {}\cite {Fuchs2015-bsa}\relax }}{80}{figure.caption.89}
-\contentsline {figure}{\numberline {A.4}{\ignorespaces Lateral preference inventory to determine the preference of the body side, adapted from Coren\nobreakspace {}\cite {Coren1993-lp}\relax }}{81}{figure.caption.90}
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Approvement of the Ethical Review Board in response to the research project\relax }}{83}{figure.caption.91}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Apparatus of the user study (1 - PC, 2 - Kinect, 3 - Slackline with crashpads, 4 - Projector, 5 - Wall serves as screen)\relax }}{61}{figure.caption.66}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Single Leg Stance Improvement\relax }}{63}{figure.caption.67}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Walked Steps Improvement\relax }}{64}{figure.caption.68}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Walked Distance Improvement\relax }}{65}{figure.caption.69}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces The leg of the participant is wrongly tracked by the Kinect, which caused problems for the participant to finish the exercise\relax }}{66}{figure.caption.72}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Averaged rating of the exercise difficulty by the participants in blue and the general trend line in green\relax }}{67}{figure.caption.73}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Improvements of each measurement condition for the time effect\relax }}{70}{figure.caption.76}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Scores for comparing the main effects of the group\relax }}{71}{figure.caption.78}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Demographic data for participants in the study. Question 8 was just shown for the interactive system group\relax }}{80}{figure.caption.87}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces First page of the physical activity questionnaire, adapted from Fuchs et. al\nobreakspace {}\cite {Fuchs2015-bsa}\relax }}{81}{figure.caption.88}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Second page of the physical activity questionnaire, adapted from Fuchs et. al\nobreakspace {}\cite {Fuchs2015-bsa}\relax }}{82}{figure.caption.89}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Lateral preference inventory to determine the preference of the body side, adapted from Coren\nobreakspace {}\cite {Coren1993-lp}\relax }}{83}{figure.caption.90}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Approvement of the Ethical Review Board in response to the research project\relax }}{85}{figure.caption.91}
