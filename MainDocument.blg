@@ -4,47 +4,46 @@ The top-level auxiliary file: MainDocument.aux
 The style file: acm_fkerber.bst
 Database file #1: references.bib
 Warning--empty school in Nusman2006-rf
-Warning--can't use both author and editor fields in Thin2010-ex
 Warning--empty school in Thomann2017-ab
 You've used 70 entries,
             2276 wiz_defined-function locations,
-            981 strings with 17985 characters,
-and the built_in function-call counts, 26492 in all, are:
-= -- 2632
+            978 strings with 17336 characters,
+and the built_in function-call counts, 26373 in all, are:
+= -- 2617
 > -- 1095
 < -- 0
 + -- 456
 - -- 382
-* -- 1833
-:= -- 3978
+* -- 1824
+:= -- 3969
 add.period$ -- 203
 call.type$ -- 70
 change.case$ -- 331
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 1129
-empty$ -- 2148
+cite$ -- 72
+duplicate$ -- 1123
+empty$ -- 2139
 format.name$ -- 382
-if$ -- 5886
+if$ -- 5856
 int.to.chr$ -- 0
 int.to.str$ -- 70
 missing$ -- 61
 newline$ -- 346
 num.names$ -- 140
-pop$ -- 468
+pop$ -- 469
 preamble$ -- 1
 purify$ -- 331
 quote$ -- 0
-skip$ -- 997
+skip$ -- 988
 stack$ -- 0
-substring$ -- 1670
-swap$ -- 494
+substring$ -- 1646
+swap$ -- 487
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 266
-warning$ -- 3
+warning$ -- 2
 while$ -- 260
 width$ -- 72
 write$ -- 715
-(There were 3 warnings)
+(There were 2 warnings)

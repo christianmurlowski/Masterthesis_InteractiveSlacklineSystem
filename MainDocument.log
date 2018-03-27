@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.19)  25 MAR 2018 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.12.19)  27 MAR 2018 01:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1335,7 +1335,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 30.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1343,7 +1343,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 30.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1351,7 +1351,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 37--43
+Underfull \hbox (badness 10000) in paragraph at lines 33--39
 
  []
 
@@ -1418,44 +1418,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--31
 ) [4] (./Main/Acknowledgements.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
-) [5] (./Main/Abstract.tex) [6]
+) [5] (./Main/GenderClarification.tex)
+[6] (./Main/Abstract.tex) [7] [8
+
+
+]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 76.32187pt on input line 32.
+(Font)              scaled to size 76.32187pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <89.7898> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 76.32187pt on input line 32.
+(Font)              scaled to size 76.32187pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.30756pt on input line 32.
+(Font)              scaled to size 9.30756pt on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 32.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 21.14815pt on input line 32.
-
-(./MainDocument.toc [7
-
-
-] [8])
+(Font)              scaled to size 21.14815pt on input line 34.
+ (./MainDocument.toc [9] [10])
 \tf@toc=\write7
 \openout7 = `MainDocument.toc'.
 
- [9] (./Main/GenderClarification.tex) [1
-
-]
-(./Chapter/1_Introduction/0_Main.tex [2
-
-]
+ [11]
+(./Chapter/1_Introduction/0_Main.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 25.44061pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <29.92993> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 25.44061pt on input line 1.
-
-(./Chapter/1_Introduction/1_Motivation.tex
-<Pictures/1_nikePlusKinect2.jpg, id=334, 1284.8pt x 722.7pt>
+ (./Chapter/1_Introduction/1_Motivation.tex <Pictures/1_nikePlusKinect2.jpg, id
+=334, 1284.8pt x 722.7pt>
 File: Pictures/1_nikePlusKinect2.jpg Graphic file (type jpg)
 
 <use Pictures/1_nikePlusKinect2.jpg>
@@ -1476,7 +1471,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--17
 duct / Nike -[] Kinect -[] Training /
  []
 
-[3
+[1
+
+
 
  <./Pictures/1_nikePlusKinect2.jpg>]
 <Pictures/1_slackline.jpg, id=359, 726.715pt x 507.8975pt>
@@ -1485,10 +1482,10 @@ File: Pictures/1_slackline.jpg Graphic file (type jpg)
 <use Pictures/1_slackline.jpg>
 Package pdftex.def Info: Pictures/1_slackline.jpg used on input line 74.
 (pdftex.def)             Requested size: 268.87737pt x 187.91913pt.
- [4 <./Pictures/1_slackline.jpg>])
-(./Chapter/1_Introduction/2_ResearchGoals.tex [5])
+ [2 <./Pictures/1_slackline.jpg>])
+(./Chapter/1_Introduction/2_ResearchGoals.tex [3])
 (./Chapter/1_Introduction/3_Outline.tex)) (./Chapter/2_RelatedWork/0_Main.tex
-[6] (./Chapter/2_RelatedWork/1_SlacklineTraining.tex [7
+[4] (./Chapter/2_RelatedWork/1_SlacklineTraining.tex [5
 
 
 ]
@@ -1517,7 +1514,7 @@ File: Pictures/slacklineHelpHuman.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/slacklineHelpHuman.jpg used on input line 42.
 
 (pdftex.def)             Requested size: 115.23482pt x 115.22406pt.
- [8 <./Pictures/slacklineHelpSticks.jpg> <./Pictures/slacklineHelpBar.jpg> <./P
+ [6 <./Pictures/slacklineHelpSticks.jpg> <./Pictures/slacklineHelpBar.jpg> <./P
 ictures/slacklineHelpHuman.jpg>]
 <Pictures/slacklineBasicStart.jpg, id=435, 124.96254pt x 136.20917pt>
 File: Pictures/slacklineBasicStart.jpg Graphic file (type jpg)
@@ -1566,14 +1563,14 @@ File: Pictures/slacklineAdvancedDropknee.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/slacklineAdvancedDropknee.jpg used on input l
 ine 99.
 (pdftex.def)             Requested size: 145.96451pt x 109.8711pt.
- [9 <./Pictures/slacklineBasicStart.jpg> <./Pictures/slacklineBasicOneFeet.jpg>
+ [7 <./Pictures/slacklineBasicStart.jpg> <./Pictures/slacklineBasicOneFeet.jpg>
  <./Pictures/slacklineBasicBothFeet.jpg> <./Pictures/slacklineAdvancedCrossover
 Start.jpg> <./Pictures/slacklineAdvancedHandsBehindBack.jpg> <./Pictures/slackl
-ineAdvancedDropknee.jpg>] [10])
-(./Chapter/2_RelatedWork/2_InteractiveTechnology.tex [11]
+ineAdvancedDropknee.jpg>] [8])
+(./Chapter/2_RelatedWork/2_InteractiveTechnology.tex [9]
 Underfull \vbox (badness 4531) has occurred while \output is active []
 
- [12]
+ [10]
 <Pictures/bodyPlanes.jpg, id=516, 301.125pt x 362.35374pt>
 File: Pictures/bodyPlanes.jpg Graphic file (type jpg)
 
@@ -1595,7 +1592,7 @@ ine 42.
 
 Underfull \vbox (badness 3758) has occurred while \output is active []
 
- [13 <./Pictures/bodyPlanes.jpg> <./Pictures/bodyDirectionalReferences.jpg>]
+ [11 <./Pictures/bodyPlanes.jpg> <./Pictures/bodyDirectionalReferences.jpg>]
 <Pictures/systemInaccurateImprecise.jpg, id=533, 243.43579pt x 118.60579pt>
 File: Pictures/systemInaccurateImprecise.jpg Graphic file (type jpg)
 
@@ -1631,10 +1628,10 @@ File: Pictures/systemAccurateImprecise.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/systemAccurateImprecise.jpg used on input lin
 e 79.
 (pdftex.def)             Requested size: 188.21709pt x 91.58347pt.
- [14 <./Pictures/systemInaccurateImprecise.jpg> <./Pictures/systemInaccuratePre
+ [12 <./Pictures/systemInaccurateImprecise.jpg> <./Pictures/systemInaccuratePre
 cise.jpg> <./Pictures/systemAccuratePrecise.jpg> <./Pictures/systemAccurateImpr
 ecise.jpg>])
-(./Chapter/2_RelatedWork/3_Methods.tex [15]
+(./Chapter/2_RelatedWork/3_Methods.tex [13]
 <Pictures/mentalModelConstruction.jpg, id=569, 1036.87375pt x 685.56125pt>
 File: Pictures/mentalModelConstruction.jpg Graphic file (type jpg)
 
@@ -1642,25 +1639,26 @@ File: Pictures/mentalModelConstruction.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/mentalModelConstruction.jpg used on input lin
 e 14.
 (pdftex.def)             Requested size: 284.24513pt x 187.93889pt.
- [16 <./Pictures/mentalModelConstruction.jpg>] [17] [18]
+ [14 <./Pictures/mentalModelConstruction.jpg>] [15] [16]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19])
+ [17])
 (./Chapter/2_RelatedWork/4_UIDesign.tex
-<Pictures/informationUISurroundingObjects.jpg, id=622, 252.945pt x 221.81331pt>
-File: Pictures/informationUISurroundingObjects.jpg Graphic file (type jpg)
-<use Pictures/informationUISurroundingObjects.jpg>
-Package pdftex.def Info: Pictures/informationUISurroundingObjects.jpg used on i
-nput line 12.
-(pdftex.def)             Requested size: 157.4874pt x 138.10497pt.
+<Pictures/informationUISurroundingObjects2.jpg, id=622, 635.37375pt x 558.085pt
+>
+File: Pictures/informationUISurroundingObjects2.jpg Graphic file (type jpg)
+ <use Pictures/informationUISurroundingObjects2.jpg>
+Package pdftex.def Info: Pictures/informationUISurroundingObjects2.jpg used on 
+input line 12.
+(pdftex.def)             Requested size: 153.64253pt x 134.94798pt.
 
-<Pictures/informationUIFeedbackSummary.jpg, id=623, 254.05684pt x 221.81331pt>
-File: Pictures/informationUIFeedbackSummary.jpg Graphic file (type jpg)
+<Pictures/informationUIFeedbackSummary2.jpg, id=623, 635.37375pt x 558.085pt>
+File: Pictures/informationUIFeedbackSummary2.jpg Graphic file (type jpg)
 
-<use Pictures/informationUIFeedbackSummary.jpg>
-Package pdftex.def Info: Pictures/informationUIFeedbackSummary.jpg used on inpu
-t line 19.
-(pdftex.def)             Requested size: 157.4874pt x 137.50252pt.
+<use Pictures/informationUIFeedbackSummary2.jpg>
+Package pdftex.def Info: Pictures/informationUIFeedbackSummary2.jpg used on inp
+ut line 19.
+(pdftex.def)             Requested size: 153.64253pt x 134.94798pt.
 
 <Pictures/avatar3DModel.jpg, id=629, 387.16072pt x 183.25607pt>
 File: Pictures/avatar3DModel.jpg Graphic file (type jpg)
@@ -1675,8 +1673,8 @@ File: Pictures/avatarUser.jpg Graphic file (type jpg)
 <use Pictures/avatarUser.jpg>
 Package pdftex.def Info: Pictures/avatarUser.jpg used on input line 39.
 (pdftex.def)             Requested size: 188.21709pt x 79.38113pt.
- [20 <./Pictures/informationUISurroundingObjects.jpg> <./Pictures/informationUI
-FeedbackSummary.jpg>]
+ [18 <./Pictures/informationUISurroundingObjects2.jpg> <./Pictures/informationU
+IFeedbackSummary2.jpg>]
 <Pictures/gameInstruction.jpg, id=644, 154.05849pt x 79.3364pt>
 File: Pictures/gameInstruction.jpg Graphic file (type jpg)
 
@@ -1690,7 +1688,7 @@ File: Pictures/gameHighlighting.jpg Graphic file (type jpg)
 <use Pictures/gameHighlighting.jpg>
 Package pdftex.def Info: Pictures/gameHighlighting.jpg used on input line 57.
 (pdftex.def)             Requested size: 188.21709pt x 96.59015pt.
- [21 <./Pictures/avatar3DModel.jpg> <./Pictures/avatarUser.jpg> <./Pictures/gam
+ [19 <./Pictures/avatar3DModel.jpg> <./Pictures/avatarUser.jpg> <./Pictures/gam
 eInstruction.jpg> <./Pictures/gameHighlighting.jpg>]
 <Pictures/hciGuidelinesFeedbackCursor.png, id=657, 443.40656pt x 369.63094pt>
 File: Pictures/hciGuidelinesFeedbackCursor.png Graphic file (type png)
@@ -1723,7 +1721,7 @@ File: Pictures/2_4_visualFeedbackAvatar.png Graphic file (type png)
 Package pdftex.def Info: Pictures/2_4_visualFeedbackAvatar.png used on input li
 ne 123.
 (pdftex.def)             Requested size: 169.39423pt x 169.39464pt.
- [22 <./Pictures/hciGuidelinesFeedbackCursor.png> <./Pictures/hciGuidelinesFeed
+ [20 <./Pictures/hciGuidelinesFeedbackCursor.png> <./Pictures/hciGuidelinesFeed
 backControl.png>]
 <Pictures/higUserViewer.png, id=681, 926.46124pt x 494.84875pt>
 File: Pictures/higUserViewer.png Graphic file (type png)
@@ -1742,7 +1740,7 @@ Package pdftex.def Info: Pictures/hciGuidelinesDynamicGesture.png used on input
 
 Underfull \vbox (badness 8132) has occurred while \output is active []
 
- [23 <./Pictures/2_4_visualFeedbackIndicator.png> <./Pictures/2_4_visualFeedbac
+ [21 <./Pictures/2_4_visualFeedbackIndicator.png> <./Pictures/2_4_visualFeedbac
 kAvatar.png> <./Pictures/higUserViewer.png>]
 <Pictures/hciGuidelinesTeachingMethods.png, id=698, 424.58624pt x 285.31593pt>
 File: Pictures/hciGuidelinesTeachingMethods.png Graphic file (type png)
@@ -1754,17 +1752,17 @@ t line 164.
 
 Underfull \vbox (badness 2591) has occurred while \output is active []
 
- [24 <./Pictures/hciGuidelinesDynamicGesture.png> <./Pictures/hciGuidelinesTeac
+ [22 <./Pictures/hciGuidelinesDynamicGesture.png> <./Pictures/hciGuidelinesTeac
 hingMethods.png>] <Pictures/higPHIZ.png, id=711, 819.06pt x 744.7825pt>
 File: Pictures/higPHIZ.png Graphic file (type png)
 
 <use Pictures/higPHIZ.png>
 Package pdftex.def Info: Pictures/higPHIZ.png used on input line 179.
 (pdftex.def)             Requested size: 192.05609pt x 174.63751pt.
-) (./Chapter/2_RelatedWork/5_Conclusion.tex [25 <./Pictures/higPHIZ.png>]) [26]
+) (./Chapter/2_RelatedWork/5_Conclusion.tex [23 <./Pictures/higPHIZ.png>]) [24]
 ) (./Chapter/3_Slackline/0_Main.tex
 (./Chapter/3_Slackline/1_IntroductionSlacklining.tex)
-(./Chapter/3_Slackline/2_SlacklineVariations.tex [27
+(./Chapter/3_Slackline/2_SlacklineVariations.tex [25
 
 
 ]
@@ -1809,7 +1807,7 @@ File: Pictures/3_1_longline1.jpg Graphic file (type jpg)
 <use Pictures/3_1_longline1.jpg>
 Package pdftex.def Info: Pictures/3_1_longline1.jpg used on input line 55.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
- [28 <./Pictures/3_1_lowline.jpg> <./Pictures/3_1_highline2.jpeg>] [29 <./Pictu
+ [26 <./Pictures/3_1_lowline.jpg> <./Pictures/3_1_highline2.jpeg>] [27 <./Pictu
 res/3_1_trickline.jpg> <./Pictures/3_1_jumpline.png> <./Pictures/3_1_rodeoline.
 jpg> <./Pictures/3_1_longline1.jpg>]
 <Pictures/3_1_waterline.jpg, id=790, 427.5975pt x 472.76625pt>
@@ -1826,7 +1824,7 @@ File: Pictures/3_1_urbanline.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/3_1_urbanline.jpg used on input line 74.
 (pdftex.def)             Requested size: 172.8493pt x 191.10858pt.
 )
-(./Chapter/3_Slackline/3_LearningTechniques.tex [30
+(./Chapter/3_Slackline/3_LearningTechniques.tex [28
 
  <./Pictures/3_1_waterline.jpg> <./Pictures/3_1_urbanline.jpg>]
 <Pictures/3_3_1_methodicalRoutine3.jpg, id=813, 1106.1325pt x 586.19pt>
@@ -1836,7 +1834,7 @@ File: Pictures/3_3_1_methodicalRoutine3.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/3_3_1_methodicalRoutine3.jpg used on input li
 ne 19.
 (pdftex.def)             Requested size: 349.5435pt x 185.23222pt.
- [31 <./Pictures/3_3_1_methodicalRoutine3.jpg>]
+ [29 <./Pictures/3_3_1_methodicalRoutine3.jpg>]
 <Pictures/3_3_1_comparisonMethod2.jpg, id=828, 1401.235pt x 770.88pt>
 File: Pictures/3_3_1_comparisonMethod2.jpg Graphic file (type jpg)
 
@@ -1852,17 +1850,17 @@ File: Pictures/3_3_1_dynamicMethodBoth2.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/3_3_1_dynamicMethodBoth2.jpg used on input li
 ne 46.
 (pdftex.def)             Requested size: 384.1122pt x 331.03773pt.
- [32 <./Pictures/3_3_1_comparisonMethod2.jpg>] [33 <./Pictures/3_3_1_dynamicMet
+ [30 <./Pictures/3_3_1_comparisonMethod2.jpg>] [31 <./Pictures/3_3_1_dynamicMet
 hodBoth2.jpg>])
 (./Chapter/3_Slackline/4_Conclusion.tex)
 Underfull \vbox (badness 2205) has occurred while \output is active []
 
- [34])
-(./Chapter/4_Concept/0_Main.tex [35] [36
+ [32])
+(./Chapter/4_Concept/0_Main.tex [33] [34
 
 ] (./Chapter/4_Concept/1_General.tex
 
-LaTeX Warning: Hyper reference `4_1_1_visibilitySystemStatus' on page 37 undefi
+LaTeX Warning: Hyper reference `4_1_1_visibilitySystemStatus' on page 35 undefi
 ned on input line 17.
 
 
@@ -1878,7 +1876,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--20
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37
+ [35
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 21--24
@@ -1908,7 +1906,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--40
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [36]
 Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
  []
@@ -1923,7 +1921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--52
 
  []
 
-) (./Chapter/4_Concept/2_Interaction.tex [39])
+) (./Chapter/4_Concept/2_Interaction.tex [37])
 (./Chapter/4_Concept/3_Stages.tex) (./Chapter/4_Concept/4_Exercises.tex
 <Pictures/exerciseStructureTopDown3.png, id=905, 518.93875pt x 287.0725pt>
 File: Pictures/exerciseStructureTopDown3.png Graphic file (type png)
@@ -1932,16 +1930,16 @@ File: Pictures/exerciseStructureTopDown3.png Graphic file (type png)
 Package pdftex.def Info: Pictures/exerciseStructureTopDown3.png used on input l
 ine 8.
 (pdftex.def)             Requested size: 384.1122pt x 212.49602pt.
- [40])
+ [38])
 (./Chapter/4_Concept/5_FeedbackSystem.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--17
 [][][][][]$\T1/pcr/m/n/9 https : / / www . ea . com / de -[] de / news / ea -[]
  sports -[] active -[] 2 -[] bringt -[]
  []
 
-[41 <./Pictures/exerciseStructureTopDown3.png>])
+[39 <./Pictures/exerciseStructureTopDown3.png>])
 (./Chapter/4_Concept/6_Scenario.tex) (./Chapter/4_Concept/7_Conclusion.tex))
-(./Chapter/5_System/0_Main.tex [42] (./Chapter/5_System/1_SystemSetup.tex
+(./Chapter/5_System/0_Main.tex [40] (./Chapter/5_System/1_SystemSetup.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
 [][][][][]$\T1/pcr/m/n/9 http : / / www . alpidex . com / fitness / slacklines 
 / slackline -[] gestell -[] in -[] 2 -[]
@@ -1965,7 +1963,7 @@ LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
- [43
+ [41
 
 
 ]
@@ -1975,7 +1973,7 @@ File: Pictures/5_1_slackliner.jpg Graphic file (type jpg)
 <use Pictures/5_1_slackliner.jpg>
 Package pdftex.def Info: Pictures/5_1_slackliner.jpg used on input line 34.
 (pdftex.def)             Requested size: 222.78577pt x 189.44325pt.
- [44 <./Pictures/5_1_mobileSlackline.jpg> <./Pictures/5_1_slackliner.jpg>]
+ [42 <./Pictures/5_1_mobileSlackline.jpg> <./Pictures/5_1_slackliner.jpg>]
 <Pictures/5_1_1_visionAngle.png, id=971, 919.435pt x 599.23875pt>
 File: Pictures/5_1_1_visionAngle.png Graphic file (type png)
 
@@ -2016,7 +2014,7 @@ File: Pictures/5_3_slacklineVertical.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/5_3_slacklineVertical.jpg used on input line 
 131.
 (pdftex.def)             Requested size: 122.91872pt x 115.54323pt.
- [45 <./Pictures/5_1_1_visionAngle.png> <./Pictures/5_1_1_trackingRange.png>]
+ [43 <./Pictures/5_1_1_visionAngle.png> <./Pictures/5_1_1_trackingRange.png>]
 <Pictures/5_3_kinectHeightHigh.jpg, id=995, 401.5pt x 471.7625pt>
 File: Pictures/5_3_kinectHeightHigh.jpg Graphic file (type jpg)
 
@@ -2043,8 +2041,8 @@ Package pdftex.def Info: Pictures/5_3_kinectHeightLow.jpg used on input line 17
 ) (./Chapter/5_System/2_DataModel.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46 <./Pictures/5_3_slacklineSideways.jpg> <./Pictures/5_3_slacklineDiagonal.j
-pg> <./Pictures/5_3_slacklineVertical.jpg>] [47 <./Pictures/5_3_kinectHeightHig
+ [44 <./Pictures/5_3_slacklineSideways.jpg> <./Pictures/5_3_slacklineDiagonal.j
+pg> <./Pictures/5_3_slacklineVertical.jpg>] [45 <./Pictures/5_3_kinectHeightHig
 h.jpg> <./Pictures/5_3_kinectHeightMiddle.jpg> <./Pictures/5_3_kinectHeightLow.
 jpg>]
 <Pictures/5_2_dataModel.jpg, id=1011, 2423.0525pt x 823.075pt>
@@ -2053,7 +2051,7 @@ File: Pictures/5_2_dataModel.jpg Graphic file (type jpg)
 <use Pictures/5_2_dataModel.jpg>
 Package pdftex.def Info: Pictures/5_2_dataModel.jpg used on input line 55.
 (pdftex.def)             Requested size: 384.1122pt x 130.47646pt.
-) (./Chapter/5_System/3_MovementRecognition.tex [48 <./Pictures/5_2_dataModel.j
+) (./Chapter/5_System/3_MovementRecognition.tex [46 <./Pictures/5_2_dataModel.j
 pg>]
 <Pictures/5_3_gestureCreation.jpg, id=1020, 1764.5925pt x 624.3325pt>
 File: Pictures/5_3_gestureCreation.jpg Graphic file (type jpg)
@@ -2063,7 +2061,7 @@ Package pdftex.def Info: Pictures/5_3_gestureCreation.jpg used on input line 73
 .
 (pdftex.def)             Requested size: 384.1122pt x 135.89601pt.
 ) (./Chapter/5_System/4_Frontend.tex
-[49 <./Pictures/5_3_gestureCreation.jpg>]
+[47 <./Pictures/5_3_gestureCreation.jpg>]
 <Pictures/5_3_unityKinectArchitecture.jpg, id=1028, 1467.4825pt x 493.845pt>
 File: Pictures/5_3_unityKinectArchitecture.jpg Graphic file (type jpg)
 
@@ -2074,7 +2072,7 @@ Package pdftex.def Info: Pictures/5_3_unityKinectArchitecture.jpg used on input
 
 Underfull \vbox (badness 1635) has occurred while \output is active []
 
- [50 <./Pictures/5_3_unityKinectArchitecture.jpg>]
+ [48 <./Pictures/5_3_unityKinectArchitecture.jpg>]
 <Pictures/5_Workflow/1_Welcome.jpg, id=1044, 527.26988pt x 296.307pt>
 File: Pictures/5_Workflow/1_Welcome.jpg Graphic file (type jpg)
 
@@ -2134,7 +2132,7 @@ File: Pictures/5_Workflow/4_2_StartingPosition.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/5_Workflow/4_2_StartingPosition.jpg used on i
 nput line 108.
 (pdftex.def)             Requested size: 192.05609pt x 107.92735pt.
- [51 <./Pictures/5_Workflow/1_Welcome.jpg> <./Pictures/5_Workflow/2_TutHandPush
+ [49 <./Pictures/5_Workflow/1_Welcome.jpg> <./Pictures/5_Workflow/2_TutHandPush
 .jpg> <./Pictures/5_Workflow/3_TutHandClick.jpg>]
 <Pictures/5_Workflow/5_UserMenu.jpg, id=1067, 527.26988pt x 296.307pt>
 File: Pictures/5_Workflow/5_UserMenu.jpg Graphic file (type jpg)
@@ -2183,9 +2181,9 @@ File: Pictures/5_Workflow/10_ExerciseInstruction.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/5_Workflow/10_ExerciseInstruction.jpg used on
  input line 171.
 (pdftex.def)             Requested size: 122.91872pt x 69.07603pt.
- [52 <./Pictures/5_3_hover.jpg> <./Pictures/5_3_fist.jpg> <./Pictures/5_3_point
+ [50 <./Pictures/5_3_hover.jpg> <./Pictures/5_3_fist.jpg> <./Pictures/5_3_point
 .jpg> <./Pictures/5_3_push2.jpg> <./Pictures/5_Workflow/4_2_StartingPosition.jp
-g>] [53 <./Pictures/5_Workflow/5_UserMenu.jpg> <./Pictures/5_Workflow/6_LevelMe
+g>] [51 <./Pictures/5_Workflow/5_UserMenu.jpg> <./Pictures/5_Workflow/6_LevelMe
 nu.jpg> <./Pictures/5_Workflow/7_1_ExerciseMenu.jpg> <./Pictures/5_Workflow/8_L
 evelDescription.jpg> <./Pictures/5_Workflow/9_1_SideSelectionNone.jpg> <./Pictu
 res/5_Workflow/10_ExerciseInstruction.jpg>]
@@ -2213,13 +2211,13 @@ File: Pictures/5_Workflow/13_TierSummary.jpg Graphic file (type jpg)
 Package pdftex.def Info: Pictures/5_Workflow/13_TierSummary.jpg used on input l
 ine 240.
 (pdftex.def)             Requested size: 188.21709pt x 105.77069pt.
-) (./Chapter/5_System/5_Summary.tex) [54 <./Pictures/5_Workflow/11_3_ExerciseEx
+) (./Chapter/5_System/5_Summary.tex) [52 <./Pictures/5_Workflow/11_3_ExerciseEx
 ecutionRep.jpg> <./Pictures/5_Workflow/12_ExerciseSummary.jpg> <./Pictures/5_Wo
 rkflow/13_TierSummary.jpg>])
-(./Chapter/6_Study/0_Main.tex [55] [56
+(./Chapter/6_Study/0_Main.tex [53] [54
 
 ]
-(./Chapter/6_Study/1_ResearchQuestions.tex [57
+(./Chapter/6_Study/1_ResearchQuestions.tex [55
 
 ])
 (./Chapter/6_Study/2_Participants.tex
@@ -2227,21 +2225,21 @@ rkflow/13_TierSummary.jpg>])
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 17.
 
-) (./Chapter/6_Study/3_Methods.tex [58] [59]
-Underfull \vbox (badness 4531) has occurred while \output is active []
+) (./Chapter/6_Study/3_Methods.tex
+Underfull \vbox (badness 2698) has occurred while \output is active []
 
- [60]
-<Pictures/6_3_apparatus.jpg, id=1143, 602.25pt x 402.303pt>
+ [56]
+Underfull \vbox (badness 1412) has occurred while \output is active []
+
+ [57]
+[58] <Pictures/6_3_apparatus.jpg, id=1143, 602.25pt x 402.303pt>
 File: Pictures/6_3_apparatus.jpg Graphic file (type jpg)
 
 <use Pictures/6_3_apparatus.jpg>
 Package pdftex.def Info: Pictures/6_3_apparatus.jpg used on input line 97.
 (pdftex.def)             Requested size: 338.0206pt x 225.80377pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61 <./Pictures/6_3_apparatus.jpg>]) (./Chapter/6_Study/4_ResultsAnalysis.tex 
-[62]
+ [59 <./Pictures/6_3_apparatus.jpg>])
+(./Chapter/6_Study/4_ResultsAnalysis.tex [60]
 <Pictures/6_4_DIA_StandLeftDiff.png, id=1159, 463.0098pt x 305.943pt>
 File: Pictures/6_4_DIA_StandLeftDiff.png Graphic file (type png)
 
@@ -2257,7 +2255,7 @@ File: Pictures/6_4_DIA_StandRightDiff.png Graphic file (type png)
 Package pdftex.def Info: Pictures/6_4_DIA_StandRightDiff.png used on input line
  63.
 (pdftex.def)             Requested size: 188.21709pt x 124.36838pt.
- [63 <./Pictures/6_4_DIA_StandLeftDiff.png> <./Pictures/6_4_DIA_StandRightDiff.
+ [61 <./Pictures/6_4_DIA_StandLeftDiff.png> <./Pictures/6_4_DIA_StandRightDiff.
 png>]
 <Pictures/6_4_DIA_StepsLeftDiff.png, id=1173, 463.0098pt x 305.943pt>
 File: Pictures/6_4_DIA_StepsLeftDiff.png Graphic file (type png)
@@ -2274,7 +2272,7 @@ File: Pictures/6_4_DIA_StepsRightDiff.png Graphic file (type png)
 Package pdftex.def Info: Pictures/6_4_DIA_StepsRightDiff.png used on input line
  112.
 (pdftex.def)             Requested size: 188.21709pt x 124.36838pt.
- [64 <./Pictures/6_4_DIA_StepsLeftDiff.png> <./Pictures/6_4_DIA_StepsRightDiff.
+ [62 <./Pictures/6_4_DIA_StepsLeftDiff.png> <./Pictures/6_4_DIA_StepsRightDiff.
 png>]
 <Pictures/6_4_DIA_DistanceLeftDiff.png, id=1185, 458.1918pt x 305.943pt>
 File: Pictures/6_4_DIA_DistanceLeftDiff.png Graphic file (type png)
@@ -2294,7 +2292,7 @@ ine 160.
 
 Underfull \vbox (badness 2080) has occurred while \output is active []
 
- [65 <./Pictures/6_4_DIA_DistanceLeftDiff.png> <./Pictures/6_4_DIA_DistanceRigh
+ [63 <./Pictures/6_4_DIA_DistanceLeftDiff.png> <./Pictures/6_4_DIA_DistanceRigh
 tDiff.png>]
 <Pictures/6_5_sitting.png, id=1196, 1878.01625pt x 1052.93375pt>
 File: Pictures/6_5_sitting.png Graphic file (type png)
@@ -2302,7 +2300,7 @@ File: Pictures/6_5_sitting.png Graphic file (type png)
 <use Pictures/6_5_sitting.png>
 Package pdftex.def Info: Pictures/6_5_sitting.png used on input line 258.
 (pdftex.def)             Requested size: 372.5893pt x 208.89604pt.
- [66 <./Pictures/6_5_sitting.png>]
+ [64 <./Pictures/6_5_sitting.png>]
 <Pictures/6_4_DIA_ExerciseDifficulty2.png, id=1205, 519.76584pt x 292.25987pt>
 File: Pictures/6_4_DIA_ExerciseDifficulty2.png Graphic file (type png)
 
@@ -2310,11 +2308,11 @@ File: Pictures/6_4_DIA_ExerciseDifficulty2.png Graphic file (type png)
 Package pdftex.def Info: Pictures/6_4_DIA_ExerciseDifficulty2.png used on input
  line 283.
 (pdftex.def)             Requested size: 384.1122pt x 215.98796pt.
- [67 <./Pictures/6_4_DIA_ExerciseDifficulty2.png>]) (./Chapter/6_Study/5_Discus
-sion.tex [68]
+ [65 <./Pictures/6_4_DIA_ExerciseDifficulty2.png>]) (./Chapter/6_Study/5_Discus
+sion.tex [66]
 Underfull \vbox (badness 4805) has occurred while \output is active []
 
- [69]
+ [67]
 <Pictures/6_4_DIA_StandAllDiff.png, id=1230, 463.9734pt x 305.943pt>
 File: Pictures/6_4_DIA_StandAllDiff.png Graphic file (type png)
 
@@ -2388,62 +2386,62 @@ input line 173.
 
 Underfull \vbox (badness 1052) has occurred while \output is active []
 
- [70 <./Pictures/6_4_DIA_StandAllDiff.png> <./Pictures/6_4_DIA_StepsAllDiff.png
+ [68 <./Pictures/6_4_DIA_StandAllDiff.png> <./Pictures/6_4_DIA_StepsAllDiff.png
 > <./Pictures/6_4_DIA_DistanceAllDiff.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71 <./Pictures/6_4_DIA_StandLeftGroupEffect.png> <./Pictures/6_4_DIA_StandRig
+ [69 <./Pictures/6_4_DIA_StandLeftGroupEffect.png> <./Pictures/6_4_DIA_StandRig
 htGroupEffect.png> <./Pictures/6_4_DIA_StepsLeftGroupEffect.png> <./Pictures/6_
 4_DIA_StepsRightGroupEffect.png> <./Pictures/6_4_DIA_DistanceLeftGroupEffect.pn
-g> <./Pictures/6_4_DIA_DistanceRightGroupEffect.png>] [72]))
-(./Chapter/7_Conclusion/0_Main.tex [73] [74
+g> <./Pictures/6_4_DIA_DistanceRightGroupEffect.png>] [70]))
+(./Chapter/7_Conclusion/0_Main.tex [71] [72
 
-] [75
+] [73
 
-] [76]
+] [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77])
-(./Main/Appendix.tex [78]
+ [75])
+(./Main/Appendix.tex [76]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
- [79
+ [77
 
 
-] [80] [81
+] [78] [79
 
 
 ]
-<Pictures/App_DemographicDataSystem.pdf, id=1325, 597.23125pt x 845.1575pt>
+<Pictures/App_DemographicDataSystem.pdf, id=1326, 597.23125pt x 845.1575pt>
 File: Pictures/App_DemographicDataSystem.pdf Graphic file (type pdf)
 
 <use Pictures/App_DemographicDataSystem.pdf>
 Package pdftex.def Info: Pictures/App_DemographicDataSystem.pdf used on input l
 ine 16.
 (pdftex.def)             Requested size: 384.1122pt x 543.56844pt.
- [82 <./Pictures/App_DemographicDataSystem.pdf>] <Pictures/App_BSA-1.pdf, id=13
-51, 597.23125pt x 845.1575pt>
+ [80 <./Pictures/App_DemographicDataSystem.pdf>] <Pictures/App_BSA-1.pdf, id=13
+52, 597.23125pt x 845.1575pt>
 File: Pictures/App_BSA-1.pdf Graphic file (type pdf)
 
 <use Pictures/App_BSA-1.pdf>
 Package pdftex.def Info: Pictures/App_BSA-1.pdf used on input line 28.
 (pdftex.def)             Requested size: 384.1122pt x 543.56844pt.
 
-<Pictures/App_BSA-2.pdf, id=1354, 597.23125pt x 845.1575pt>
+<Pictures/App_BSA-2.pdf, id=1355, 597.23125pt x 845.1575pt>
 File: Pictures/App_BSA-2.pdf Graphic file (type pdf)
 
 <use Pictures/App_BSA-2.pdf>
 Package pdftex.def Info: Pictures/App_BSA-2.pdf used on input line 38.
 (pdftex.def)             Requested size: 384.1122pt x 543.56844pt.
- [83 <./Pictures/App_BSA-1.pdf>] [84 <./Pictures/App_BSA-2.pdf>]
-<Pictures/App_LateralPreference.pdf, id=1405, 597.23125pt x 845.1575pt>
+ [81 <./Pictures/App_BSA-1.pdf>] [82 <./Pictures/App_BSA-2.pdf>]
+<Pictures/App_LateralPreference.pdf, id=1406, 597.23125pt x 845.1575pt>
 File: Pictures/App_LateralPreference.pdf Graphic file (type pdf)
 
 <use Pictures/App_LateralPreference.pdf>
 Package pdftex.def Info: Pictures/App_LateralPreference.pdf used on input line 
 50.
 (pdftex.def)             Requested size: 384.1122pt x 543.56844pt.
- [85 <./Pictures/App_LateralPreference.pdf>]
+ [83 <./Pictures/App_LateralPreference.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -2453,7 +2451,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[86
+[84
 
 
 
@@ -2463,24 +2461,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./Pictures/App_EthicalReview
 Feedback.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-<Pictures/App_EthicalReviewFeedback.pdf, id=1435, 597.55246pt x 845.07724pt>
+<Pictures/App_EthicalReviewFeedback.pdf, id=1436, 597.55246pt x 845.07724pt>
 File: Pictures/App_EthicalReviewFeedback.pdf Graphic file (type pdf)
 
 <use Pictures/App_EthicalReviewFeedback.pdf>
 Package pdftex.def Info: Pictures/App_EthicalReviewFeedback.pdf used on input l
 ine 88.
 (pdftex.def)             Requested size: 238.14767pt x 336.787pt.
-) [87
+) [85
 
 
- <./Pictures/App_EthicalReviewFeedback.pdf>] [88
+ <./Pictures/App_EthicalReviewFeedback.pdf>] [86
 
-] (./Main/Abbreviations.tex) [89
+] (./Main/Abbreviations.tex) [87
 
-] [90
+] [88
 
 ] (./MainDocument.lof
-[91
+[89
 
 ])
 \tf@lof=\write8
@@ -2489,16 +2487,16 @@ ine 88.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92]
-[93] [94
+ [90]
+[91] [92
 
 ] (./MainDocument.lot)
 \tf@lot=\write9
 \openout9 = `MainDocument.lot'.
 
- [95
+ [93
 
-] (./MainDocument.bbl [96
+] (./MainDocument.bbl [94
 
 
 ]
@@ -2507,13 +2505,7 @@ Underfull \hbox (badness 1888) in paragraph at lines 69--74
  S.,
  []
 
-[97] [98] [99]
-Underfull \hbox (badness 2799) in paragraph at lines 225--229
-[]\T1/ppl/m/sc/10.95 (+20) Kroiÿ, An-dreas\T1/ppl/m/n/10.95 (+20) .  Der Trend-
-sport Slack-line und seine An-wen-
- []
-
-[100] [101]) [102]
+[95] [96] [97] [98] [99]) [100]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2536,11 +2528,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 75.
  ) 
 Here is how much of TeX's memory you used:
- 21599 strings out of 492995
- 356876 string characters out of 6132703
- 518068 words of memory out of 5000000
+ 21603 strings out of 492995
+ 356938 string characters out of 6132703
+ 517065 words of memory out of 5000000
  23761 multiletter control sequences out of 15000+600000
- 82517 words of font info for 347 fonts, out of 8000000 for 9000
+ 82764 words of font info for 350 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,95p,1945b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exi
@@ -2559,10 +2551,10 @@ ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 alatino/uplbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatin
 o/uplr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/palatino/uplri
 8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on MainDocument.pdf (111 pages, 16731826 bytes).
+Output written on MainDocument.pdf (111 pages, 16865516 bytes).
 PDF statistics:
- 1774 PDF objects out of 2073 (max. 8388607)
- 1448 compressed objects within 15 object streams
+ 1775 PDF objects out of 2073 (max. 8388607)
+ 1449 compressed objects within 15 object streams
  368 named destinations out of 1000 (max. 500000)
  40771 words of extra memory for PDF output out of 42996 (max. 10000000)
 
